@@ -1,0 +1,24 @@
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.AssemblyInfo.cs
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.sourcelink.json
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\bin\Debug\net8.0\BedrijvenDomein.deps.json
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\bin\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\bin\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\refint\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\ref\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\bin\Debug\net8.0\BedrijvenDomein.deps.json
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\bin\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\bin\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.AssemblyInfo.cs
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.sourcelink.json
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\refint\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDomein\obj\Debug\net8.0\ref\BedrijvenDomein.dll

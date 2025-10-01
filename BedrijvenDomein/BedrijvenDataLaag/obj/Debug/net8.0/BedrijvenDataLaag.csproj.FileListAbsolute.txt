@@ -1,0 +1,32 @@
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.csproj.AssemblyReference.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.AssemblyInfo.cs
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.sourcelink.json
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDataLaag.deps.json
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDataLaag.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\Bedrijve.36FD7B7B.Up2Date
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\refint\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\ref\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDataLaag.deps.json
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDataLaag.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\bin\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.csproj.AssemblyReference.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.AssemblyInfo.cs
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.sourcelink.json
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\Bedrijve.36FD7B7B.Up2Date
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\refint\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\BedrijvenDataLaag.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\BedrijvenDataLaag\obj\Debug\net8.0\ref\BedrijvenDataLaag.dll

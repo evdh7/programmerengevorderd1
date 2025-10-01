@@ -1,0 +1,12 @@
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\BestellingBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\BestellingBL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\BestellingBL.AssemblyInfo.cs
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\BestellingBL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\BestellingBL.sourcelink.json
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\bin\Debug\net8.0\BestellingBL.deps.json
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\bin\Debug\net8.0\BestellingBL.dll
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\bin\Debug\net8.0\BestellingBL.pdb
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\BestellingBL.dll
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\refint\BestellingBL.dll
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\BestellingBL.pdb
+C:\Users\emmy\source\repos\Bestelling\BestellingBL\obj\Debug\net8.0\ref\BestellingBL.dll

@@ -1,0 +1,12 @@
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\bin\Debug\net8.0\Linq.deps.json
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\bin\Debug\net8.0\Linq.dll
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\bin\Debug\net8.0\Linq.pdb
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\Linq.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\Linq.AssemblyInfo.cs
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\Linq.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\Linq.sourcelink.json
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\Linq.dll
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\refint\Linq.dll
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\Linq.pdb
+C:\Users\emmy\source\repos\Linq1\ClassLibrary1\obj\Debug\net8.0\ref\Linq.dll

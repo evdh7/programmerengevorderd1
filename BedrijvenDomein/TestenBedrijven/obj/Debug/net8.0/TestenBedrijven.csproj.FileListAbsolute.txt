@@ -1,0 +1,42 @@
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.exe
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.deps.json
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.runtimeconfig.json
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.csproj.AssemblyReference.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.AssemblyInfo.cs
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.sourcelink.json
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBe.E76F562C.Up2Date
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\refint\TestenBedrijven.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.pdb
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.genruntimeconfig.cache
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\ref\TestenBedrijven.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDataLaag.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.exe
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.deps.json
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.runtimeconfig.json
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\TestenBedrijven.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDataLaag.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDomein.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDataLaag.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\bin\Debug\net8.0\BedrijvenDomein.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.csproj.AssemblyReference.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.AssemblyInfo.cs
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.sourcelink.json
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBe.E76F562C.Up2Date
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\refint\TestenBedrijven.dll
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.pdb
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\TestenBedrijven.genruntimeconfig.cache
+C:\Users\emmy\source\repos\Programmeren Gevorderd 1\BedrijvenDomein\TestenBedrijven\obj\Debug\net8.0\ref\TestenBedrijven.dll

@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "BedrijvenDomein/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BedrijvenDomein.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BedrijvenDomein.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BedrijvenDomein/1.0.0": {
+      "type": "project",
+      "path": "../BedrijvenDomein/BedrijvenDomein.csproj",
+      "msbuildProject": "../BedrijvenDomein/BedrijvenDomein.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "BedrijvenDomein >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\emmy\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
+      "projectName": "BedrijvenDataLaag",
+      "projectPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
+      "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

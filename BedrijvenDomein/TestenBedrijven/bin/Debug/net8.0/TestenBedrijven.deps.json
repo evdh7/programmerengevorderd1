@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TestenBedrijven/1.0.0": {
+        "dependencies": {
+          "BedrijvenDataLaag": "1.0.0",
+          "BedrijvenDomein": "1.0.0"
+        },
+        "runtime": {
+          "TestenBedrijven.dll": {}
+        }
+      },
+      "BedrijvenDataLaag/1.0.0": {
+        "dependencies": {
+          "BedrijvenDomein": "1.0.0"
+        },
+        "runtime": {
+          "BedrijvenDataLaag.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BedrijvenDomein/1.0.0": {
+        "runtime": {
+          "BedrijvenDomein.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestenBedrijven/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BedrijvenDataLaag/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BedrijvenDomein/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
