@@ -1,4 +1,10 @@
-﻿namespace Linq
+﻿using System.Collections;
+using System.Diagnostics.CodeAnalysis;
+using System.Net.Sockets;
+using System.Reflection.PortableExecutable;
+using System.Security.Cryptography.X509Certificates;
+
+namespace AdressenOef
 {
     public class AdresInfo
     {
@@ -12,7 +18,9 @@
 
         public void ReadData()
         {
-            using StreamReader bestandLezen = new StreamReader(@"C:\Users\emmy\OneDrive - Hogeschool Gent\Documents\Programmeren Gevorderd 1\adresInfo\adresInfo.txt"); string line; while ((line = bestandLezen.ReadLine()) != null)
+            string line;
+            StreamReader reader = new StreamReader(source); 
+            while ((line = reader.ReadLine()) != null)
             {
                 string[] x = line.Trim().Split(',');
                 adressen.Add(new Data(x[0], x[1], x[2]));
@@ -21,13 +29,24 @@
 
         public List<string> GetProvincies()
         {
-            return adressen.Select(a => a.Provincie).Distinct().ToList();
+            return adressen.Select(a => a.provincie).Distinct().ToList();
         }
 
-        public List<string> GetStraatnamen()
+        public List<string> GetStraatnamen(string gemeente)
         {
-            return adressen.Select(a => a.Straatnaam).Distinct().ToList();
+            return adressen.Select(a => a.straatnaam).Distinct().ToList();
         }
-        
+        public string LangsteStraatnaam()
+        {
+            return adressen.OrderByDescending(x => x.straatnaam.Length).Select(x => $"{x.straatnaam}, {x.gemeente}, {x.provincie}").First();
+        }
+
+        public string maxStraatnaam()
+        {
+
+            var x1 = adressen.GroupBy(x => x.gemeente).OrderByDescending(x => x.Count()).First();
+            return x1.Key;
+        }
+
     }
 }
