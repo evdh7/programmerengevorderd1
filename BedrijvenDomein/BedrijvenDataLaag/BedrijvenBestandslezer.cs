@@ -12,15 +12,16 @@ namespace BedrijvenDataLaag
             using (StreamReader reader = new StreamReader(pad))
             {
 
-                string line;
+                string? line;
                 int lineNumber = 0;
-                string errorInfo = null;
+                string? errorInfo = null;
 
-                static void ThrowIfErrors(List<string> errors,string contextMessage)
+                static void FoutenVerzamelen(List<string> errors, string contextMessage)
                 {
                     if (errors != null && errors.Count > 0)
                     {
                         BedrijfException ex = new BedrijfException(contextMessage);
+                        errors.Insert(0, " ");
                         ex.Errors = errors;
                         throw ex;
                     }
@@ -35,7 +36,8 @@ namespace BedrijvenDataLaag
                     string b_industrie = ss[1];
                     string b_sector = ss[2];
                     string b_hoofdkwartier = ss[3];
-                    int b_jaaroprichting = int.Parse(ss[4]);
+                    //int b_jaaroprichting = int.Parse(ss[4]);
+                    bool gelukt = int.TryParse(ss[4], out int b_jaaroprichting);
                     string b_extra = ss[5];
                     int p_id = int.Parse(ss[6]);
                     string p_voornaam = ss[7];
@@ -54,53 +56,29 @@ namespace BedrijvenDataLaag
                     {
 
                         List<string> errors = new();
-                        List<string> errors2 = new();
 
                         Adres adres = new Adres(a_gemeente, a_postcode, a_straat, a_huisnr, errors); //maak adres
 
                         Personeel personeel = new Personeel(p_id, p_voornaam, p_achternaam, p_geboortedatum, adres, p_email, errors); //maak personeelslid
 
 
-                        
 
-                            if (data.ContainsKey(b_naam))//check of bedrijf al bestaat
-                            {
-                                bool exists = false;
 
-                                foreach (var p in data[b_naam].Personeel) //check of personeel al bestaat
-                                {
-                                    if (p.ID == p_id || (p.Voornaam == p_voornaam && p.Achternaam == p_achternaam && p.DateOfBirth == p_geboortedatum))
-                                    {
-                                        exists = true;
-                                        break;
-                                    }
-                                }
+                        if (data.ContainsKey(b_naam))//check of bedrijf al bestaat
+                        {
+                            data[b_naam].VoegPersoneelToe(personeel); //voeg personeel toe
 
-                                if (!exists && errors.Count == 0) //als personeel nog niet bestaat en er zijn geen fouten
-                                {
-                                    data[b_naam].Personeel.Add(personeel); //voeg personeel toe
-                                }
-                                else
-                                {
-                                    sw.WriteLine($"Lijn {lineNumber}: dubbele waarden voor {p_id}{p_voornaam}{p_achternaam} bij {b_naam}");
-                                }
-                            }
-                            else
-                            {
-                                Bedrijf bedrijf = new Bedrijf(b_naam, b_industrie, b_sector, b_hoofdkwartier, b_jaaroprichting, b_extra, new List<Personeel>() { personeel }, errors);
-                                if (errors.Count == 0)         
-                                    data.Add(b_naam, bedrijf); //maak bedrijf
-                            }
+                        }
+                        else
+                        {
+                            Bedrijf bedrijf = new Bedrijf(b_naam, b_industrie, b_sector, b_hoofdkwartier, b_jaaroprichting, b_extra, new List<Personeel>() { personeel }, errors);
+                            if (errors.Count == 0)
+                                data.Add(b_naam, bedrijf); //maak bedrijf
+                        }
 
-                            ThrowIfErrors(errors, $"Fouten bij het inlezen van gegevens");
+                        FoutenVerzamelen(errors, $"Fouten bij het inlezen van gegevens");
 
-                            //if (errors.Count > 0)
-                            //{
-                            //   BedrijfException ex = new BedrijfException("Fouten bij het inlezen van gegevens");
-                            // ex.Errors = errors;
-                            //  throw ex;
-                            // }
-                        
+
                     }
 
                     catch (BedrijfException ex)
@@ -110,7 +88,7 @@ namespace BedrijvenDataLaag
                         {
                             foreach (var err in ex.Errors)
                             {
-                                sw.WriteLine($"\t- {err}");
+                                sw.WriteLine($"\t {err}");
                             }
                         }
                     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj": {}
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj": {
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
         "projectName": "BedrijvenDataLaag",
-        "projectPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
         "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDataLaag\\obj\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj": {
-                "projectPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj"
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj": {
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
         "projectName": "BedrijvenDomein",
-        "projectPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
         "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\obj\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",

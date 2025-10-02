@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
+      "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
       "projectName": "BedrijvenDomein",
-      "projectPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
+      "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijvenDomein.csproj",
       "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emmy\\source\\repos\\Programmeren Gevorderd 1\\BedrijvenDomein\\BedrijvenDomein\\obj\\",
+      "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",

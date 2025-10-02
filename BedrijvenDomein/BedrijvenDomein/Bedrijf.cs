@@ -1,28 +1,39 @@
-﻿using System.Collections.Immutable;
+﻿using BedrijvenDomein;
 
 namespace BedrijvenDomein
 {
     public class Bedrijf
     {
 
-        public Bedrijf(string naam, string industrie, string sector, string hoofdkwartier, int jaaroprichting, string extra, List<Personeel> personeel,List<string> errors)
+        public Bedrijf(string naam, string industrie, string sector, string hoofdkwartier, int jaaroprichting, string extra, List<Personeel> personeel, List<string> errors)
         {
-            int i = 0;
+            var errorBedrijf = new List<string>();
 
-            try { Naam = naam; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Sector = sector; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Industrie = industrie; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Extra = extra; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Hoofdkwartier = hoofdkwartier; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Jaaroprichting = jaaroprichting; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Personeel = personeel; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
+            try { Naam = naam; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
+            try { Sector = sector; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
+            try { Industrie = industrie; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
+            try { Extra = extra; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
+            try { Hoofdkwartier = hoofdkwartier; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
+            try { Jaaroprichting = jaaroprichting; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
 
-            if (i > 0)
+
+            if (personeel == null || personeel.Count == 0)
             {
-                BedrijfException ex = new BedrijfException("-> bedrijf bevat fouten");
-                errors.Insert(errors.Count - i, ex.Message);
+                errorBedrijf.Add("Een bedrijf moet minstens 1 personeelslid hebben");
+            }
+            else
+            {
+                try { this.personeel.AddRange(personeel); } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
+
+                if (errorBedrijf.Count > 0)
+                {
+                    errorBedrijf.Insert(0, "--->Fout bij het inlezen van bedrijf<---");
+                    errorBedrijf.Add(" ");
+                    errors.AddRange(errorBedrijf);
+                }
             }
         }
+
 
 
         private string naam;
@@ -32,7 +43,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) naam = value;
-                else throw new BedrijfException("Bedrijfsnaam is vereist.");
+                else throw new BedrijfException("'bedrijfsnaam' is vereist.");
 
             }
         }
@@ -90,27 +101,25 @@ namespace BedrijvenDomein
             get { return jaaroprichting; }
             set
             {
-                if (value <= DateTime.Now.Year && value >= 0) jaaroprichting = value;
+                if (value <= DateTime.Now.Year && value > 0) jaaroprichting = value;
+                else if (value == 0) throw new BedrijfException("'jaar' is vereist");
                 else throw new BedrijfException("'jaar' mag niet in de toekomst liggen");
             }
         }
 
-        private List<Personeel> personeel;
-        public List<Personeel> Personeel
+        private readonly List<Personeel> personeel = new();
+        public IReadOnlyList<Personeel> Personeel => personeel;
+
+        public void VoegPersoneelToe(Personeel nieuweLijn)
         {
-            get { return personeel; }
-            set
+            if (nieuweLijn == null) throw new BedrijfException("'personeelslid' mag niet null zijn");
+
+            if (personeel.Any(p => p.ID == nieuweLijn.ID || (p.Voornaam == nieuweLijn.Voornaam && p.Achternaam == nieuweLijn.Achternaam && p.DateOfBirth == nieuweLijn.DateOfBirth)))
             {
-                if (value == null || value.Count == 0)
-                {
-                    throw new BedrijfException("Een bedrijf moet minstens 1 personeelslid hebben.");
-                }
-                personeel = value;
-               
+                throw new BedrijfException("'personeelslid' bestaat al");
             }
 
+            personeel.Add(nieuweLijn);
         }
-
-        //TODO check geen dubbels in Personeel een nieuw mag dus niet hetzelfde zijn als ...
     }
 }

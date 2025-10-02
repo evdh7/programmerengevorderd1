@@ -26,7 +26,7 @@ namespace BedrijvenDataLaag
 
 
         }
-        public List<Personeel> GeefPersoneelBedrijf(string bedrijfsnaam)
+        public IReadOnlyList<Personeel> GeefPersoneelBedrijf(string bedrijfsnaam)
         {
             return bedrijven[bedrijfsnaam].Personeel;
 

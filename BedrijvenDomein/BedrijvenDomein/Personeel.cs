@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using System.ComponentModel.Design;
+﻿using System.ComponentModel.Design;
 
 namespace BedrijvenDomein
 {
@@ -7,21 +6,21 @@ namespace BedrijvenDomein
     {
         public Personeel(int id, string voornaam, string achternaam, DateTime birthdate, Adres adres, string email, List<string> errors)
         {
-            int i = 0;
+            var errorPersoneel = new List<string>();
+
+            try { ID = id; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
+            try { Voornaam = voornaam; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
+            try { Achternaam = achternaam; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
+            try { DateOfBirth = birthdate; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
+            try { Email = email; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
+            try { Adres = adres; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
 
 
-            try { ID = id; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Voornaam = voornaam; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Achternaam = achternaam; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { DateOfBirth = birthdate; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Email = email; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-            try { Adres = adres; } catch (BedrijfException ex) { errors.Add(ex.Message); i++; }
-
-
-            if (i > 0)
+            if (errorPersoneel.Count > 0)
             {
-                BedrijfException ex = new BedrijfException("-> personeel bevat fouten");
-                errors.Insert(errors.Count - i, ex.Message);
+                errorPersoneel.Insert(0, "--->Fout bij inlezen van personeel<---");
+                errorPersoneel.Add(" ");
+                errors.AddRange(errorPersoneel);
             }
 
         }
@@ -49,7 +48,7 @@ namespace BedrijvenDomein
         }
 
         private string achternaam;
-        public string Achternaam 
+        public string Achternaam
         {
             get { return achternaam; }
             set
@@ -65,7 +64,7 @@ namespace BedrijvenDomein
             get { return dateofbirth; }
             set
             {
-                if (value < DateTime.Today.AddYears(-18) || value==DateTime.MinValue) { dateofbirth = value; }
+                if (value < DateTime.Today.AddYears(-18) || value == DateTime.MinValue) { dateofbirth = value; }
                 else throw new BedrijfException("personeelslid moet minstens 18 jaar zijn en geboortedatum mag niet leeg zijn");
 
 
@@ -79,16 +78,29 @@ namespace BedrijvenDomein
             get { return email; }
             set
             {
-                if (!string.IsNullOrWhiteSpace(value)) { email = value; }
-                else throw new BedrijfException("email is niet geldig");
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new BedrijfException("email mag niet leeg zijn");
+
+                }
+
+                var emailGesplitst = value.Split('@'); //splits email op door @ te gebruiken als seperator
+
+                if (emailGesplitst.Length != 2 || string.IsNullOrWhiteSpace(emailGesplitst[0]) || string.IsNullOrWhiteSpace(emailGesplitst[1]))
+                {
+                    throw new BedrijfException("email heeft geen geldige structuur");
+                }
+                else
+                {
+                    email = value;
+                }
+
             }
+
         }
 
-        //TO DO email en checken string voor en na @
-        //TO DO overal check of het niet null is
-
         private Adres adres;
-        
+
         public Adres Adres
         {
             get { return adres; }

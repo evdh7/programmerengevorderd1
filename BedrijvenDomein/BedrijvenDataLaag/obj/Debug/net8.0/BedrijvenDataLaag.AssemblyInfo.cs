@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BedrijvenDataLaag")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8597b09afc0e7e2670ee691f91f459163c6be4ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9f04524ec2759589c72a943b8a983778d84885a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BedrijvenDataLaag")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BedrijvenDataLaag")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
