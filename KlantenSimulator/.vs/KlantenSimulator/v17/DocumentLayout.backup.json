@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatorbl\\beheer\\adressimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|solutionrelative:klantensimulatorbl\\beheer\\adressimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{624DC1D6-F71A-4D8F-9AE0-9637EB976D82}|KlantenSimulatorUI\\KlantenSimulatorUI.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{624DC1D6-F71A-4D8F-9AE0-9637EB976D82}|KlantenSimulatorUI\\KlantenSimulatorUI.csproj|solutionrelative:klantensimulatorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F8F18A-451E-498E-A960-0EEB6177210B}|KlantenSimulatorDL\\KlantenSimulatorDL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatordl\\bestandschrijver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F8F18A-451E-498E-A960-0EEB6177210B}|KlantenSimulatorDL\\KlantenSimulatorDL.csproj|solutionrelative:klantensimulatordl\\bestandschrijver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F8F18A-451E-498E-A960-0EEB6177210B}|KlantenSimulatorDL\\KlantenSimulatorDL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatordl\\bestandlezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F8F18A-451E-498E-A960-0EEB6177210B}|KlantenSimulatorDL\\KlantenSimulatorDL.csproj|solutionrelative:klantensimulatordl\\bestandlezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F8F18A-451E-498E-A960-0EEB6177210B}|KlantenSimulatorDL\\KlantenSimulatorDL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatordl\\klantensimulatordl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{31F8F18A-451E-498E-A960-0EEB6177210B}|KlantenSimulatorDL\\KlantenSimulatorDL.csproj|solutionrelative:klantensimulatordl\\klantensimulatordl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatorbl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|solutionrelative:klantensimulatorbl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatorbl\\beheer\\databeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|solutionrelative:klantensimulatorbl\\beheer\\databeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatorbl\\beheer\\persoonsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|solutionrelative:klantensimulatorbl\\beheer\\persoonsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatorbl\\model\\persoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|solutionrelative:klantensimulatorbl\\model\\persoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|c:\\users\\emmy\\source\\repos\\klantensimulator\\klantensimulatorbl\\klantensimulatorbl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD9D0989-DAC9-4573-8C70-8EAEACE5593C}|KlantenSimulatorBL\\KlantenSimulatorBL.csproj|solutionrelative:klantensimulatorbl\\klantensimulatorbl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BestandSchrijver.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\BestandSchrijver.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorDL\\BestandSchrijver.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\BestandSchrijver.cs",
+              "RelativeToolTip": "KlantenSimulatorDL\\BestandSchrijver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:31:51.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KlantenSimulatorDL.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\KlantenSimulatorDL.csproj",
+              "RelativeDocumentMoniker": "KlantenSimulatorDL\\KlantenSimulatorDL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\KlantenSimulatorDL.csproj",
+              "RelativeToolTip": "KlantenSimulatorDL\\KlantenSimulatorDL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-06T08:31:14.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Databeheerder.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Beheer\\Databeheerder.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorBL\\Beheer\\Databeheerder.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Beheer\\Databeheerder.cs",
+              "RelativeToolTip": "KlantenSimulatorBL\\Beheer\\Databeheerder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:30:34.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersoonSimulator.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Beheer\\PersoonSimulator.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorBL\\Beheer\\PersoonSimulator.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Beheer\\PersoonSimulator.cs",
+              "RelativeToolTip": "KlantenSimulatorBL\\Beheer\\PersoonSimulator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:29:42.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdresSimulator.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Beheer\\AdresSimulator.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorBL\\Beheer\\AdresSimulator.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Beheer\\AdresSimulator.cs",
+              "RelativeToolTip": "KlantenSimulatorBL\\Beheer\\AdresSimulator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:29:22.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Persoon.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Model\\Persoon.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorBL\\Model\\Persoon.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Model\\Persoon.cs",
+              "RelativeToolTip": "KlantenSimulatorBL\\Model\\Persoon.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:26:13.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Adres.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Model\\Adres.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorBL\\Model\\Adres.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\Model\\Adres.cs",
+              "RelativeToolTip": "KlantenSimulatorBL\\Model\\Adres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:23:32.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KlantenSimulatorBL.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
+              "RelativeDocumentMoniker": "KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
+              "RelativeToolTip": "KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-06T08:22:44.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorUI\\Program.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorUI\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorUI\\Program.cs",
+              "RelativeToolTip": "KlantenSimulatorUI\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:22:38.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BestandLezer.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\BestandLezer.cs",
+              "RelativeDocumentMoniker": "KlantenSimulatorDL\\BestandLezer.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\BestandLezer.cs",
+              "RelativeToolTip": "KlantenSimulatorDL\\BestandLezer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:21:28.712Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

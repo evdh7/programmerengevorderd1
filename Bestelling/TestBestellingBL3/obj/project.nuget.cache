@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tUc8TuzDAUc=",
+  "dgSpecHash": "DlFjHAWUy/4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\emmy\\source\\repos\\Bestelling\\TestBestellingBL3\\TestBestellingBL3.csproj",
+  "projectFilePath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\TestBestellingBL3\\TestBestellingBL3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emmy\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\emmy\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

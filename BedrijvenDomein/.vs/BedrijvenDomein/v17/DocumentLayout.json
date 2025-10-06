@@ -63,15 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BedrijvenDataLaag",
+              "Title": "BedrijvenDataLaag.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
               "RelativeDocumentMoniker": "BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
               "RelativeToolTip": "BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-02T13:26:49.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T13:26:49.465Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "BedrijvenDomein\\BedrijvenDomein.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-01T06:45:18.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T06:45:18.268Z"
             },
             {
               "$type": "Document",
@@ -94,7 +92,7 @@
               "RelativeDocumentMoniker": "BedrijvenDomein\\Adres.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Adres.cs",
               "RelativeToolTip": "BedrijvenDomein\\Adres.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwEIAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T19:42:10.399Z",
               "EditorCaption": ""
@@ -109,8 +107,7 @@
               "RelativeToolTip": "BedrijvenDomein\\BedrijfException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T19:41:47.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T19:41:47.2Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "TestenBedrijven\\TestenBedrijven.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-23T19:35:28.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T19:35:28.35Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "BedrijvenDomein\\Personeel.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAswBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T09:40:16.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T09:40:16.75Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "BedrijvenDataLaag\\BedrijvenDataBeheerder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T08:28:59.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T08:28:59.432Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "BedrijvenDataLaag\\BedrijvenBestandslezer.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T07:55:13.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T07:55:13.702Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "TestenBedrijven\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:29:50.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T09:29:50.566Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "BedrijvenDomein\\Bedrijf.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:28:00.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T14:28:00.876Z"
             }
           ]
         }

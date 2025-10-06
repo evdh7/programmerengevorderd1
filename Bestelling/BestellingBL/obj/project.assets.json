@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\Bestelling\\BestellingBL\\BestellingBL.csproj",
+      "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\BestellingBL.csproj",
       "projectName": "BestellingBL",
-      "projectPath": "C:\\Users\\emmy\\source\\repos\\Bestelling\\BestellingBL\\BestellingBL.csproj",
+      "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\BestellingBL.csproj",
       "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emmy\\source\\repos\\Bestelling\\BestellingBL\\obj\\",
+      "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,20 @@
+Lijn 1: VLM Airlines|Brunelle| => Fouten bij het inlezen van gegevens
+	  
+	 --->Fout bij inlezen van adres<---
+	 woonplaats heeft minder dan 2 karakters
+	 huisnummer vereist
+	  
+	 --->Fout bij inlezen van personeel<---
+	 'achternaam' is vereist
+	 email heeft geen geldige structuur
+	  
+	 --->Fout bij het inlezen van bedrijf<---
+	 'industrie' is vereist.
+	 'jaar' is vereist
+	  
+Lijn 3: |Alihan|Cielen => Fouten bij het inlezen van gegevens
+	  
+	 --->Fout bij het inlezen van bedrijf<---
+	 'bedrijfsnaam' is vereist.
+	 'jaar' is vereist
+	  
