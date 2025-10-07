@@ -5,34 +5,42 @@ namespace KlantenSimulatorBL.Beheer
     public class AdresSimulator
     {
         private Random r = new Random();
-        private List<string> straatnamen = new();
-        private List<(int postcode, string gemeente)> postcodeGemeente = new();
-        private int maxHuisnummer;
-        private int percentLetter;
+        //private List<string> straatnamen = new();
+        //private List<(int postcode, string gemeente)> postcodeGemeente = new();
+        //private int maxHuisnummer;
+        //private int percentLetter;
 
-        public AdresSimulator(List<string> Straatnamen, List<(int postcode, string gemeente)> PostcodeGemeente, int MaxHuisnummer, int PercentLetter)
+        public List<string> Straatnamen { get; set; }
+        public List<(int postcode, string gemeente)> PostcodeGemeente { get; set; }
+        public int MaxHuisnummer { get; set; }
+        public int PercentLetter { get; set; }
+
+
+        public AdresSimulator(List<string> straatnamen, List<(int postcode, string gemeente)> postcodeGemeente, int maxHuisnummer, int percentLetter)
         {
             Straatnamen = straatnamen;
             PostcodeGemeente = postcodeGemeente;
             MaxHuisnummer = maxHuisnummer;
             PercentLetter = percentLetter;
         }
+        
+       
         public List<Adres> GeefAdressen(int aantal)
         {
             List<Adres> adressen = new();
             int n = 0;
             while (n < aantal)
             {
-                int index = r.Next(postcodeGemeente.Count());
-                adressen.Add(new Adres(postcodeGemeente[index].gemeente, postcodeGemeente[index].postcode, straatnamen[r.Next(straatnamen.Count())], GenereerHuisnummer()));
+                int index = r.Next(PostcodeGemeente.Count());
+                adressen.Add(new Adres(PostcodeGemeente[index].gemeente, PostcodeGemeente[index].postcode, Straatnamen[r.Next(Straatnamen.Count())], GenereerHuisnummer()));
                 n++;
             }
             return adressen;
         }
         private string GenereerHuisnummer()
         {
-            int nr = r.Next(1, maxHuisnummer + 1);
-            if (r.Next(101) <= percentLetter) { return $"{nr}{(char)r.Next('a', 'z' + 1)}"; }
+            int nr = r.Next(1, MaxHuisnummer + 1);
+            if (r.Next(101) <= PercentLetter) { return $"{nr}{(char)r.Next('a', 'z' + 1)}"; }
 
             return$"{nr}";
             //return (r.Next(101) <= percentLetter) ? $"{nr}{(char)('a' + r.Next(0, 26))}";

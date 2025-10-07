@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj": {}
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj": {
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
         "projectName": "KlantenSimulatorBL",
-        "projectPath": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj",
         "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\obj\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorBL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",

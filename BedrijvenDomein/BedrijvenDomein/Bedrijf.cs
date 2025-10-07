@@ -1,40 +1,36 @@
-﻿using BedrijvenDomein;
-
-namespace BedrijvenDomein
+﻿namespace BedrijvenDomein
 {
     public class Bedrijf
     {
+        public List<string> Errors { get; set; } = new();
 
-        public Bedrijf(string naam, string industrie, string sector, string hoofdkwartier, int jaaroprichting, string extra, List<Personeel> personeel, List<string> errors)
+        public Bedrijf(string naam, string industrie, string sector, string hoofdkwartier, int jaaroprichting, string extra, List<Personeel> personeel)
         {
-            var errorBedrijf = new List<string>();
-
-            try { Naam = naam; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
-            try { Sector = sector; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
-            try { Industrie = industrie; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
-            try { Extra = extra; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
-            try { Hoofdkwartier = hoofdkwartier; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
-            try { Jaaroprichting = jaaroprichting; } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
-
+            Naam = naam;
+            Industrie = industrie;
+            Sector = sector;
+            Hoofdkwartier = hoofdkwartier;
+            Jaaroprichting = jaaroprichting;
+            Extra = extra;
 
             if (personeel == null || personeel.Count == 0)
             {
-                errorBedrijf.Add("Een bedrijf moet minstens 1 personeelslid hebben");
+                Errors.Add("Een bedrijf moet minstens 1 personeelslid hebben");
             }
             else
             {
-                try { this.personeel.AddRange(personeel); } catch (BedrijfException ex) { errorBedrijf.Add(ex.Message); }
-
-                if (errorBedrijf.Count > 0)
+                foreach (var p in personeel)
                 {
-                    errorBedrijf.Insert(0, "--->Fout bij het inlezen van bedrijf<---");
-                    errorBedrijf.Add(" ");
-                    errors.AddRange(errorBedrijf);
+                    VoegPersoneelToe(p);
                 }
             }
+
+            if (Errors.Count > 0)
+            {
+                Errors.Insert(0, "--->Fout bij het inlezen van bedrijf<---");
+                Errors.Add(" ");
+            }
         }
-
-
 
         private string naam;
         public string Naam
@@ -43,7 +39,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) naam = value;
-                else throw new BedrijfException("'bedrijfsnaam' is vereist.");
+                else Errors.Add("'bedrijfsnaam' is vereist.");
 
             }
         }
@@ -55,7 +51,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) sector = value;
-                else throw new BedrijfException("'sector' is vereist.");
+                else Errors.Add("'sector' is vereist.");
 
             }
         }
@@ -67,7 +63,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) industrie = value;
-                else throw new BedrijfException("'industrie' is vereist.");
+                else Errors.Add("'industrie' is vereist.");
 
             }
         }
@@ -79,7 +75,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) extra = value;
-                else throw new BedrijfException("'extra' is vereist.");
+                else Errors.Add("'extra' is vereist.");
 
             }
         }
@@ -91,7 +87,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) hoofdkwartier = value;
-                else throw new BedrijfException("'hoofdkwartier' is vereist.");
+                else Errors.Add("'hoofdkwartier' is vereist.");
             }
         }
 
@@ -102,8 +98,8 @@ namespace BedrijvenDomein
             set
             {
                 if (value <= DateTime.Now.Year && value > 0) jaaroprichting = value;
-                else if (value == 0) throw new BedrijfException("'jaar' is vereist");
-                else throw new BedrijfException("'jaar' mag niet in de toekomst liggen");
+                else if (value == 0) Errors.Add("'jaar' is vereist");
+                else Errors.Add("'jaar' mag niet in de toekomst liggen");
             }
         }
 
@@ -112,14 +108,28 @@ namespace BedrijvenDomein
 
         public void VoegPersoneelToe(Personeel nieuweLijn)
         {
-            if (nieuweLijn == null) throw new BedrijfException("'personeelslid' mag niet null zijn");
+            //bool isValide = true;
+            bool bestaatAl = personeel.Any(p => p.ID == nieuweLijn.ID || (p.Voornaam == nieuweLijn.Voornaam && p.Achternaam == nieuweLijn.Achternaam && p.DateOfBirth == nieuweLijn.DateOfBirth));
 
-            if (personeel.Any(p => p.ID == nieuweLijn.ID || (p.Voornaam == nieuweLijn.Voornaam && p.Achternaam == nieuweLijn.Achternaam && p.DateOfBirth == nieuweLijn.DateOfBirth)))
+
+            if (nieuweLijn == null)
             {
-                throw new BedrijfException("'personeelslid' bestaat al");
+                Errors.Add("'personeelslid' mag niet null zijn");
+                return;
             }
 
-            personeel.Add(nieuweLijn);
+            else if (bestaatAl)
+            {
+                Errors.Add("'personeelslid' bestaat al");
+                return;
+
+            }
+            else
+            {
+                personeel.Add(nieuweLijn);
+                Errors.AddRange(nieuweLijn.Errors);
+            }
+            
         }
     }
 }

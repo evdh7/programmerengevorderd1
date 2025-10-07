@@ -4,23 +4,30 @@ namespace BedrijvenDomein
 {
     public class Personeel
     {
-        public Personeel(int id, string voornaam, string achternaam, DateTime birthdate, Adres adres, string email, List<string> errors)
+        public List<string> Errors { get; set; } = new();
+
+        public Personeel(int id, string voornaam, string achternaam, DateTime birthdate, Adres adres, string email)
         {
-            var errorPersoneel = new List<string>();
+            ID = id;
+            Voornaam = voornaam;
+            Achternaam = achternaam;
+            DateOfBirth = birthdate;
+            Adres = adres;
+            Email = email;
 
-            try { ID = id; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
-            try { Voornaam = voornaam; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
-            try { Achternaam = achternaam; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
-            try { DateOfBirth = birthdate; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
-            try { Email = email; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
-            try { Adres = adres; } catch (BedrijfException ex) { errorPersoneel.Add(ex.Message); }
-
-
-            if (errorPersoneel.Count > 0)
+            if (adres != null)
             {
-                errorPersoneel.Insert(0, "--->Fout bij inlezen van personeel<---");
-                errorPersoneel.Add(" ");
-                errors.AddRange(errorPersoneel);
+                Errors.AddRange(adres.Errors);
+            }
+            else
+            {
+                Errors.Add("adres is null");
+            }
+
+            if (Errors.Count > 0)
+            {
+                Errors.Insert(0, "--->Fout bij inlezen van personeel<---");
+                Errors.Add(" ");
             }
 
         }
@@ -32,7 +39,7 @@ namespace BedrijvenDomein
             set
             {
                 if (value > 0) { id = value; }
-                else throw new BedrijfException("ID nummer moet groter zijn dan 0");
+                else Errors.Add("ID nummer moet groter zijn dan 0");
             }
         }
 
@@ -43,7 +50,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) { voornaam = value; }
-                else throw new BedrijfException("'voornaam' is vereist");
+                else Errors.Add("'voornaam' is vereist");
             }
         }
 
@@ -54,7 +61,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) { achternaam = value; }
-                else throw new BedrijfException("'achternaam' is vereist");
+                else Errors.Add("'achternaam' is vereist");
             }
         }
 
@@ -65,8 +72,7 @@ namespace BedrijvenDomein
             set
             {
                 if (value < DateTime.Today.AddYears(-18) || value == DateTime.MinValue) { dateofbirth = value; }
-                else throw new BedrijfException("personeelslid moet minstens 18 jaar zijn en geboortedatum mag niet leeg zijn");
-
+                else Errors.Add("personeelslid moet minstens 18 jaar zijn en geboortedatum mag niet leeg zijn");
 
             }
         }
@@ -80,15 +86,22 @@ namespace BedrijvenDomein
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new BedrijfException("email mag niet leeg zijn");
+                    Errors.Add("email mag niet leeg zijn");
+                    return;
 
                 }
 
                 var emailGesplitst = value.Split('@'); //splits email op door @ te gebruiken als seperator
 
-                if (emailGesplitst.Length != 2 || string.IsNullOrWhiteSpace(emailGesplitst[0]) || string.IsNullOrWhiteSpace(emailGesplitst[1]))
+                if (emailGesplitst.Length != 2 || 
+                    string.IsNullOrWhiteSpace(emailGesplitst[0]) || 
+                    string.IsNullOrWhiteSpace(emailGesplitst[1]) ||
+                    !emailGesplitst[1].Contains('.') ||
+                    emailGesplitst[1].StartsWith('.') ||
+                    emailGesplitst[1].EndsWith('.'))
                 {
-                    throw new BedrijfException("email heeft geen geldige structuur");
+                    Errors.Add("email heeft geen geldige structuur");
+                    return ;
                 }
                 else
                 {
@@ -98,20 +111,7 @@ namespace BedrijvenDomein
             }
 
         }
-
-        private Adres adres;
-
-        public Adres Adres
-        {
-            get { return adres; }
-            set
-            {
-                if (value == null)
-                    throw new BedrijfException("adres is null");
-
-                else adres = value;
-            }
-        }
+        public Adres Adres { get; set; }
         public override string ToString()
         {
             return $"{Voornaam}, {Achternaam}, {Adres}, {Email} ";

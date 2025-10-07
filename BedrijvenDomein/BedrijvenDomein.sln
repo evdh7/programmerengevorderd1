@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestenBedrijven", "TestenBe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BedrijvenDataLaag", "BedrijvenDataLaag\BedrijvenDataLaag.csproj", "{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestenBedrijvenUT", "TestenBedrijvenUT\TestenBedrijvenUT.csproj", "{0673BD17-77EB-496D-A171-69340F7A943C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0673BD17-77EB-496D-A171-69340F7A943C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0673BD17-77EB-496D-A171-69340F7A943C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0673BD17-77EB-496D-A171-69340F7A943C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0673BD17-77EB-496D-A171-69340F7A943C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

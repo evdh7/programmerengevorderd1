@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\testbestellingbl3\\unittestbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|solutionrelative:testbestellingbl3\\unittestbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\testbestellingbl3\\testbestellingbl3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|solutionrelative:testbestellingbl3\\testbestellingbl3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\testbestellingbl3\\testbestellingbl3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|solutionrelative:testbestellingbl3\\testbestellingbl3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C7F365B-612D-4A04-AB96-091B0FBD07C2}|BestellingBL\\BestellingBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\bestellingbl\\bestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C7F365B-612D-4A04-AB96-091B0FBD07C2}|BestellingBL\\BestellingBL.csproj|solutionrelative:bestellingbl\\bestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{3C7F365B-612D-4A04-AB96-091B0FBD07C2}|BestellingBL\\BestellingBL.csproj|solutionrelative:bestellingbl\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\testbestellingbl3\\unittestbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|solutionrelative:testbestellingbl3\\unittestbestelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C7F365B-612D-4A04-AB96-091B0FBD07C2}|BestellingBL\\BestellingBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\bestellingbl\\bestellingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C7F365B-612D-4A04-AB96-091B0FBD07C2}|BestellingBL\\BestellingBL.csproj|solutionrelative:bestellingbl\\bestellingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\testbestellingbl3\\unittestproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|solutionrelative:testbestellingbl3\\unittestproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\testbestellingbl3\\testbestellingbl3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6D70E751-385A-4B18-B672-AFE1B7B59B79}|TestBestellingBL3\\TestBestellingBL3.csproj|solutionrelative:testbestellingbl3\\testbestellingbl3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98FD19F0-D425-4DEB-B106-1FBAC8CC3B12}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bestelling\\consoleapp1\\consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,7 +62,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "TestBestellingBL3",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\TestBestellingBL3\\TestBestellingBL3.csproj",
+              "RelativeDocumentMoniker": "TestBestellingBL3\\TestBestellingBL3.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\TestBestellingBL3\\TestBestellingBL3.csproj",
+              "RelativeToolTip": "TestBestellingBL3\\TestBestellingBL3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-06T19:23:55.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ConsoleApp1.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\ConsoleApp1\\ConsoleApp1.csproj",
               "RelativeDocumentMoniker": "ConsoleApp1\\ConsoleApp1.csproj",
@@ -66,11 +82,12 @@
               "RelativeToolTip": "ConsoleApp1\\ConsoleApp1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-29T10:28:53.422Z"
+              "WhenOpened": "2025-09-29T10:28:53.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
@@ -78,37 +95,37 @@
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T10:26:22.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T10:26:22.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UnitTestBestelling.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\TestBestellingBL3\\UnitTestBestelling.cs",
               "RelativeDocumentMoniker": "TestBestellingBL3\\UnitTestBestelling.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\TestBestellingBL3\\UnitTestBestelling.cs",
               "RelativeToolTip": "TestBestellingBL3\\UnitTestBestelling.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAiwH4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T08:27:11.332Z"
+              "WhenOpened": "2025-09-29T08:27:11.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Bestelling.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\Bestelling.cs",
               "RelativeDocumentMoniker": "BestellingBL\\Bestelling.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\Bestelling.cs",
               "RelativeToolTip": "BestellingBL\\Bestelling.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T08:20:40.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BestellingException.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\BestellingException.cs",
               "RelativeDocumentMoniker": "BestellingBL\\BestellingException.cs",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "TestBestellingBL3.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\TestBestellingBL3\\TestBestellingBL3.csproj",
               "RelativeDocumentMoniker": "TestBestellingBL3\\TestBestellingBL3.csproj",
@@ -128,11 +145,12 @@
               "RelativeToolTip": "TestBestellingBL3\\TestBestellingBL3.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-29T07:13:26.889Z"
+              "WhenOpened": "2025-09-29T07:13:26.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BestellingBL.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\BestellingBL.csproj",
               "RelativeDocumentMoniker": "BestellingBL\\BestellingBL.csproj",
@@ -140,11 +158,12 @@
               "RelativeToolTip": "BestellingBL\\BestellingBL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-29T07:00:21.986Z"
+              "WhenOpened": "2025-09-29T07:00:21.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UnitTestProduct.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\TestBestellingBL3\\UnitTestProduct.cs",
               "RelativeDocumentMoniker": "TestBestellingBL3\\UnitTestProduct.cs",
@@ -156,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\Bestelling\\BestellingBL\\Product.cs",
               "RelativeDocumentMoniker": "BestellingBL\\Product.cs",

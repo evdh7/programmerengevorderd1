@@ -1,25 +1,26 @@
-﻿using System.Collections.Generic;
-
-namespace BedrijvenDomein
+﻿namespace BedrijvenDomein
 {
     public class Adres
     {
-        public Adres(string woonplaats, int postcode, string straatnaam, string huisnummer, List<string> errors)
+        public List<string> Errors { get; set; } = new();
+        public Adres(string woonplaats, int postcode, string straatnaam, string huisnummer)
         {
-            var errorAdres = new List<string>();
+            Woonplaats = woonplaats;
+            Straatnaam = straatnaam;
+            Huisnummer = huisnummer;
+            Postcode = postcode;
 
-            try { Woonplaats = woonplaats; } catch (BedrijfException ex) { errorAdres.Add(ex.Message); }
-            try { Straatnaam = straatnaam; } catch (BedrijfException ex) { errorAdres.Add(ex.Message); }
-            try { Huisnummer = huisnummer; } catch (BedrijfException ex) { errorAdres.Add(ex.Message); }
-            try { Postcode = postcode; } catch (BedrijfException ex) { errorAdres.Add(ex.Message); }
-
-            if (errorAdres.Count > 0)
+            if (Errors.Count > 0)
             {
-                errorAdres.Insert(0, "--->Fout bij inlezen van adres<---");
-                errorAdres.Add(" ");
-                errors.AddRange(errorAdres);
-                
+                Errors.Insert(0, "--->Fout bij inlezen van adres<---");
+                Errors.Add(" ");
             }
+
+        }
+
+        public override string ToString()
+        {
+            return $"{Woonplaats}, {Postcode}, {Straatnaam}, {Huisnummer}";
         }
 
         private string woonplaats;
@@ -29,7 +30,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value) && value.Length >= 2) woonplaats = value;
-                else throw new BedrijfException ("'woonplaats' heeft minder dan 2 karakters");
+                else Errors.Add("'woonplaats' heeft minder dan 2 karakters");
             }
         }
 
@@ -40,7 +41,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value)) straatnaam = value;
-                else throw new BedrijfException("'straatnaam' is vereist");
+                else Errors.Add("'straatnaam' is vereist");
             }
         }
 
@@ -51,7 +52,7 @@ namespace BedrijvenDomein
             set
             {
                 if (!string.IsNullOrWhiteSpace(value) && char.IsDigit(value.Trim()[0])) huisnummer = value;
-                else throw new BedrijfException("'huisnummer' vereist");
+                else Errors.Add("'huisnummer' vereist");
             }
 
         }
@@ -64,12 +65,15 @@ namespace BedrijvenDomein
             set
             {
                 if (value >= 1000 && value <= 9999) postcode = value;
-                else throw new BedrijfException("'postcode' ligt niet binnen bereik van 1000 - 9999");
+                else Errors.Add("'postcode' ligt niet binnen bereik van 1000 - 9999");
             }
         }
-            public override string ToString()
-        {
-            return $"{Woonplaats}, {Postcode}, {Straatnaam}, {Huisnummer}";
-        }
+
+
     }
+
 }
+
+
+
+

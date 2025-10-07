@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj",
+      "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj",
       "projectName": "KlantenSimulatorUI",
-      "projectPath": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj",
+      "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj",
       "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorUI\\obj\\",
+      "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,11 +69,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj": {
-              "projectPath": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj"
+            "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorBL\\KlantenSimulatorBL.csproj"
             },
-            "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\KlantenSimulatorDL.csproj": {
-              "projectPath": "C:\\Users\\emmy\\source\\repos\\KlantenSimulator\\KlantenSimulatorDL\\KlantenSimulatorDL.csproj"
+            "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorDL\\KlantenSimulatorDL.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\KlantenSimulator\\KlantenSimulatorDL\\KlantenSimulatorDL.csproj"
             }
           }
         }

@@ -57,21 +57,24 @@ namespace BedrijvenDataLaag
 
                         List<string> errors = new();
 
-                        Adres adres = new Adres(a_gemeente, a_postcode, a_straat, a_huisnr, errors); //maak adres
-
-                        Personeel personeel = new Personeel(p_id, p_voornaam, p_achternaam, p_geboortedatum, adres, p_email, errors); //maak personeelslid
-
+                        Adres adres = new Adres(a_gemeente, a_postcode, a_straat, a_huisnr);//maak adres
+                        //errors.AddRange(adres.Errors);
+                        
+                        Personeel personeel = new Personeel(p_id, p_voornaam, p_achternaam, p_geboortedatum, adres, p_email); //maak personeelslid
+                       // errors.AddRange(personeel.Errors);
 
 
 
                         if (data.ContainsKey(b_naam))//check of bedrijf al bestaat
                         {
                             data[b_naam].VoegPersoneelToe(personeel); //voeg personeel toe
+                            errors.AddRange(data[b_naam].Errors);
 
                         }
                         else
                         {
-                            Bedrijf bedrijf = new Bedrijf(b_naam, b_industrie, b_sector, b_hoofdkwartier, b_jaaroprichting, b_extra, new List<Personeel>() { personeel }, errors);
+                            Bedrijf bedrijf = new Bedrijf(b_naam, b_industrie, b_sector, b_hoofdkwartier, b_jaaroprichting, b_extra, new List<Personeel>() { personeel });
+                            errors.AddRange(bedrijf.Errors);
                             if (errors.Count == 0)
                                 data.Add(b_naam, bedrijf); //maak bedrijf
                         }
