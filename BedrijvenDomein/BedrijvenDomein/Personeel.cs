@@ -71,9 +71,17 @@ namespace BedrijvenDomein
             get { return dateofbirth; }
             set
             {
-                if (value < DateTime.Today.AddYears(-18) || value == DateTime.MinValue) { dateofbirth = value; }
-                else Errors.Add("personeelslid moet minstens 18 jaar zijn en geboortedatum mag niet leeg zijn");
+                if (value == DateTime.MinValue)
+                {
+                    Errors.Add("geboortedatum mag niet leeg zijn");
+                }
 
+                else if (value >= DateTime.Today.AddYears(-18))
+                {
+                    Errors.Add("personeelslid moet minstens 18 jaar zijn");
+
+                }
+                else { dateofbirth = value; }
             }
         }
 

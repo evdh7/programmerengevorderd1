@@ -1,8 +1,9 @@
-﻿using System.Runtime.CompilerServices;
+﻿using KlantenSimulatorBL.Interfaces;
+using System.Runtime.CompilerServices;
 
 namespace KlantenSimulatorDL
 {
-    public class BestandLezer
+    public class BestandsLezer: IBestandsLezer
     {
         public List<string> LeesNamen(string pad)
         {

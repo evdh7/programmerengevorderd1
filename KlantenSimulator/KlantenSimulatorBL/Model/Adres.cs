@@ -24,7 +24,7 @@ namespace KlantenSimulatorBL.Model
         public string Huisnummer { get; set; }
         public override string ToString()
         {
-            return $"{Postcode}{Gemeente}{Straat}{Huisnummer}";
+            return $"{Postcode}, {Gemeente}, {Straat}, {Huisnummer}";
         }
     }
 }

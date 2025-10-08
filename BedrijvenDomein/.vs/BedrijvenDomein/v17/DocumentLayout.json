@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendatalaag\\bedrijvendatalaag.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|solutionrelative:bedrijvendatalaag\\bedrijvendatalaag.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0673BD17-77EB-496D-A171-69340F7A943C}|TestenBedrijvenUT\\TestenBedrijvenUT.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\testenbedrijvenut\\unittestbedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0673BD17-77EB-496D-A171-69340F7A943C}|TestenBedrijvenUT\\TestenBedrijvenUT.csproj|solutionrelative:testenbedrijvenut\\unittestbedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendomein\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|solutionrelative:bedrijvendomein\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0673BD17-77EB-496D-A171-69340F7A943C}|TestenBedrijvenUT\\TestenBedrijvenUT.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\testenbedrijvenut\\unittestpersoneel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0673BD17-77EB-496D-A171-69340F7A943C}|TestenBedrijvenUT\\TestenBedrijvenUT.csproj|solutionrelative:testenbedrijvenut\\unittestpersoneel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendomein\\personeel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|solutionrelative:bedrijvendomein\\personeel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendatalaag\\bedrijvenbestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|solutionrelative:bedrijvendatalaag\\bedrijvenbestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendomein\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|solutionrelative:bedrijvendomein\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendomein\\personeel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|solutionrelative:bedrijvendomein\\personeel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendomein\\bedrijfexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{A1C6B644-6FF2-410B-86EF-F9E9E96F4495}|TestenBedrijven\\TestenBedrijven.csproj|solutionrelative:testenbedrijven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendatalaag\\bedrijvenbestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|solutionrelative:bedrijvendatalaag\\bedrijvenbestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendomein\\foutenloggen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|solutionrelative:bedrijvendomein\\foutenloggen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1C6B644-6FF2-410B-86EF-F9E9E96F4495}|TestenBedrijven\\TestenBedrijven.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\testenbedrijven\\testenbedrijven.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A1C6B644-6FF2-410B-86EF-F9E9E96F4495}|TestenBedrijven\\TestenBedrijven.csproj|solutionrelative:testenbedrijven\\testenbedrijven.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendatalaag\\bedrijvendatalaag.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D08F08E8-02A4-4314-BE98-FC5CBD2D2BA2}|BedrijvenDataLaag\\BedrijvenDataLaag.csproj|solutionrelative:bedrijvendatalaag\\bedrijvendatalaag.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9D1F65E-F073-40FB-BC1A-ACF33922EB41}|BedrijvenDomein\\BedrijvenDomein.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\bedrijvendomein\\bedrijvendomein\\bedrijvendomein.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FoutenLoggen.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\FoutenLoggen.cs",
               "RelativeDocumentMoniker": "BedrijvenDomein\\FoutenLoggen.cs",
@@ -90,51 +90,50 @@
               "RelativeToolTip": "BedrijvenDomein\\FoutenLoggen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T20:06:38.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T20:06:38.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UnitTestPersoneel.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijvenUT\\UnitTestPersoneel.cs",
               "RelativeDocumentMoniker": "TestenBedrijvenUT\\UnitTestPersoneel.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijvenUT\\UnitTestPersoneel.cs",
               "RelativeToolTip": "TestenBedrijvenUT\\UnitTestPersoneel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T19:29:54.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UnitTestBedrijf.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijvenUT\\UnitTestBedrijf.cs",
               "RelativeDocumentMoniker": "TestenBedrijvenUT\\UnitTestBedrijf.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijvenUT\\UnitTestBedrijf.cs",
               "RelativeToolTip": "TestenBedrijvenUT\\UnitTestBedrijf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T19:29:46.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UnitTestAdres.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijvenUT\\UnitTestAdres.cs",
               "RelativeDocumentMoniker": "TestenBedrijvenUT\\UnitTestAdres.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijvenUT\\UnitTestAdres.cs",
               "RelativeToolTip": "TestenBedrijvenUT\\UnitTestAdres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T19:28:49.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "BedrijvenDataLaag.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
               "RelativeDocumentMoniker": "BedrijvenDataLaag\\BedrijvenDataLaag.csproj",
@@ -160,20 +159,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Adres.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Adres.cs",
               "RelativeDocumentMoniker": "BedrijvenDomein\\Adres.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Adres.cs",
               "RelativeToolTip": "BedrijvenDomein\\Adres.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwBIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T19:42:10.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BedrijfException.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\BedrijfException.cs",
               "RelativeDocumentMoniker": "BedrijvenDomein\\BedrijfException.cs",
@@ -186,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TestenBedrijven.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijven\\TestenBedrijven.csproj",
               "RelativeDocumentMoniker": "TestenBedrijven\\TestenBedrijven.csproj",
@@ -199,20 +198,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Personeel.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
               "RelativeDocumentMoniker": "BedrijvenDomein\\Personeel.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
               "RelativeToolTip": "BedrijvenDomein\\Personeel.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwEoAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwHMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T09:40:16.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "BedrijvenDataBeheerder.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenDataBeheerder.cs",
               "RelativeDocumentMoniker": "BedrijvenDataLaag\\BedrijvenDataBeheerder.cs",
@@ -220,25 +219,24 @@
               "RelativeToolTip": "BedrijvenDataLaag\\BedrijvenDataBeheerder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T08:28:59.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T08:28:59.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "BedrijvenBestandslezer.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenBestandslezer.cs",
               "RelativeDocumentMoniker": "BedrijvenDataLaag\\BedrijvenBestandslezer.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDataLaag\\BedrijvenBestandslezer.cs",
               "RelativeToolTip": "BedrijvenDataLaag\\BedrijvenBestandslezer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T07:55:13.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\TestenBedrijven\\Program.cs",
               "RelativeDocumentMoniker": "TestenBedrijven\\Program.cs",
@@ -246,18 +244,17 @@
               "RelativeToolTip": "TestenBedrijven\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:29:50.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T09:29:50.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Bedrijf.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Bedrijf.cs",
               "RelativeDocumentMoniker": "BedrijvenDomein\\Bedrijf.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Bedrijf.cs",
               "RelativeToolTip": "BedrijvenDomein\\Bedrijf.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAA5wH4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T14:28:00.876Z",
               "EditorCaption": ""

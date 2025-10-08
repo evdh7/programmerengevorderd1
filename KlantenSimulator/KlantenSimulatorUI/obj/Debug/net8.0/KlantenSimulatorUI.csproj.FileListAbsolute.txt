@@ -39,3 +39,16 @@ C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\
 C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\obj\Debug\net8.0\KlantenSimulatorUI.pdb
 C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\obj\Debug\net8.0\KlantenSimulatorUI.genruntimeconfig.cache
 C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\obj\Debug\net8.0\ref\KlantenSimulatorUI.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\appsettings.json
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorUI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

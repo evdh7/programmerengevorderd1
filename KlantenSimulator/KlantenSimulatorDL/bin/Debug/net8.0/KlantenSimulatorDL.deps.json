@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "KlantenSimulatorDL/1.0.0": {
+        "dependencies": {
+          "KlantenSimulatorBL": "1.0.0"
+        },
         "runtime": {
           "KlantenSimulatorDL.dll": {}
+        }
+      },
+      "KlantenSimulatorBL/1.0.0": {
+        "runtime": {
+          "KlantenSimulatorBL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "KlantenSimulatorDL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KlantenSimulatorBL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

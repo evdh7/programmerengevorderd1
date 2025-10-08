@@ -16,6 +16,8 @@
             if (personeel == null || personeel.Count == 0)
             {
                 Errors.Add("Een bedrijf moet minstens 1 personeelslid hebben");
+                Errors.Insert(0, "--->Fout bij het inlezen van bedrijf<---");
+
             }
             else
             {
@@ -97,8 +99,8 @@
             get { return jaaroprichting; }
             set
             {
-                if (value <= DateTime.Now.Year && value > 0) jaaroprichting = value;
-                else if (value == 0) Errors.Add("'jaar' is vereist");
+                if (value == 0) Errors.Add("'jaar' is vereist");
+                else if (value <= DateTime.Now.Year) jaaroprichting = value;
                 else Errors.Add("'jaar' mag niet in de toekomst liggen");
             }
         }
@@ -108,7 +110,7 @@
 
         public void VoegPersoneelToe(Personeel nieuweLijn)
         {
-            //bool isValide = true;
+          
             bool bestaatAl = personeel.Any(p => p.ID == nieuweLijn.ID || (p.Voornaam == nieuweLijn.Voornaam && p.Achternaam == nieuweLijn.Achternaam && p.DateOfBirth == nieuweLijn.DateOfBirth));
 
 
@@ -121,14 +123,15 @@
             else if (bestaatAl)
             {
                 Errors.Add("'personeelslid' bestaat al");
-                return;
-
+                
             }
             else
             {
                 personeel.Add(nieuweLijn);
                 Errors.AddRange(nieuweLijn.Errors);
             }
+
+
             
         }
     }

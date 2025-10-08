@@ -21,3 +21,7 @@ C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\
 C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\obj\Debug\net8.0\refint\KlantenSimulatorDL.dll
 C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\obj\Debug\net8.0\KlantenSimulatorDL.pdb
 C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\obj\Debug\net8.0\ref\KlantenSimulatorDL.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\bin\Debug\net8.0\KlantenSimulatorBL.dll
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\bin\Debug\net8.0\KlantenSimulatorBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\obj\Debug\net8.0\KlantenSimulatorDL.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\KlantenSimulator\KlantenSimulatorDL\obj\Debug\net8.0\KlantenS.89BE20AF.Up2Date
