@@ -1,0 +1,16 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\bin\Debug\net8.0\StudentDL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\bin\Debug\net8.0\StudentDL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\bin\Debug\net8.0\StudentDL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\bin\Debug\net8.0\StudentBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\bin\Debug\net8.0\StudentBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.csproj.Up2Date
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\refint\StudentDL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\StudentDL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentDL\obj\Debug\net8.0\ref\StudentDL.dll

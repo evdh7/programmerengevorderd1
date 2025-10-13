@@ -37,6 +37,6 @@ namespace BedrijvenDataLaag
 
         }
 
-
+        public IReadOnlyList<Bedrijf> AlleBedrijven => bedrijven.Values.ToList();
     }
 }

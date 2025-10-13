@@ -1,0 +1,12 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\bin\Debug\net8.0\StudentBL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\bin\Debug\net8.0\StudentBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\bin\Debug\net8.0\StudentBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\StudentBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\StudentBL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\StudentBL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\StudentBL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\StudentBL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\StudentBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\refint\StudentBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\StudentBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionStudent\StudentBL\obj\Debug\net8.0\ref\StudentBL.dll
