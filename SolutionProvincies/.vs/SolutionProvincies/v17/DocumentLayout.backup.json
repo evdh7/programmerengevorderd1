@@ -1,0 +1,432 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\provinciesbl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\provinciesbl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80420A9-ECFE-4DAE-BD64-AF19E9625F67}|ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesdl_sql\\provincierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80420A9-ECFE-4DAE-BD64-AF19E9625F67}|ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj|solutionrelative:provinciesdl_sql\\provincierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|solutionrelative:provinciesui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesutil\\provincierepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|solutionrelative:provinciesutil\\provincierepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesutil\\provinciebestandslezerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|solutionrelative:provinciesutil\\provinciebestandslezerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|solutionrelative:provinciesui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary2\\provinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|solutionrelative:classlibrary2\\provinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\straat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\straat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\provincie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\provincie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\gemeente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\gemeente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\beheer\\provinciebeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\beheer\\provinciebeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\interfaces\\iprovincierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\interfaces\\iprovincierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\interfaces\\iprovinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\interfaces\\iprovinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary2\\model\\gemeentedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|solutionrelative:classlibrary2\\model\\gemeentedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary2\\model\\provinciedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|solutionrelative:classlibrary2\\model\\provinciedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui\\provinciesui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|solutionrelative:provinciesui\\provinciesui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary2\\provinciesdl_file.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|solutionrelative:classlibrary2\\provinciesdl_file.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesutil\\provinciesutil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|solutionrelative:provinciesutil\\provinciesutil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\provinciesui_wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\provinciesui_wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80420A9-ECFE-4DAE-BD64-AF19E9625F67}|ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesdl_sql\\provinciesdl_sql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B80420A9-ECFE-4DAE-BD64-AF19E9625F67}|ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj|solutionrelative:provinciesdl_sql\\provinciesdl_sql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\exceptions\\provincieexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\exceptions\\provincieexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProvinciesBL",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\ProvinciesBL.csproj",
+              "RelativeDocumentMoniker": "ClassLibrary1\\ProvinciesBL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\ProvinciesBL.csproj",
+              "RelativeToolTip": "ClassLibrary1\\ProvinciesBL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T22:10:39.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProvinciesUI.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\ProvinciesUI.csproj",
+              "RelativeDocumentMoniker": "ProvinciesUI\\ProvinciesUI.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\ProvinciesUI.csproj",
+              "RelativeToolTip": "ProvinciesUI\\ProvinciesUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-23T15:05:50.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ProvinciesUI_WPF\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\AssemblyInfo.cs",
+              "RelativeToolTip": "ProvinciesUI_WPF\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T20:34:40.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProvinciesUI_WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "ProvinciesUI_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T20:34:26.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\appsettings.json",
+              "RelativeDocumentMoniker": "ProvinciesUI_WPF\\appsettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\appsettings.json",
+              "RelativeToolTip": "ProvinciesUI_WPF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T20:33:22.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProvinciesUI_WPF.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj",
+              "RelativeDocumentMoniker": "ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj",
+              "RelativeToolTip": "ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T10:19:38.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProvinciesUI_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProvinciesUI_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:05:46.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProvinciesDL_File.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\ProvinciesDL_File.csproj",
+              "RelativeDocumentMoniker": "ClassLibrary2\\ProvinciesDL_File.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\ProvinciesDL_File.csproj",
+              "RelativeToolTip": "ClassLibrary2\\ProvinciesDL_File.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T09:19:14.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProvincieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Interfaces\\IProvincieRepository.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Interfaces\\IProvincieRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Interfaces\\IProvincieRepository.cs",
+              "RelativeToolTip": "ClassLibrary1\\Interfaces\\IProvincieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:55:14.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProvinciesUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\appsettings.json",
+              "RelativeToolTip": "ProvinciesUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-20T10:00:49.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProvinciesDL_SQL.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj",
+              "RelativeDocumentMoniker": "ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj",
+              "RelativeToolTip": "ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-20T09:24:58.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GemeenteDL.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\Model\\GemeenteDL.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\Model\\GemeenteDL.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\Model\\GemeenteDL.cs",
+              "RelativeToolTip": "ClassLibrary2\\Model\\GemeenteDL.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:36:30.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProvincieDL.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\Model\\ProvincieDL.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\Model\\ProvincieDL.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\Model\\ProvincieDL.cs",
+              "RelativeToolTip": "ClassLibrary2\\Model\\ProvincieDL.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:32:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProvinciesUtil.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvinciesUtil.csproj",
+              "RelativeDocumentMoniker": "ProvinciesUtil\\ProvinciesUtil.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvinciesUtil.csproj",
+              "RelativeToolTip": "ProvinciesUtil\\ProvinciesUtil.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-15T10:17:02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProvincieBestandslezerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "RelativeDocumentMoniker": "ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "RelativeToolTip": "ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:15:55.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IProvincieBestandslezer.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
+              "RelativeToolTip": "ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:08:57.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProvincieBeheerder.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
+              "RelativeToolTip": "ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:07:48.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProvincieException.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Exceptions\\ProvincieException.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Exceptions\\ProvincieException.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Exceptions\\ProvincieException.cs",
+              "RelativeToolTip": "ClassLibrary1\\Exceptions\\ProvincieException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:45:46.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Straat.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Straat.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Model\\Straat.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Straat.cs",
+              "RelativeToolTip": "ClassLibrary1\\Model\\Straat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:41:34.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Provincie.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Provincie.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Model\\Provincie.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Provincie.cs",
+              "RelativeToolTip": "ClassLibrary1\\Model\\Provincie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:41:21.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Gemeente.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Gemeente.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Model\\Gemeente.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Gemeente.cs",
+              "RelativeToolTip": "ClassLibrary1\\Model\\Gemeente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:41:10.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProvincieRepositoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvincieRepositoryFactory.cs",
+              "RelativeDocumentMoniker": "ProvinciesUtil\\ProvincieRepositoryFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvincieRepositoryFactory.cs",
+              "RelativeToolTip": "ProvinciesUtil\\ProvincieRepositoryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:37:24.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\Program.cs",
+              "RelativeDocumentMoniker": "ProvinciesUI\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\Program.cs",
+              "RelativeToolTip": "ProvinciesUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:37:00.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProvincieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "RelativeDocumentMoniker": "ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "RelativeToolTip": "ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:35:27.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProvincieBestandslezer.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\ProvincieBestandslezer.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\ProvincieBestandslezer.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\ProvincieBestandslezer.cs",
+              "RelativeToolTip": "ClassLibrary2\\ProvincieBestandslezer.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:34:20.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

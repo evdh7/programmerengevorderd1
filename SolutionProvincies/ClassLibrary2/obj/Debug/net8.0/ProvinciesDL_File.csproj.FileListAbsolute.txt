@@ -1,0 +1,16 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\bin\Debug\net8.0\ProvinciesDL_File.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\bin\Debug\net8.0\ProvinciesDL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\bin\Debug\net8.0\ProvinciesDL_File.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\bin\Debug\net8.0\ProvinciesBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\bin\Debug\net8.0\ProvinciesBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\Provinci.35550CFB.Up2Date
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\refint\ProvinciesDL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ProvinciesDL_File.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary2\obj\Debug\net8.0\ref\ProvinciesDL_File.dll

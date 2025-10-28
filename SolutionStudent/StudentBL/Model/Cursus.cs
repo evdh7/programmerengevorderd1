@@ -19,11 +19,8 @@ namespace StudentBL.Model
             Naam = naam;
         }
 
-        List<Cursus> cursussen = new List<Cursus>();
-
         public int? Id { get; set; }
         public string Naam { get; set; }
-        public int V1 { get; }
-        public string V2 { get; }
+      
     }
 }

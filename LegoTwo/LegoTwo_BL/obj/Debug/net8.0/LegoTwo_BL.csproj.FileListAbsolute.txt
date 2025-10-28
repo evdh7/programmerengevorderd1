@@ -1,0 +1,11 @@
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\LegoTwo_BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\LegoTwo_BL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\LegoTwo_BL.AssemblyInfo.cs
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\LegoTwo_BL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\bin\Debug\net8.0\LegoTwo_BL.deps.json
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\bin\Debug\net8.0\LegoTwo_BL.dll
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\bin\Debug\net8.0\LegoTwo_BL.pdb
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\LegoTwo_BL.dll
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\refint\LegoTwo_BL.dll
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\LegoTwo_BL.pdb
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Debug\net8.0\ref\LegoTwo_BL.dll

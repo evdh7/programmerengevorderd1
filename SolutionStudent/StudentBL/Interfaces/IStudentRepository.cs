@@ -10,6 +10,8 @@ namespace StudentBL.Interfaces
     public interface IStudentRepository
     {
         List<Cursus> GeefCursussen(string voorwaarde);
+        Student GeefStudent(int id);
+        bool HeeftStudent(string naam);
         public void VoegCursussenToe(List<Cursus> cursussen);
         public void VoegKlasToe(Klas klas);
         public void VoegStudentToe(Student student);

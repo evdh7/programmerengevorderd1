@@ -36,42 +36,42 @@ BedrijvenDataBeheerder db = new BedrijvenDataBeheerder(data);
 
 var helper = new QueryHelper(db);
 
-//var geordend = helper.GeefBedrijvenGeordend();
+var geordend = helper.GeefBedrijvenGeordend();
 
-//foreach (var bedrijf in geordend)
-//{
-//    Console.WriteLine(bedrijf);
-//}
+foreach (var bedrijf in geordend)
+{
+    Console.WriteLine(bedrijf);
+}
 
-//var bedrijvenEnJaar = helper.GeefBedrijvenMetJaar();
+var bedrijvenEnJaar = helper.GeefBedrijvenMetJaar();
 
-//foreach (var item in bedrijvenEnJaar)
-//{
-//    Console.WriteLine(item);
-//}
+foreach (var item in bedrijvenEnJaar)
+{
+    Console.WriteLine(item);
+}
 
-//var bedrijvenEnAantalWN = helper.GeefBedrijvenMetAantal();
+var bedrijvenEnAantalWN = helper.GeefBedrijvenMetAantal();
 
-//foreach (var item in bedrijvenEnAantalWN)
-//{
-//    Console.WriteLine(item);
-//}
+foreach (var item in bedrijvenEnAantalWN)
+{
+    Console.WriteLine(item);
+}
 
-//var aantalPersoneelPerGemeente = helper.GeefAantalPersoneelPerGemeente();
+var aantalPersoneelPerGemeente = helper.GeefAantalPersoneelPerGemeente();
 
-//foreach (var item in aantalPersoneelPerGemeente)
-//{
-//    Console.WriteLine(item);
-//}
-//Console.WriteLine("Geef een gemeente");
-//string gemeente = Console.ReadLine();
+foreach (var item in aantalPersoneelPerGemeente)
+{
+    Console.WriteLine(item);
+}
+Console.WriteLine("Geef een gemeente");
+string? gemeente = Console.ReadLine();
 
-//var personeelInGemeente = helper.GeefPersoneelPerGemeente(gemeente);
+var personeelInGemeente = helper.GeefPersoneelPerGemeente(gemeente);
 
-//foreach (var item in personeelInGemeente)
-//{
-//    Console.WriteLine(item);
-//}
+foreach (var item in personeelInGemeente)
+{
+    Console.WriteLine(item);
+}
 
 var sectorenBedrijven = helper.GeefSectorenAantalBedrijven();
 foreach (var item in sectorenBedrijven)
@@ -84,4 +84,13 @@ foreach (var item in namenBedrijvenPerIndustrie)
 {
     Console.WriteLine(item);
 }
+
+var werknemersZelfdeNaam = helper.GeefWerknemersMetDezelfdeNaam();
+foreach (var item in werknemersZelfdeNaam)
+{
+    Console.WriteLine(item);
+}
+
+var werknemersLeeftijd = helper.GeefWerknemersPerLeeftijdCategorie();
+Console.WriteLine(werknemersLeeftijd);
 

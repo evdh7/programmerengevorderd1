@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProvinciesDL_File/1.0.0": {
+        "dependencies": {
+          "ProvinciesBL": "1.0.0"
+        },
+        "runtime": {
+          "ProvinciesDL_File.dll": {}
+        }
+      },
+      "ProvinciesBL/1.0.0": {
+        "runtime": {
+          "ProvinciesBL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProvinciesDL_File/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProvinciesBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -19,7 +19,8 @@ namespace StudentBL.Beheerder
 
         public void VoegStudentToe(Student student)
         {
-            repo.VoegStudentToe(student);
+            if (!repo.HeeftStudent(student.Naam))
+                repo.VoegStudentToe(student);
         }
         public void VoegKlasToe(Klas klas)
         {
@@ -35,5 +36,9 @@ namespace StudentBL.Beheerder
             return repo.GeefCursussen(voorwaarde);
         }
 
+        public Student GeefStudent(int id)
+        {
+            return repo.GeefStudent(id);
+        }
     }
 }

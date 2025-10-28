@@ -1,0 +1,12 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\bin\Debug\net8.0\ProvinciesBL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\bin\Debug\net8.0\ProvinciesBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\bin\Debug\net8.0\ProvinciesBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ProvinciesBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ProvinciesBL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ProvinciesBL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ProvinciesBL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ProvinciesBL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ProvinciesBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\refint\ProvinciesBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ProvinciesBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ClassLibrary1\obj\Debug\net8.0\ref\ProvinciesBL.dll

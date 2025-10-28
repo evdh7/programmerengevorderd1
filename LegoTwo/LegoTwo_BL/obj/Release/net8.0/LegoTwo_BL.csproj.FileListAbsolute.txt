@@ -1,0 +1,4 @@
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Release\net8.0\LegoTwo_BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Release\net8.0\LegoTwo_BL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Release\net8.0\LegoTwo_BL.AssemblyInfo.cs
+C:\Users\emmy\source\repos\LegoTwo\LegoTwo_BL\obj\Release\net8.0\LegoTwo_BL.csproj.CoreCompileInputs.cache

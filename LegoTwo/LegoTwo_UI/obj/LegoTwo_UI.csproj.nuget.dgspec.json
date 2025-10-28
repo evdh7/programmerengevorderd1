@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\LegoTwo_UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj",
+        "projectName": "LegoTwo_BL",
+        "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj",
+        "projectName": "LegoTwo_DL",
+        "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\LegoTwo_UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\LegoTwo_UI.csproj",
+        "projectName": "LegoTwo_UI",
+        "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\LegoTwo_UI.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj"
+              },
+              "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj",
+        "projectName": "LegoTwo_Util",
+        "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj"
+              },
+              "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

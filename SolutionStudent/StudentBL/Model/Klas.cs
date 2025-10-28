@@ -8,19 +8,19 @@ namespace StudentBL.Model
 {
     public class Klas
     {
-        public Klas(string klasnaam)
+        public Klas(string naam)
         {
-            Naam = klasnaam;
+            Naam = naam;
 
         }
-        public Klas(int id, string lokaal)
+        public Klas(int id, string naam)
         {
             Id = id;
-            Lokaal = lokaal;
+            Naam = naam;
         }
 
         public int? Id { get; set; }
         public string Naam { get; set; }
-        public string Lokaal { get; set; }
+        public string? Lokaal { get; set; }
     }
 }
