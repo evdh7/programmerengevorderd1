@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProvinciesUI_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="400">
+        Title="Upload Zip to Database" Height="250" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"/>
@@ -22,7 +22,6 @@
         <ListBox Grid.Column="0" Grid.Row="1" Name="ListBoxZipFiles" Grid.ColumnSpan="2" Margin="5"/>
         <Button Grid.Column="0" Grid.Row="2" Content="Output Folder" Margin="5" Click="ButtonOutputFolder_Click"/>
         <TextBox Grid.Column="1" Grid.Row="2" Name="TextBoxOutputFolder"  Margin="5"/>
-        <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Content="Upload To Database" Margin="5"/>
-
+        <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Content="Upload To Database" Click="ButtonUpload_Click" Margin="5"/>
     </Grid>
 </Window>

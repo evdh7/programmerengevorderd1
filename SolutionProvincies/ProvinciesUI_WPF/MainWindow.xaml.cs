@@ -3,7 +3,16 @@ using Microsoft.Win32;
 using ProvinciesBL.Beheerders;
 using ProvinciesUtil;
 using System.IO;
+using System.Text;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
 namespace ProvinciesUI_WPF
 {
@@ -25,6 +34,7 @@ namespace ProvinciesUI_WPF
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
             var config = builder.Build();
 
             connectionString = config.GetConnectionString("SQLserver");
@@ -36,6 +46,7 @@ namespace ProvinciesUI_WPF
             bestandsnamen.Add(config.GetSection("AppSettings")["StraatnaamID_gemeenteID"]);
             bestandsnamen.Add(config.GetSection("AppSettings")["straatnamen"]);
         }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -51,7 +62,7 @@ namespace ProvinciesUI_WPF
         private void ButtonZipFile_Click(object sender, RoutedEventArgs e)
         {
             bool? result = fileDialog.ShowDialog();
-            if (result == true && !string.IsNullOrWhiteSpace(fileDialog.Filename))
+            if (result == true && !string.IsNullOrWhiteSpace(fileDialog.FileName))
             {
                 TextBoxZipFile.Text = fileDialog.FileName;
                 List<string> zipInhoud = provincieBeheerder.GeefInhoudZip(fileDialog.FileName);
@@ -59,14 +70,31 @@ namespace ProvinciesUI_WPF
             }
         }
 
-
         private void ButtonOutputFolder_Click(object sender, RoutedEventArgs e)
         {
             bool? result = folderDialog.ShowDialog();
             if (result == true && !string.IsNullOrWhiteSpace(folderDialog.FolderName))
             {
+                if (!provincieBeheerder.IsFolderEmpty(folderDialog.FolderName))
+                {
+                    if (MessageBox.Show("Clean folder ?", "Folder", MessageBoxButton.YesNo, MessageBoxImage.Question)==MessageBoxResult.Yes)
+                    { 
+                        //leeg maken
+                        provincieBeheerder.ClearFolder(folderDialog.FolderName);
+                    }
+
+                }
                 TextBoxOutputFolder.Text = folderDialog.FolderName;
+
             }
+
+        }
+        private void ButtonUpload_Click(object sender, RoutedEventArgs e)
+        {
+            provincieBeheerder.Unzip(TextBoxZipFile.Text, TextBoxOutputFolder.Text);
+            var stats = provincieBeheerder.UploadNaarDatabank(TextBoxOutputFolder.Text, bestandsnamen);
+            StatistiekenWindow w = new StatistiekenWindow(stats,TextBoxZipFile.Text);
+            w.ShowDialog();
         }
     }
 }

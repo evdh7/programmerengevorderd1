@@ -1,0 +1,12 @@
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\RedoLegoTest_BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\RedoLegoTest_BL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\RedoLegoTest_BL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\RedoLegoTest_BL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\RedoLegoTest_BL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\bin\Debug\net8.0\RedoLegoTest_BL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\bin\Debug\net8.0\RedoLegoTest_BL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\bin\Debug\net8.0\RedoLegoTest_BL.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\RedoLegoTest_BL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\refint\RedoLegoTest_BL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\RedoLegoTest_BL.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTest_BL\obj\Debug\net8.0\ref\RedoLegoTest_BL.dll

@@ -116,5 +116,28 @@ namespace ProvinciesDL_File
             }
 
         }
+        public bool IsFolderEmpty(string folderName)
+        {
+            DirectoryInfo di = new DirectoryInfo(folderName);
+            return (di.GetFiles().Length == 0 && di.GetDirectories().Length == 0);//check hoeveel files zijn er, zijn er nul? dan is hij leeg
+        }
+        public void ClearFolder(string folderName)
+        {
+            DirectoryInfo di = new DirectoryInfo(folderName);
+            foreach (FileInfo fi in di.GetFiles())
+            {
+                fi.Delete();
+            }
+            foreach (DirectoryInfo i in di.GetDirectories())
+            {
+                ClearFolder(i.FullName);
+                i.Delete();
+            }
+        }
+        public void Unzip(string zipFile, string outputFolder) 
+        { 
+            ZipFile.ExtractToDirectory(zipFile, outputFolder);
+        }
+
     }
 }

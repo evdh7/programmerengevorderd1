@@ -1,0 +1,16 @@
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\bin\Debug\net8.0\RedoLegoTest_DL_SQL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\bin\Debug\net8.0\RedoLegoTest_DL_SQL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\bin\Debug\net8.0\RedoLegoTest_DL_SQL.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\bin\Debug\net8.0\RedoLegoTest_BL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\bin\Debug\net8.0\RedoLegoTest_BL.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLego.0389DF22.Up2Date
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\refint\RedoLegoTest_DL_SQL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\RedoLegoTest_DL_SQL.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\obj\Debug\net8.0\ref\RedoLegoTest_DL_SQL.dll

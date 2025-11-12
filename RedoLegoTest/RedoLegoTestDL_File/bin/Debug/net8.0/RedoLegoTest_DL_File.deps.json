@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RedoLegoTest_DL_File/1.0.0": {
+        "dependencies": {
+          "RedoLegoTest_BL": "1.0.0"
+        },
+        "runtime": {
+          "RedoLegoTest_DL_File.dll": {}
+        }
+      },
+      "RedoLegoTest_BL/1.0.0": {
+        "runtime": {
+          "RedoLegoTest_BL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RedoLegoTest_DL_File/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RedoLegoTest_BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\bin\Debug\net8.0\RedoLegoTest_DL_File.deps.json
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\bin\Debug\net8.0\RedoLegoTest_DL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\bin\Debug\net8.0\RedoLegoTest_DL_File.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\bin\Debug\net8.0\RedoLegoTest_BL.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\bin\Debug\net8.0\RedoLegoTest_BL.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLego.39525C10.Up2Date
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\refint\RedoLegoTest_DL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\RedoLegoTest_DL_File.pdb
+C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_File\obj\Debug\net8.0\ref\RedoLegoTest_DL_File.dll
