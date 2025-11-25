@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E207583-F357-4983-8E9A-8FB48D2E2011}|RedoLegoTest_UT\\RedoLegoTest_UT.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\redolegotest\\redolegotest_ut\\unittestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E207583-F357-4983-8E9A-8FB48D2E2011}|RedoLegoTest_UT\\RedoLegoTest_UT.csproj|solutionrelative:redolegotest_ut\\unittestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79100062-5150-4187-9FE1-448D0E2AA171}|RedoLegoTestDL_SQL\\RedoLegoTest_DL_SQL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\redolegotest\\redolegotestdl_sql\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79100062-5150-4187-9FE1-448D0E2AA171}|RedoLegoTestDL_SQL\\RedoLegoTest_DL_SQL.csproj|solutionrelative:redolegotestdl_sql\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,13 +39,6 @@
       "RelativeMoniker": "D:0:0:{098CB975-E3D1-4EE4-BD5B-F6D5D0D56D4F}|RedoLegoTest_BL\\RedoLegoTest_BL.csproj|solutionrelative:redolegotest_bl\\interfaces\\ifilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E207583-F357-4983-8E9A-8FB48D2E2011}|RedoLegoTest_UT\\RedoLegoTest_UT.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\redolegotest\\redolegotest_ut\\unittestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E207583-F357-4983-8E9A-8FB48D2E2011}|RedoLegoTest_UT\\RedoLegoTest_UT.csproj|solutionrelative:redolegotest_ut\\unittestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{098CB975-E3D1-4EE4-BD5B-F6D5D0D56D4F}|RedoLegoTest_BL\\RedoLegoTest_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\redolegotest\\redolegotest_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{098CB975-E3D1-4EE4-BD5B-F6D5D0D56D4F}|RedoLegoTest_BL\\RedoLegoTest_BL.csproj|solutionrelative:redolegotest_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,24 +54,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RedoLegoTest_UI",
+              "DocumentIndex": 4,
+              "Title": "RedoLegoTest_UI.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_UI\\RedoLegoTest_UI.csproj",
               "RelativeDocumentMoniker": "RedoLegoTest_UI\\RedoLegoTest_UI.csproj",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_UI\\RedoLegoTest_UI.csproj",
               "RelativeToolTip": "RedoLegoTest_UI\\RedoLegoTest_UI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-29T10:23:44.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T10:23:44.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "LegoException.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_BL\\Exceptions\\LegoException.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_BL\\Exceptions\\LegoException.cs",
@@ -82,12 +78,11 @@
               "RelativeToolTip": "RedoLegoTest_BL\\Exceptions\\LegoException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:29:46.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:29:46.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LegoManager.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_BL\\Manager\\LegoManager.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_BL\\Manager\\LegoManager.cs",
@@ -95,12 +90,11 @@
               "RelativeToolTip": "RedoLegoTest_BL\\Manager\\LegoManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:19:49.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:19:49.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ILegoRepository.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_BL\\Interfaces\\ILegoRepository.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_BL\\Interfaces\\ILegoRepository.cs",
@@ -108,12 +102,11 @@
               "RelativeToolTip": "RedoLegoTest_BL\\Interfaces\\ILegoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:19:15.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:19:15.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IFileReader.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_BL\\Interfaces\\IFileReader.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_BL\\Interfaces\\IFileReader.cs",
@@ -121,25 +114,24 @@
               "RelativeToolTip": "RedoLegoTest_BL\\Interfaces\\IFileReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:17:52.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:17:52.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LegoRepository.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTestDL_SQL\\LegoRepository.cs",
               "RelativeDocumentMoniker": "RedoLegoTestDL_SQL\\LegoRepository.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTestDL_SQL\\LegoRepository.cs",
               "RelativeToolTip": "RedoLegoTestDL_SQL\\LegoRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawBYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawBwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T08:17:19.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FileReader.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTestDL_File\\FileReader.cs",
               "RelativeDocumentMoniker": "RedoLegoTestDL_File\\FileReader.cs",
@@ -147,12 +139,11 @@
               "RelativeToolTip": "RedoLegoTestDL_File\\FileReader.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAApwBoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:16:42.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:16:42.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LegoTheme.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_BL\\Model\\LegoTheme.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_BL\\Model\\LegoTheme.cs",
@@ -160,12 +151,11 @@
               "RelativeToolTip": "RedoLegoTest_BL\\Model\\LegoTheme.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:15:14.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:15:14.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "LegoSet.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_BL\\Model\\LegoSet.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_BL\\Model\\LegoSet.cs",
@@ -173,25 +163,24 @@
               "RelativeToolTip": "RedoLegoTest_BL\\Model\\LegoSet.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAIwDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:12:37.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:12:37.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "UnitTestModel.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_UT\\UnitTestModel.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_UT\\UnitTestModel.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_UT\\UnitTestModel.cs",
               "RelativeToolTip": "RedoLegoTest_UT\\UnitTestModel.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T08:05:37.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\RedoLegoTest\\RedoLegoTest_UI\\Program.cs",
               "RelativeDocumentMoniker": "RedoLegoTest_UI\\Program.cs",
@@ -199,42 +188,7 @@
               "RelativeToolTip": "RedoLegoTest_UI\\Program.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAACfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:04:44.245Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "78e4cf14-a713-4f02-98ca-7bc70897863c",
-        "Display": 0,
-        "X": 878,
-        "Y": 252,
-        "Width": 1193,
-        "Height": 546,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LegoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\repos\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
-              "RelativeToolTip": "..\\..\\repos\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:40:15.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:04:44.245Z"
             }
           ]
         }

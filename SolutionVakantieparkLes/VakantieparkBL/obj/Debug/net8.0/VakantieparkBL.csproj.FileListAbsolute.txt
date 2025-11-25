@@ -1,0 +1,12 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\bin\Debug\net8.0\VakantieparkBL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\bin\Debug\net8.0\VakantieparkBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\bin\Debug\net8.0\VakantieparkBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\VakantieparkBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\VakantieparkBL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\VakantieparkBL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\VakantieparkBL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\VakantieparkBL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\VakantieparkBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\refint\VakantieparkBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\VakantieparkBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkBL\obj\Debug\net8.0\ref\VakantieparkBL.dll

@@ -8,13 +8,13 @@ C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ProvinciesUI_WPF\
 ProvinciesUI_WPF
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\emmy\source\programmerengevorderd1\SolutionProvincies\ProvinciesUI_WPF\App.xaml
 2-759156658
 
 7-1926861361
-230-269983046
+230-1807178598
 MainWindow.xaml;StatistiekenWindow.xaml;
 
-True
+False
 

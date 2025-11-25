@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "JobInterviewUtils/1.0.0": {
+        "dependencies": {
+          "JobInterviewBL": "1.0.0",
+          "JobInterviewDL": "1.0.0"
+        },
+        "runtime": {
+          "JobInterviewUtils.dll": {}
+        }
+      },
+      "JobInterviewBL/1.0.0": {
+        "runtime": {
+          "JobInterviewBL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "JobInterviewDL/1.0.0": {
+        "dependencies": {
+          "JobInterviewBL": "1.0.0"
+        },
+        "runtime": {
+          "JobInterviewDL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JobInterviewUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobInterviewBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobInterviewDL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

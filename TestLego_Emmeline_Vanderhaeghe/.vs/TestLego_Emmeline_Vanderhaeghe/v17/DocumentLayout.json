@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|solutionrelative:testlego_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_dl\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|solutionrelative:testlego_dl\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|solutionrelative:testlego_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_dl\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|solutionrelative:testlego_dl\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_bl\\interfaces\\ilegofilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|solutionrelative:testlego_bl\\interfaces\\ilegofilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_bl\\beheer\\legobeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|solutionrelative:testlego_bl\\beheer\\legobeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_bl\\interfaces\\ilegorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|solutionrelative:testlego_bl\\interfaces\\ilegorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130BFB9-0A33-4503-B06C-5798F83A25E6}|LINQ\\LINQ.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130BFB9-0A33-4503-B06C-5798F83A25E6}|LINQ\\LINQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_ui\\testlego_ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|solutionrelative:testlego_ui\\testlego_ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|solutionrelative:testlego_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|c:\\users\\emmy\\onedrive - hogeschool gent\\desktop\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130BFB9-0A33-4503-B06C-5798F83A25E6}|LINQ\\LINQ.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\linq\\linq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A130BFB9-0A33-4503-B06C-5798F83A25E6}|LINQ\\LINQ.csproj|solutionrelative:linq\\linq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C7BA858-4B0E-44ED-9D58-F318A1ABF88A}|UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\unittest_verkoopprijs\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C7BA858-4B0E-44ED-9D58-F318A1ABF88A}|UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj|solutionrelative:unittest_verkoopprijs\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_bl\\model\\legotheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|solutionrelative:testlego_bl\\model\\legotheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C7BA858-4B0E-44ED-9D58-F318A1ABF88A}|UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\unittest_verkoopprijs\\unittest_verkoopprijs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C7BA858-4B0E-44ED-9D58-F318A1ABF88A}|UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj|solutionrelative:unittest_verkoopprijs\\unittest_verkoopprijs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_bl\\testlego_bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|solutionrelative:testlego_bl\\testlego_bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_bl\\exceptions\\legoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA898C9-D11D-45E0-B238-8ADD83F87F3D}|TestLego_BL\\TestLego_BL.csproj|solutionrelative:testlego_bl\\exceptions\\legoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_dl\\testlego_dl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|solutionrelative:testlego_dl\\testlego_dl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_dl\\testlego_dl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{28B8C5EA-1254-4440-B1DA-4BD5FE1C8850}|TestLego_DL\\TestLego_DL.csproj|solutionrelative:testlego_dl\\testlego_dl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|c:\\users\\emmy\\source\\repos\\testlego_emmeline_vanderhaeghe\\testlego_ui\\appsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F56F481-A9E7-4F4C-8118-25813501EFF7}|TestLego_UI\\TestLego_UI.csproj|solutionrelative:testlego_ui\\appsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestLego_UI.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\TestLego_UI.csproj",
+              "RelativeDocumentMoniker": "TestLego_UI\\TestLego_UI.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\TestLego_UI.csproj",
+              "RelativeToolTip": "TestLego_UI\\TestLego_UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T16:31:32.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LegoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\OneDrive - Hogeschool Gent\\Desktop\\LegoRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive - Hogeschool Gent\\Desktop\\LegoRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\OneDrive - Hogeschool Gent\\Desktop\\LegoRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive - Hogeschool Gent\\Desktop\\LegoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:39:40.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LINQ.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\LINQ\\LINQ.csproj",
+              "RelativeDocumentMoniker": "LINQ\\LINQ.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\LINQ\\LINQ.csproj",
+              "RelativeToolTip": "LINQ\\LINQ.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T13:01:40.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\LINQ\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\LINQ\\Program.cs",
+              "RelativeToolTip": "LINQ\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:21:36.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitTest_VerkoopPrijs.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj",
+              "RelativeDocumentMoniker": "UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj",
+              "RelativeToolTip": "UnitTest_VerkoopPrijs\\UnitTest_VerkoopPrijs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T11:36:24.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\UnitTest_VerkoopPrijs\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTest_VerkoopPrijs\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\UnitTest_VerkoopPrijs\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTest_VerkoopPrijs\\UnitTest1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T11:20:33.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TestLego_BL.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\TestLego_BL.csproj",
+              "RelativeDocumentMoniker": "TestLego_BL\\TestLego_BL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\TestLego_BL.csproj",
+              "RelativeToolTip": "TestLego_BL\\TestLego_BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T09:16:27.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TestLego_DL",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\TestLego_DL.csproj",
+              "RelativeDocumentMoniker": "TestLego_DL\\TestLego_DL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\TestLego_DL.csproj",
+              "RelativeToolTip": "TestLego_DL\\TestLego_DL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T09:12:42.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TestLego_DL.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\TestLego_DL.csproj",
+              "RelativeDocumentMoniker": "TestLego_DL\\TestLego_DL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\TestLego_DL.csproj",
+              "RelativeToolTip": "TestLego_DL\\TestLego_DL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T09:10:47.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILegoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Interfaces\\ILegoRepository.cs",
+              "RelativeDocumentMoniker": "TestLego_BL\\Interfaces\\ILegoRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Interfaces\\ILegoRepository.cs",
+              "RelativeToolTip": "TestLego_BL\\Interfaces\\ILegoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:46:44.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILegoFileReader.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Interfaces\\ILegoFileReader.cs",
+              "RelativeDocumentMoniker": "TestLego_BL\\Interfaces\\ILegoFileReader.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Interfaces\\ILegoFileReader.cs",
+              "RelativeToolTip": "TestLego_BL\\Interfaces\\ILegoFileReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:43:02.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\appsettings.json",
+              "RelativeDocumentMoniker": "TestLego_UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\appsettings.json",
+              "RelativeToolTip": "TestLego_UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T08:30:24.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LegoBeheerder.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Beheer\\LegoBeheerder.cs",
+              "RelativeDocumentMoniker": "TestLego_BL\\Beheer\\LegoBeheerder.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Beheer\\LegoBeheerder.cs",
+              "RelativeToolTip": "TestLego_BL\\Beheer\\LegoBeheerder.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:22:38.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LegoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\LegoRepository.cs",
+              "RelativeDocumentMoniker": "TestLego_DL\\LegoRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\LegoRepository.cs",
+              "RelativeToolTip": "TestLego_DL\\LegoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:15:43.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\appsettings.json",
+              "RelativeDocumentMoniker": "TestLego_UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\appsettings.json",
+              "RelativeToolTip": "TestLego_UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T08:12:12.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileReader.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
+              "RelativeDocumentMoniker": "TestLego_DL\\FileReader.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
+              "RelativeToolTip": "TestLego_DL\\FileReader.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:10:24.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LegoException.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Exceptions\\LegoException.cs",
+              "RelativeDocumentMoniker": "TestLego_BL\\Exceptions\\LegoException.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Exceptions\\LegoException.cs",
+              "RelativeToolTip": "TestLego_BL\\Exceptions\\LegoException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:09:57.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LegoTheme.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Model\\LegoTheme.cs",
+              "RelativeDocumentMoniker": "TestLego_BL\\Model\\LegoTheme.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Model\\LegoTheme.cs",
+              "RelativeToolTip": "TestLego_BL\\Model\\LegoTheme.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:08:43.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LegoSet.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Model\\LegoSet.cs",
+              "RelativeDocumentMoniker": "TestLego_BL\\Model\\LegoSet.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\Model\\LegoSet.cs",
+              "RelativeToolTip": "TestLego_BL\\Model\\LegoSet.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:08:19.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\Program.cs",
+              "RelativeDocumentMoniker": "TestLego_UI\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_UI\\Program.cs",
+              "RelativeToolTip": "TestLego_UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:07:19.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

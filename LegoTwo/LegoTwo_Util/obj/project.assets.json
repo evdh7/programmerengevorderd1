@@ -1633,19 +1633,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emmy\\.nuget\\packages\\": {}
+    "C:\\Users\\emmy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj",
+      "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj",
       "projectName": "LegoTwo_Util",
-      "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj",
+      "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_Util\\LegoTwo_Util.csproj",
       "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\obj\\",
+      "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_Util\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1659,11 +1664,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj": {
-              "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj"
+            "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\LegoTwo_BL.csproj"
             },
-            "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj": {
-              "projectPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj"
+            "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_DL\\LegoTwo_DL.csproj"
             }
           }
         }
@@ -1677,7 +1682,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1698,7 +1704,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

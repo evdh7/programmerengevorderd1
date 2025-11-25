@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VakantieparkUtils/1.0.0": {
+        "dependencies": {
+          "VakantieparkBL": "1.0.0",
+          "VakantieparkDL": "1.0.0"
+        },
+        "runtime": {
+          "VakantieparkUtils.dll": {}
+        }
+      },
+      "VakantieparkBL/1.0.0": {
+        "runtime": {
+          "VakantieparkBL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VakantieparkDL/1.0.0": {
+        "dependencies": {
+          "VakantieparkBL": "1.0.0"
+        },
+        "runtime": {
+          "VakantieparkDL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VakantieparkUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VakantieparkBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VakantieparkDL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

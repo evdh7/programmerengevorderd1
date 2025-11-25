@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6874D755-DD38-4A43-8219-5DFDB1BC47BB}|OrderProcessingMembers\\OrderProcessingMembersBL.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembers\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6874D755-DD38-4A43-8219-5DFDB1BC47BB}|OrderProcessingMembers\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembers\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6874D755-DD38-4A43-8219-5DFDB1BC47BB}|OrderProcessingMembers\\OrderProcessingMembersBL.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembers\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6874D755-DD38-4A43-8219-5DFDB1BC47BB}|OrderProcessingMembers\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembers\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6874D755-DD38-4A43-8219-5DFDB1BC47BB}|OrderProcessingMembers\\OrderProcessingMembersBL.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembers\\model\\lid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6874D755-DD38-4A43-8219-5DFDB1BC47BB}|OrderProcessingMembers\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembers\\model\\lid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4B9BD1-DCCC-4B89-9D44-212A38829E39}|OrderProcessingMembersFactory\\OrderProcessingMembersFactory.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembersfactory\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4B9BD1-DCCC-4B89-9D44-212A38829E39}|OrderProcessingMembersFactory\\OrderProcessingMembersFactory.csproj|solutionrelative:orderprocessingmembersfactory\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53808322-DE25-4282-AD3A-495DAEB45537}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembersdl\\orderprocessingmembersdl_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53808322-DE25-4282-AD3A-495DAEB45537}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|solutionrelative:orderprocessingmembersdl\\orderprocessingmembersdl_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD6E4E7-09DB-4CB5-8419-AC5E1030C1FF}|OrderProcessingMembersUI\\OrderProcessingMembersUI.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembersui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD6E4E7-09DB-4CB5-8419-AC5E1030C1FF}|OrderProcessingMembersUI\\OrderProcessingMembersUI.csproj|solutionrelative:orderprocessingmembersui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53808322-DE25-4282-AD3A-495DAEB45537}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembersdl\\orderprocessingmembersdl_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53808322-DE25-4282-AD3A-495DAEB45537}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|solutionrelative:orderprocessingmembersdl\\orderprocessingmembersdl_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Model\\Event.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembers\\Model\\Event.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Model\\Event.cs",
+              "RelativeToolTip": "OrderProcessingMembers\\Model\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T19:41:48.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adres.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Model\\Adres.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembers\\Model\\Adres.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Model\\Adres.cs",
+              "RelativeToolTip": "OrderProcessingMembers\\Model\\Adres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T19:41:39.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lid.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Model\\Lid.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembers\\Model\\Lid.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Model\\Lid.cs*",
+              "RelativeToolTip": "OrderProcessingMembers\\Model\\Lid.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T19:41:29.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersFactory\\Class1.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersFactory\\Class1.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersFactory\\Class1.cs",
+              "RelativeToolTip": "OrderProcessingMembersFactory\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T19:40:45.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderProcessingMembersDL_SQL.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersDL\\OrderProcessingMembersDL_SQL.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersDL\\OrderProcessingMembersDL_SQL.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersDL\\OrderProcessingMembersDL_SQL.cs",
+              "RelativeToolTip": "OrderProcessingMembersDL\\OrderProcessingMembersDL_SQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T19:40:18.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersUI\\Program.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersUI\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersUI\\Program.cs",
+              "RelativeToolTip": "OrderProcessingMembersUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:19:55.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderProcessingMembersDL_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersDL\\OrderProcessingMembersDL_Repository.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersDL\\OrderProcessingMembersDL_Repository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersDL\\OrderProcessingMembersDL_Repository.cs",
+              "RelativeToolTip": "OrderProcessingMembersDL\\OrderProcessingMembersDL_Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:18:39.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

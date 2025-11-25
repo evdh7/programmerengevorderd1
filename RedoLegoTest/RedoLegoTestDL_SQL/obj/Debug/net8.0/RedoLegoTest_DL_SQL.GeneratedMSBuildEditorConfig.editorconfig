@@ -11,3 +11,5 @@ build_property.RootNamespace = RedoLegoTest_DL_SQL
 build_property.ProjectDir = C:\Users\emmy\source\programmerengevorderd1\RedoLegoTest\RedoLegoTestDL_SQL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 

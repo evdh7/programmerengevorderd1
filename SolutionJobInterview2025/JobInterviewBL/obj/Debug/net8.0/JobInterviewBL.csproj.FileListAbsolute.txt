@@ -1,0 +1,11 @@
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\bin\Debug\net8.0\JobInterviewBL.deps.json
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\bin\Debug\net8.0\JobInterviewBL.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\bin\Debug\net8.0\JobInterviewBL.pdb
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\JobInterviewBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\JobInterviewBL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\JobInterviewBL.AssemblyInfo.cs
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\JobInterviewBL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\JobInterviewBL.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\refint\JobInterviewBL.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\JobInterviewBL.pdb
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewBL\obj\Debug\net8.0\ref\JobInterviewBL.dll

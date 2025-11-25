@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LegoTwo_DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+501008a4cce9f939c39199148f07c8565df10594")]
 [assembly: System.Reflection.AssemblyProductAttribute("LegoTwo_DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LegoTwo_DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

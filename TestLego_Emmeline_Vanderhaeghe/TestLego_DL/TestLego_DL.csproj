@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\emmy\OneDrive - Hogeschool Gent\Desktop\FileReader.cs" Link="FileReader.cs" />
+    <Compile Include="C:\Users\emmy\OneDrive - Hogeschool Gent\Desktop\LegoRepository.cs" Link="LegoRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestLego_BL\TestLego_BL.csproj" />
+  </ItemGroup>
+
+</Project>

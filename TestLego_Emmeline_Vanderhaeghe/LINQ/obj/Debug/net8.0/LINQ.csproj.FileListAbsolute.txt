@@ -1,0 +1,4 @@
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LINQ\obj\Debug\net8.0\LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LINQ\obj\Debug\net8.0\LINQ.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LINQ\obj\Debug\net8.0\LINQ.AssemblyInfo.cs
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LINQ\obj\Debug\net8.0\LINQ.csproj.CoreCompileInputs.cache

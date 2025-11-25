@@ -1,0 +1,30 @@
+﻿<Window x:Class="EmployeeEP_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployeeEP_UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="140" Width="450">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Select Field and employer" TextAlignment="Center" Margin="5"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Field" Margin="5"/>
+        <ComboBox Grid.Row="1" Grid.Column="1" Name="ComboBox_FieldList" Margin="5"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Employer" Margin="5"/>
+        <ComboBox Grid.Row="2" Grid.Column="1" Name="ComboBox_EmployerList" Margin="5"/>
+        <Button Grid.Row="3" Grid.ColumnSpan="2" Content="Confirm" Margin="5" Click="ButtonClick_Employees"/>
+
+
+    </Grid>
+</Window>

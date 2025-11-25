@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2006E69A-B728-4E0F-850D-C262DC0C5BE8}|EmployeeEP_Utils\\EmployeeEP_Utils.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_utils\\employeeepfilereaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2006E69A-B728-4E0F-850D-C262DC0C5BE8}|EmployeeEP_Utils\\EmployeeEP_Utils.csproj|solutionrelative:employeeep_utils\\employeeepfilereaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A51F28-64B2-4C50-92C0-18153D698B34}|EmployeeEP_DL\\EmployeeEP_DL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_dl\\employeeepf_filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A51F28-64B2-4C50-92C0-18153D698B34}|EmployeeEP_DL\\EmployeeEP_DL.csproj|solutionrelative:employeeep_dl\\employeeepf_filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\interfaces\\iemployeeep_filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\interfaces\\iemployeeep_filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\manager\\employeeepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\manager\\employeeepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BA5F1D-909E-4318-9318-6A0E66561778}|EmployeeEP_UI\\EmployeeEP_UI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7BA5F1D-909E-4318-9318-6A0E66561778}|EmployeeEP_UI\\EmployeeEP_UI.csproj|solutionrelative:employeeep_ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\model\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\model\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\services\\otherbonuscalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\services\\otherbonuscalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\services\\nursinghomebonuscalculatingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\services\\nursinghomebonuscalculatingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\services\\hospitalbonuscalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\services\\hospitalbonuscalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BA5F1D-909E-4318-9318-6A0E66561778}|EmployeeEP_UI\\EmployeeEP_UI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7BA5F1D-909E-4318-9318-6A0E66561778}|EmployeeEP_UI\\EmployeeEP_UI.csproj|solutionrelative:employeeep_ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\enums\\efield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\enums\\efield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_bl\\interfaces\\ibonuscalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFF586F-4B42-4ADE-9527-4854B484EF11}|EmployeeEP_BL\\EmployeeEP_BL.csproj|solutionrelative:employeeep_bl\\interfaces\\ibonuscalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A51F28-64B2-4C50-92C0-18153D698B34}|EmployeeEP_DL\\EmployeeEP_DL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\oefenenep\\employeeep_dl\\inmemoryeprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A51F28-64B2-4C50-92C0-18153D698B34}|EmployeeEP_DL\\EmployeeEP_DL.csproj|solutionrelative:employeeep_dl\\inmemoryeprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeEPFileReaderFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_Utils\\EmployeeEPFileReaderFactory.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_Utils\\EmployeeEPFileReaderFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_Utils\\EmployeeEPFileReaderFactory.cs",
+              "RelativeToolTip": "EmployeeEP_Utils\\EmployeeEPFileReaderFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T21:16:54.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeEP_FileReader.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Interfaces\\IEmployeeEP_FileReader.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Interfaces\\IEmployeeEP_FileReader.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Interfaces\\IEmployeeEP_FileReader.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Interfaces\\IEmployeeEP_FileReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T21:08:00.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeEPF_FileReader.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_DL\\EmployeeEPF_FileReader.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_DL\\EmployeeEPF_FileReader.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_DL\\EmployeeEPF_FileReader.cs",
+              "RelativeToolTip": "EmployeeEP_DL\\EmployeeEPF_FileReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T21:06:37.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeEPManager.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Manager\\EmployeeEPManager.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Manager\\EmployeeEPManager.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Manager\\EmployeeEPManager.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Manager\\EmployeeEPManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:57:49.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OtherBonusCalculatorService.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Services\\OtherBonusCalculatorService.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Services\\OtherBonusCalculatorService.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Services\\OtherBonusCalculatorService.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Services\\OtherBonusCalculatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:42:01.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBonusCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Interfaces\\IBonusCalculator.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Interfaces\\IBonusCalculator.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Interfaces\\IBonusCalculator.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Interfaces\\IBonusCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:37:07.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NursingHomeBonusCalculatingService.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Services\\NursingHomeBonusCalculatingService.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Services\\NursingHomeBonusCalculatingService.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Services\\NursingHomeBonusCalculatingService.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Services\\NursingHomeBonusCalculatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:36:42.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EField.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Enums\\EField.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Enums\\EField.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Enums\\EField.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Enums\\EField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:27:07.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HospitalBonusCalculatorService.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Services\\HospitalBonusCalculatorService.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Services\\HospitalBonusCalculatorService.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Services\\HospitalBonusCalculatorService.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Services\\HospitalBonusCalculatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:15:05.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employer.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Model\\Employer.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Model\\Employer.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Model\\Employer.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Model\\Employer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:12:34.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_BL\\Model\\Employee.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_BL\\Model\\Employee.cs",
+              "RelativeToolTip": "EmployeeEP_BL\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:12:20.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InMemoryEPRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_DL\\InMemoryEPRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_DL\\InMemoryEPRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_DL\\InMemoryEPRepository.cs",
+              "RelativeToolTip": "EmployeeEP_DL\\InMemoryEPRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:10:43.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EmployeeEP_UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_UI\\MainWindow.xaml",
+              "RelativeToolTip": "EmployeeEP_UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T19:58:31.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EmployeeEP_UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\OefenenEP\\EmployeeEP_UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EmployeeEP_UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T19:58:31.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

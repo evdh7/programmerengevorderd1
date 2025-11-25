@@ -1,0 +1,31 @@
+﻿<Window x:Class="JobInterviewUI.ExpertsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JobInterviewUI"
+        mc:Ignorable="d"
+        Title="ExpertsWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Row="0" Grid.Column="0" Margin="5" Name="ListBoxAllExperts" SelectionMode="Extended"/>
+        <ListBox Grid.Row="0" Grid.Column="2" Margin="5" Name="ListBoxSelectedExperts" SelectionMode="Extended"/>
+        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+            <Button Content="&gt;&gt;" Margin="5" Click="ButtonAddAll_Click"/>
+            <Button Content="&gt;" Margin="5" Click="ButtonAddSelected_Click"/>
+            <Button Content="&lt;" Margin="5" Click="ButtonRemoveSelected_Click"/>
+            <Button Content="&lt;&lt;" Margin="5" Click="ButtonRemoveAll_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

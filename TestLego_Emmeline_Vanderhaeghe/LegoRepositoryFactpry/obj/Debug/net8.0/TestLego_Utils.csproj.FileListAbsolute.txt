@@ -1,0 +1,4 @@
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LegoRepositoryFactpry\obj\Debug\net8.0\TestLego_Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LegoRepositoryFactpry\obj\Debug\net8.0\TestLego_Utils.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LegoRepositoryFactpry\obj\Debug\net8.0\TestLego_Utils.AssemblyInfo.cs
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\LegoRepositoryFactpry\obj\Debug\net8.0\TestLego_Utils.csproj.CoreCompileInputs.cache

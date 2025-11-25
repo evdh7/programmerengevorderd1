@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BedrijvenTestPrepUtil": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUtil\\obj\\Debug\\net8.0\\ref"
+    }
+  }
+}

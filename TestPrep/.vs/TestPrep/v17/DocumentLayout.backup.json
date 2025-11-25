@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\repos\\TestPrep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41257400-CAA0-4439-B85B-1BCCBA6B9149}|BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepdl_sql\\bedrijfrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41257400-CAA0-4439-B85B-1BCCBA6B9149}|BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj|solutionrelative:bedrijventestprepdl_sql\\bedrijfrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepbl\\beheer\\bedrijvenbeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|solutionrelative:bedrijventestprepbl\\beheer\\bedrijvenbeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|solutionrelative:bedrijventestprepui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepbl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|solutionrelative:bedrijventestprepbl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{349B7196-DF6C-4F18-9A2E-37360D234A63}|BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepdl_file\\bedrijfbestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{349B7196-DF6C-4F18-9A2E-37360D234A63}|BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj|solutionrelative:bedrijventestprepdl_file\\bedrijfbestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepbl\\model\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|solutionrelative:bedrijventestprepbl\\model\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepbl\\model\\persoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|solutionrelative:bedrijventestprepbl\\model\\persoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A72D01-4EB0-47D2-9638-CC94DB55DE86}|BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestpreputil\\bedrijfrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A72D01-4EB0-47D2-9638-CC94DB55DE86}|BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj|solutionrelative:bedrijventestpreputil\\bedrijfrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A72D01-4EB0-47D2-9638-CC94DB55DE86}|BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestpreputil\\bedrijfbestandslezerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A72D01-4EB0-47D2-9638-CC94DB55DE86}|BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj|solutionrelative:bedrijventestpreputil\\bedrijfbestandslezerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|solutionrelative:bedrijventestprepui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepui\\appsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|solutionrelative:bedrijventestprepui\\appsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepbl\\bedrijfexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|solutionrelative:bedrijventestprepbl\\bedrijfexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepbl\\foutenlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|solutionrelative:bedrijventestprepbl\\foutenlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|solutionrelative:bedrijventestprepui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A72D01-4EB0-47D2-9638-CC94DB55DE86}|BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestpreputil\\bedrijventestpreputil.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{42A72D01-4EB0-47D2-9638-CC94DB55DE86}|BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj|solutionrelative:bedrijventestpreputil\\bedrijventestpreputil.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepui\\bedrijventestprepui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85FC6DC5-B5EB-48F4-80BD-2C9BFF32B15F}|BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj|solutionrelative:bedrijventestprepui\\bedrijventestprepui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41257400-CAA0-4439-B85B-1BCCBA6B9149}|BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepdl_sql\\bedrijventestprepdl_sql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41257400-CAA0-4439-B85B-1BCCBA6B9149}|BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj|solutionrelative:bedrijventestprepdl_sql\\bedrijventestprepdl_sql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{349B7196-DF6C-4F18-9A2E-37360D234A63}|BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepdl_file\\bedrijventestprepdl_file.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{349B7196-DF6C-4F18-9A2E-37360D234A63}|BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj|solutionrelative:bedrijventestprepdl_file\\bedrijventestprepdl_file.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|c:\\users\\emmy\\source\\repos\\testprep\\bedrijventestprepbl\\bedrijventestprepbl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1622069-C53D-4030-ABC6-75E088925A11}|BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj|solutionrelative:bedrijventestprepbl\\bedrijventestprepbl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FoutenLogger.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\FoutenLogger.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepBL\\FoutenLogger.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\FoutenLogger.cs",
+              "RelativeToolTip": "BedrijvenTestPrepBL\\FoutenLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:06:56.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Adres.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Model\\Adres.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepBL\\Model\\Adres.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Model\\Adres.cs",
+              "RelativeToolTip": "BedrijvenTestPrepBL\\Model\\Adres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:01:10.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BedrijfException.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\BedrijfException.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepBL\\BedrijfException.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\BedrijfException.cs",
+              "RelativeToolTip": "BedrijvenTestPrepBL\\BedrijfException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:18:17.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BedrijvenBeheerder.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Beheer\\BedrijvenBeheerder.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepBL\\Beheer\\BedrijvenBeheerder.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Beheer\\BedrijvenBeheerder.cs",
+              "RelativeToolTip": "BedrijvenTestPrepBL\\Beheer\\BedrijvenBeheerder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:16:58.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BedrijfBestandslezerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUtil\\BedrijfBestandslezerFactory.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUtil\\BedrijfBestandslezerFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUtil\\BedrijfBestandslezerFactory.cs",
+              "RelativeToolTip": "BedrijvenTestPrepUtil\\BedrijfBestandslezerFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:17:42.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Persoon.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Model\\Persoon.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepBL\\Model\\Persoon.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Model\\Persoon.cs",
+              "RelativeToolTip": "BedrijvenTestPrepBL\\Model\\Persoon.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:09:25.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\appsettings.json",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\appsettings.json",
+              "RelativeToolTip": "BedrijvenTestPrepUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T21:02:59.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BedrijvenTestPrepUI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T21:02:10.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\appsettings.json",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\appsettings.json",
+              "RelativeToolTip": "BedrijvenTestPrepUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T21:01:11.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\Program.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUI\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\Program.cs",
+              "RelativeToolTip": "BedrijvenTestPrepUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:47:22.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BedrijfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_SQL\\BedrijfRepository.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepDL_SQL\\BedrijfRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_SQL\\BedrijfRepository.cs",
+              "RelativeToolTip": "BedrijvenTestPrepDL_SQL\\BedrijfRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:47:08.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BedrijfRepositoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUtil\\BedrijfRepositoryFactory.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUtil\\BedrijfRepositoryFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUtil\\BedrijfRepositoryFactory.cs",
+              "RelativeToolTip": "BedrijvenTestPrepUtil\\BedrijfRepositoryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:46:03.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BedrijvenTestPrepUtil",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj",
+              "RelativeToolTip": "BedrijvenTestPrepUtil\\BedrijvenTestPrepUtil.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T20:45:12.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BedrijfBestandsLezer.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_File\\BedrijfBestandsLezer.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepDL_File\\BedrijfBestandsLezer.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_File\\BedrijfBestandsLezer.cs",
+              "RelativeToolTip": "BedrijvenTestPrepDL_File\\BedrijfBestandsLezer.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAIAwwHcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:40:19.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bedrijf.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Model\\Bedrijf.cs",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepBL\\Model\\Bedrijf.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\Model\\Bedrijf.cs",
+              "RelativeToolTip": "BedrijvenTestPrepBL\\Model\\Bedrijf.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAApwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:38:33.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BedrijvenTestPrepUI.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj",
+              "RelativeToolTip": "BedrijvenTestPrepUI\\BedrijvenTestPrepUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T20:34:24.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BedrijvenTestPrepDL_SQL.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj",
+              "RelativeToolTip": "BedrijvenTestPrepDL_SQL\\BedrijvenTestPrepDL_SQL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T20:34:20.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BedrijvenTestPrepDL_File.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj",
+              "RelativeToolTip": "BedrijvenTestPrepDL_File\\BedrijvenTestPrepDL_File.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T20:34:10.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BedrijvenTestPrepBL.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj",
+              "RelativeDocumentMoniker": "BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestPrep\\BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj",
+              "RelativeToolTip": "BedrijvenTestPrepBL\\BedrijvenTestPrepBL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T20:34:07.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

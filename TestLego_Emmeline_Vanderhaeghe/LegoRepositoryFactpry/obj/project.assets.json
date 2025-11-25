@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "TestLego_BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TestLego_BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestLego_BL.dll": {}
+        }
+      },
+      "TestLego_DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TestLego_BL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestLego_DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestLego_DL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestLego_BL/1.0.0": {
+      "type": "project",
+      "path": "../TestLego_BL/TestLego_BL.csproj",
+      "msbuildProject": "../TestLego_BL/TestLego_BL.csproj"
+    },
+    "TestLego_DL/1.0.0": {
+      "type": "project",
+      "path": "../TestLego_DL/TestLego_DL.csproj",
+      "msbuildProject": "../TestLego_DL/TestLego_DL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TestLego_BL >= 1.0.0",
+      "TestLego_DL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\emmy\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\LegoRepositoryFactpry\\TestLego_Utils.csproj",
+      "projectName": "TestLego_Utils",
+      "projectPath": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\LegoRepositoryFactpry\\TestLego_Utils.csproj",
+      "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\LegoRepositoryFactpry\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\TestLego_BL.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_BL\\TestLego_BL.csproj"
+            },
+            "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\TestLego_DL.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\TestLego_DL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

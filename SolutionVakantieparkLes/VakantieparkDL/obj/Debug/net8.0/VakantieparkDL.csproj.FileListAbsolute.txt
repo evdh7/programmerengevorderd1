@@ -1,0 +1,16 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\bin\Debug\net8.0\VakantieparkDL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\bin\Debug\net8.0\VakantieparkDL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\bin\Debug\net8.0\VakantieparkDL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\bin\Debug\net8.0\VakantieparkBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\bin\Debug\net8.0\VakantieparkBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\Vakantie.500977EF.Up2Date
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\refint\VakantieparkDL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\VakantieparkDL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantieparkLes\VakantieparkDL\obj\Debug\net8.0\ref\VakantieparkDL.dll

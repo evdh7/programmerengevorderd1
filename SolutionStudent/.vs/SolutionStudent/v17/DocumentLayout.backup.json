@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C6DA3D1-044A-4A39-90AD-179F5C1E5305}|StudentUI\\StudentUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DA3D1-044A-4A39-90AD-179F5C1E5305}|StudentUI\\StudentUI.csproj|solutionrelative:studentui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C6DA3D1-044A-4A39-90AD-179F5C1E5305}|StudentUI\\StudentUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2C6DA3D1-044A-4A39-90AD-179F5C1E5305}|StudentUI\\StudentUI.csproj|solutionrelative:studentui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90837B3E-8491-4214-BB9F-61CFD57B5F49}|StudentUtils\\StudentUtils.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentutils\\repofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90837B3E-8491-4214-BB9F-61CFD57B5F49}|StudentUtils\\StudentUtils.csproj|solutionrelative:studentutils\\repofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{571E08EF-D95A-4A88-92A3-AA3D7AB924E4}|StudentDL\\StudentDL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentdl\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{571E08EF-D95A-4A88-92A3-AA3D7AB924E4}|StudentDL\\StudentDL.csproj|solutionrelative:studentdl\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C98075C-77BB-4CCD-9714-754BC31AF543}|StudentBL\\StudentBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentbl\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C98075C-77BB-4CCD-9714-754BC31AF543}|StudentBL\\StudentBL.csproj|solutionrelative:studentbl\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C98075C-77BB-4CCD-9714-754BC31AF543}|StudentBL\\StudentBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentbl\\beheerder\\studentbeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C98075C-77BB-4CCD-9714-754BC31AF543}|StudentBL\\StudentBL.csproj|solutionrelative:studentbl\\beheerder\\studentbeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C6DA3D1-044A-4A39-90AD-179F5C1E5305}|StudentUI\\StudentUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C6DA3D1-044A-4A39-90AD-179F5C1E5305}|StudentUI\\StudentUI.csproj|solutionrelative:studentui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C98075C-77BB-4CCD-9714-754BC31AF543}|StudentBL\\StudentBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentbl\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C98075C-77BB-4CCD-9714-754BC31AF543}|StudentBL\\StudentBL.csproj|solutionrelative:studentbl\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571E08EF-D95A-4A88-92A3-AA3D7AB924E4}|StudentDL\\StudentDL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentdl\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571E08EF-D95A-4A88-92A3-AA3D7AB924E4}|StudentDL\\StudentDL.csproj|solutionrelative:studentdl\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90837B3E-8491-4214-BB9F-61CFD57B5F49}|StudentUtils\\StudentUtils.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentutils\\repofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90837B3E-8491-4214-BB9F-61CFD57B5F49}|StudentUtils\\StudentUtils.csproj|solutionrelative:studentutils\\repofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C98075C-77BB-4CCD-9714-754BC31AF543}|StudentBL\\StudentBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionstudent\\studentbl\\model\\cursus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RepoFactory.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentUtils\\RepoFactory.cs",
               "RelativeDocumentMoniker": "StudentUtils\\RepoFactory.cs",
@@ -108,13 +108,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentUI\\appsettings.json",
               "RelativeDocumentMoniker": "StudentUI\\appsettings.json",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentUI\\appsettings.json*",
-              "RelativeToolTip": "StudentUI\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentUI\\appsettings.json",
+              "RelativeToolTip": "StudentUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-15T08:24:45.784Z",
               "EditorCaption": ""
@@ -133,28 +133,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentDL\\StudentRepository.cs",
               "RelativeDocumentMoniker": "StudentDL\\StudentRepository.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentDL\\StudentRepository.cs",
               "RelativeToolTip": "StudentDL\\StudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T07:29:35.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "StudentBeheerder.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentBL\\Beheerder\\StudentBeheerder.cs",
               "RelativeDocumentMoniker": "StudentBL\\Beheerder\\StudentBeheerder.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentBL\\Beheerder\\StudentBeheerder.cs",
               "RelativeToolTip": "StudentBL\\Beheerder\\StudentBeheerder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T07:18:45.311Z"
+              "WhenOpened": "2025-10-13T07:18:45.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -182,15 +183,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentUI\\Program.cs",
               "RelativeDocumentMoniker": "StudentUI\\Program.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionStudent\\StudentUI\\Program.cs",
               "RelativeToolTip": "StudentUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T07:00:47.935Z"
+              "WhenOpened": "2025-10-13T07:00:47.935Z",
+              "EditorCaption": ""
             }
           ]
         }

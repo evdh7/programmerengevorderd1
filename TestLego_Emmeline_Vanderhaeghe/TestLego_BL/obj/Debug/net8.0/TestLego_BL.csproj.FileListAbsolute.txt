@@ -1,0 +1,11 @@
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\TestLego_BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\TestLego_BL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\TestLego_BL.AssemblyInfo.cs
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\TestLego_BL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\bin\Debug\net8.0\TestLego_BL.deps.json
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\bin\Debug\net8.0\TestLego_BL.dll
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\bin\Debug\net8.0\TestLego_BL.pdb
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\TestLego_BL.dll
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\refint\TestLego_BL.dll
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\TestLego_BL.pdb
+C:\Users\emmy\source\repos\TestLego_Emmeline_Vanderhaeghe\TestLego_BL\obj\Debug\net8.0\ref\TestLego_BL.dll

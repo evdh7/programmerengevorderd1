@@ -1,0 +1,17 @@
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInterviewUtils.csproj.AssemblyReference.cache
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInterviewUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInterviewUtils.AssemblyInfoInputs.cache
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInterviewUtils.AssemblyInfo.cs
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInterviewUtils.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\bin\Debug\net8.0\JobInterviewUtils.deps.json
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\bin\Debug\net8.0\JobInterviewUtils.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\bin\Debug\net8.0\JobInterviewUtils.pdb
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\bin\Debug\net8.0\JobInterviewBL.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\bin\Debug\net8.0\JobInterviewDL.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\bin\Debug\net8.0\JobInterviewBL.pdb
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\bin\Debug\net8.0\JobInterviewDL.pdb
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInter.06EAB7EF.Up2Date
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInterviewUtils.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\refint\JobInterviewUtils.dll
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\JobInterviewUtils.pdb
+C:\Users\emmy\source\repos\SolutionJobInterview2025\JobInterviewUtils\obj\Debug\net8.0\ref\JobInterviewUtils.dll

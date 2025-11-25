@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj",
+        "projectName": "JobInterviewBL",
+        "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewDL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewDL.csproj",
+        "projectName": "JobInterviewDL",
+        "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewDL.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj",
+        "projectName": "JobInterviewUtils",
+        "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj"
+              },
+              "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewDL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewDL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38D7C513-9E07-4CA1-B1D8-C86DF25CF0A5}|OrderProcessingMembersUI\\OrderProcessingMembersUI.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembersui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38D7C513-9E07-4CA1-B1D8-C86DF25CF0A5}|OrderProcessingMembersUI\\OrderProcessingMembersUI.csproj|solutionrelative:orderprocessingmembersui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ABB1C0B-5817-4757-A892-5613BCBC2280}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembersdl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ABB1C0B-5817-4757-A892-5613BCBC2280}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|solutionrelative:orderprocessingmembersdl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD8C999-585E-4859-94B9-31DD3F17C227}|OrderProcessingMembers\\OrderProcessingMembers.csproj|c:\\users\\emmy\\source\\repos\\orderprocessingmembers\\orderprocessingmembers\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD8C999-585E-4859-94B9-31DD3F17C227}|OrderProcessingMembers\\OrderProcessingMembers.csproj|solutionrelative:orderprocessingmembers\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersUI\\Program.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersUI\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersUI\\Program.cs",
+              "RelativeToolTip": "OrderProcessingMembersUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:19:55.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersDL\\Class1.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersDL\\Class1.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembersDL\\Class1.cs",
+              "RelativeToolTip": "OrderProcessingMembersDL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:18:39.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Class1.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembers\\Class1.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\repos\\OrderProcessingMembers\\OrderProcessingMembers\\Class1.cs",
+              "RelativeToolTip": "OrderProcessingMembers\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:18:17.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

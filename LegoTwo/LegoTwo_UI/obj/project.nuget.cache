@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4R0P76PfY4I=",
+  "dgSpecHash": "4po+Od9fIKc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\LegoTwo_UI.csproj",
+  "projectFilePath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_UI\\LegoTwo_UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emmy\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\emmy\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
