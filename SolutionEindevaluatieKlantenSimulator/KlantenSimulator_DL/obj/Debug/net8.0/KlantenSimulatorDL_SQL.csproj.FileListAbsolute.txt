@@ -1,0 +1,16 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\bin\Debug\net8.0\KlantenSimulatorDL_SQL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\bin\Debug\net8.0\KlantenSimulatorDL_SQL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\bin\Debug\net8.0\KlantenSimulatorDL_SQL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\refint\KlantenSimulatorDL_SQL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\ref\KlantenSimulatorDL_SQL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\bin\Debug\net8.0\KlantenSimulatorBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\bin\Debug\net8.0\KlantenSimulatorBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenSimulatorDL_SQL.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_DL\obj\Debug\net8.0\KlantenS.50F9B5A6.Up2Date

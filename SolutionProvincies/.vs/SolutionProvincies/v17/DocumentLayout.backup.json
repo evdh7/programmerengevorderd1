@@ -3,20 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\statistiekenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\statistiekenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary2\\provinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|solutionrelative:classlibrary2\\provinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|solutionrelative:provinciesui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|solutionrelative:provinciesui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\beheer\\provinciebeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\beheer\\provinciebeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80420A9-ECFE-4DAE-BD64-AF19E9625F67}|ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesdl_sql\\provincierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80420A9-ECFE-4DAE-BD64-AF19E9625F67}|ProvinciesDL_SQL\\ProvinciesDL_SQL.csproj|solutionrelative:provinciesdl_sql\\provincierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesutil\\provinciebestandslezerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|solutionrelative:provinciesutil\\provinciebestandslezerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary2\\provinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CACCDDD-55D6-4A97-A9B5-4E0F17821279}|ClassLibrary2\\ProvinciesDL_File.csproj|solutionrelative:classlibrary2\\provinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesutil\\provinciesutil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{188C32FB-55DB-401B-93F9-BAD55CACB70C}|ProvinciesUtil\\ProvinciesUtil.csproj|solutionrelative:provinciesutil\\provinciesutil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\interfaces\\iprovinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\interfaces\\iprovinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\gemeente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\gemeente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\provincie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\provincie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\statistieken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\statistieken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\straat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\straat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\statistiekenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\statistiekenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -30,28 +74,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\beheer\\provinciebeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\beheer\\provinciebeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\model\\statistieken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\model\\statistieken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\provinciesui_wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|solutionrelative:provinciesui_wpf\\provinciesui_wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\classlibrary1\\interfaces\\iprovinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0446D5A5-438E-4EF0-98A1-1BEF997F4663}|ClassLibrary1\\ProvinciesBL.csproj|solutionrelative:classlibrary1\\interfaces\\iprovinciebestandslezer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|solutionrelative:provinciesui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76E1A556-61CC-413B-8AF0-735F83776730}|ProvinciesUI\\ProvinciesUI.csproj|solutionrelative:provinciesui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50B92C75-2628-45A2-9412-369782509DCF}|ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionprovincies\\provinciesui_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -69,11 +93,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProvincieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "RelativeDocumentMoniker": "ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "RelativeToolTip": "ProvinciesDL_SQL\\ProvincieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T20:49:00.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ProvincieBestandslezerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "RelativeDocumentMoniker": "ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "RelativeToolTip": "ProvinciesUtil\\ProvincieBestandslezerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T20:37:15.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProvinciesUtil",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvinciesUtil.csproj",
+              "RelativeDocumentMoniker": "ProvinciesUtil\\ProvinciesUtil.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUtil\\ProvinciesUtil.csproj",
+              "RelativeToolTip": "ProvinciesUtil\\ProvinciesUtil.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-27T20:37:10.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Provincie.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Provincie.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Model\\Provincie.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Provincie.cs",
+              "RelativeToolTip": "ClassLibrary1\\Model\\Provincie.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T14:35:43.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Straat.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Straat.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Model\\Straat.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Straat.cs",
+              "RelativeToolTip": "ClassLibrary1\\Model\\Straat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T14:34:19.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Gemeente.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Gemeente.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Model\\Gemeente.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Gemeente.cs",
+              "RelativeToolTip": "ClassLibrary1\\Model\\Gemeente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:16:21.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -85,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "StatistiekenWindow.xaml",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\StatistiekenWindow.xaml",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\StatistiekenWindow.xaml",
@@ -96,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "StatistiekenWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\StatistiekenWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\StatistiekenWindow.xaml.cs",
@@ -104,12 +210,11 @@
               "RelativeToolTip": "ProvinciesUI_WPF\\StatistiekenWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T09:36:54.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T09:36:54.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Statistieken.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Model\\Statistieken.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Model\\Statistieken.cs",
@@ -117,35 +222,38 @@
               "RelativeToolTip": "ClassLibrary1\\Model\\Statistieken.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAuwBQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T09:13:09.681Z"
+              "WhenOpened": "2025-11-03T09:13:09.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\Program.cs",
               "RelativeDocumentMoniker": "ProvinciesUI\\Program.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\Program.cs",
               "RelativeToolTip": "ProvinciesUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:48:00.506Z"
+              "WhenOpened": "2025-11-03T08:48:00.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\appsettings.json",
               "RelativeDocumentMoniker": "ProvinciesUI\\appsettings.json",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI\\appsettings.json",
               "RelativeToolTip": "ProvinciesUI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-03T08:47:07.89Z"
+              "WhenOpened": "2025-11-03T08:47:07.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ProvinciesUI_WPF.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj",
@@ -153,11 +261,12 @@
               "RelativeToolTip": "ProvinciesUI_WPF\\ProvinciesUI_WPF.csproj",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T08:25:02.833Z"
+              "WhenOpened": "2025-11-03T08:25:02.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\App.xaml.cs",
@@ -169,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\App.xaml",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\App.xaml",
@@ -180,19 +289,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "ProvincieBeheerder.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
               "RelativeToolTip": "ClassLibrary1\\Beheer\\ProvincieBeheerder.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwC0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAIAwwBsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:02:24.39Z"
+              "WhenOpened": "2025-11-03T08:02:24.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\MainWindow.xaml",
@@ -203,31 +313,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProvincieBestandslezer.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\ProvincieBestandslezer.cs",
               "RelativeDocumentMoniker": "ClassLibrary2\\ProvincieBestandslezer.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary2\\ProvincieBestandslezer.cs",
               "RelativeToolTip": "ClassLibrary2\\ProvincieBestandslezer.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAswIwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewBwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:48:18.847Z"
+              "WhenOpened": "2025-11-03T07:48:18.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "IProvincieBestandslezer.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
               "RelativeToolTip": "ClassLibrary1\\Interfaces\\IProvincieBestandslezer.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:48:05.763Z"
+              "WhenOpened": "2025-11-03T07:48:05.763Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\appsettings.json",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\appsettings.json",
@@ -235,18 +347,17 @@
               "RelativeToolTip": "ProvinciesUI_WPF\\appsettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-03T07:45:18.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T07:45:18.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProvinciesUI_WPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionProvincies\\ProvinciesUI_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "ProvinciesUI_WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwGMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAewF4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T07:33:46.365Z",
               "EditorCaption": ""

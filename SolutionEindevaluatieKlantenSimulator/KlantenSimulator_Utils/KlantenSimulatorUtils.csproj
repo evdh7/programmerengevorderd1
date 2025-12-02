@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KlantenSimulatorDL_File\KlantenSimulatorDL_File.csproj" />
+    <ProjectReference Include="..\KlantenSimulator_BL\KlantenSimulatorBL.csproj" />
+    <ProjectReference Include="..\KlantenSimulator_DL\KlantenSimulatorDL_SQL.csproj" />
+  </ItemGroup>
+
+</Project>

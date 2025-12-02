@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantieparkLes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FE75AEE-4974-487E-A707-EC867A21ACAA}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantieparkles\\vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6FE75AEE-4974-487E-A707-EC867A21ACAA}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E4962ED-E3EB-4D00-8D24-30E2751BB59F}|VakantieparkDL\\VakantieparkDL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantieparkles\\vakantieparkdl\\vakantieparkrepositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E4962ED-E3EB-4D00-8D24-30E2751BB59F}|VakantieparkDL\\VakantieparkDL.csproj|solutionrelative:vakantieparkdl\\vakantieparkrepositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE75AEE-4974-487E-A707-EC867A21ACAA}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantieparkles\\vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6FE75AEE-4974-487E-A707-EC867A21ACAA}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FE75AEE-4974-487E-A707-EC867A21ACAA}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantieparkles\\vakantieparkui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -91,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VakantieparkRepositoryMemory.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantieparkLes\\VakantieparkDL\\VakantieparkRepositoryMemory.cs",
               "RelativeDocumentMoniker": "VakantieparkDL\\VakantieparkRepositoryMemory.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantieparkLes\\VakantieparkDL\\VakantieparkRepositoryMemory.cs",
               "RelativeToolTip": "VakantieparkDL\\VakantieparkRepositoryMemory.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAjwC4AAABXAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCcAAACfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T12:01:51.901Z",
               "EditorCaption": ""
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantieparkLes\\VakantieparkUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "VakantieparkUI\\MainWindow.xaml",

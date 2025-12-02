@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VakantieparkUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+501008a4cce9f939c39199148f07c8565df10594")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d22fe38f593e98037a0929131da568aef4b50238")]
 [assembly: System.Reflection.AssemblyProductAttribute("VakantieparkUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VakantieparkUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

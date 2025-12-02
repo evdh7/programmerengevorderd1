@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KlantenSimulatorDL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f65f6e66c5e2da69325c20fea91e9aa890546d6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d22fe38f593e98037a0929131da568aef4b50238")]
 [assembly: System.Reflection.AssemblyProductAttribute("KlantenSimulatorDL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KlantenSimulatorDL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

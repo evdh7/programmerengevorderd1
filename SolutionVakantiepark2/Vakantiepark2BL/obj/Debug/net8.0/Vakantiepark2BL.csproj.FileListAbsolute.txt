@@ -1,0 +1,5 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantiepark2\Vakantiepark2BL\obj\Debug\net8.0\Vakantiepark2BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantiepark2\Vakantiepark2BL\obj\Debug\net8.0\Vakantiepark2BL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantiepark2\Vakantiepark2BL\obj\Debug\net8.0\Vakantiepark2BL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantiepark2\Vakantiepark2BL\obj\Debug\net8.0\Vakantiepark2BL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionVakantiepark2\Vakantiepark2BL\obj\Debug\net8.0\Vakantiepark2BL.sourcelink.json

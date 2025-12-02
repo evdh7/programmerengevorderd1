@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\",
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_dl\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|solutionrelative:legotwo_dl\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E326E3-6177-40B5-90FE-E52B27C5947C}|LegoTwo_UI\\LegoTwo_UI.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E326E3-6177-40B5-90FE-E52B27C5947C}|LegoTwo_UI\\LegoTwo_UI.csproj|solutionrelative:legotwo_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_bl\\beheer\\legobeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\beheer\\legobeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_dl\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|solutionrelative:legotwo_dl\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_bl\\legoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\legoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_bl\\model\\legotheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\model\\legotheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B49784DD-8AF1-4AFB-BA58-1917AC80191C}|LegoTwo_Util\\LegoTwo_Util.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_util\\legotworepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B49784DD-8AF1-4AFB-BA58-1917AC80191C}|LegoTwo_Util\\LegoTwo_Util.csproj|solutionrelative:legotwo_util\\legotworepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B49784DD-8AF1-4AFB-BA58-1917AC80191C}|LegoTwo_Util\\LegoTwo_Util.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_util\\legotwofilereaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B49784DD-8AF1-4AFB-BA58-1917AC80191C}|LegoTwo_Util\\LegoTwo_Util.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_util\\legotwofilereaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B49784DD-8AF1-4AFB-BA58-1917AC80191C}|LegoTwo_Util\\LegoTwo_Util.csproj|solutionrelative:legotwo_util\\legotwofilereaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_bl\\interfaces\\ilegotworepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_dl\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|solutionrelative:legotwo_dl\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_dl\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{426FF3D6-A622-4476-91EC-C26A58AD11B4}|LegoTwo_DL\\LegoTwo_DL.csproj|solutionrelative:legotwo_dl\\legorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E326E3-6177-40B5-90FE-E52B27C5947C}|LegoTwo_UI\\LegoTwo_UI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25E326E3-6177-40B5-90FE-E52B27C5947C}|LegoTwo_UI\\LegoTwo_UI.csproj|solutionrelative:legotwo_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_bl\\beheer\\legobeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\beheer\\legobeheerder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_bl\\legoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\legoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\model\\legoset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_bl\\model\\legotheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\model\\legotheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49784DD-8AF1-4AFB-BA58-1917AC80191C}|LegoTwo_Util\\LegoTwo_Util.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_util\\legotworepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49784DD-8AF1-4AFB-BA58-1917AC80191C}|LegoTwo_Util\\LegoTwo_Util.csproj|solutionrelative:legotwo_util\\legotworepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_bl\\interfaces\\ilegotworepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\interfaces\\ilegotworepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_bl\\interfaces\\ilegotwofilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_bl\\interfaces\\ilegotwofilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69DA0168-5A35-4A59-8BC5-2E01F43A9F43}|LegoTwo_BL\\LegoTwo_BL.csproj|solutionrelative:legotwo_bl\\interfaces\\ilegotwofilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E326E3-6177-40B5-90FE-E52B27C5947C}|LegoTwo_UI\\LegoTwo_UI.csproj|c:\\users\\emmy\\source\\repos\\legotwo\\legotwo_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{25E326E3-6177-40B5-90FE-E52B27C5947C}|LegoTwo_UI\\LegoTwo_UI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\legotwo\\legotwo_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{25E326E3-6177-40B5-90FE-E52B27C5947C}|LegoTwo_UI\\LegoTwo_UI.csproj|solutionrelative:legotwo_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
@@ -64,15 +64,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_UI\\appsettings.json",
               "RelativeDocumentMoniker": "LegoTwo_UI\\appsettings.json",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_UI\\appsettings.json",
               "RelativeToolTip": "LegoTwo_UI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -80,25 +80,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LegoException.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoException.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\LegoException.cs",
               "RelativeDocumentMoniker": "LegoTwo_BL\\LegoException.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\LegoException.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\LegoException.cs",
               "RelativeToolTip": "LegoTwo_BL\\LegoException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T20:49:03.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T20:49:03.637Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Personeel.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
-              "RelativeDocumentMoniker": "..\\..\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
+              "RelativeDocumentMoniker": "..\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
-              "RelativeToolTip": "..\\..\\programmerengevorderd1\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
+              "RelativeToolTip": "..\\BedrijvenDomein\\BedrijvenDomein\\Personeel.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T19:57:11.642Z"
@@ -108,59 +107,56 @@
               "DocumentIndex": 12,
               "Title": "FileReader.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
-              "RelativeDocumentMoniker": "..\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
-              "RelativeToolTip": "..\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
+              "RelativeToolTip": "..\\..\\repos\\TestLego_Emmeline_Vanderhaeghe\\TestLego_DL\\FileReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T19:54:52.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LegoBeheerder.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Beheer\\LegoBeheerder.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Beheer\\LegoBeheerder.cs",
               "RelativeDocumentMoniker": "LegoTwo_BL\\Beheer\\LegoBeheerder.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Beheer\\LegoBeheerder.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Beheer\\LegoBeheerder.cs",
               "RelativeToolTip": "LegoTwo_BL\\Beheer\\LegoBeheerder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:44:54.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:44:54.893Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ILegoTwoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoRepository.cs",
               "RelativeDocumentMoniker": "LegoTwo_BL\\Interfaces\\ILegoTwoRepository.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoRepository.cs",
               "RelativeToolTip": "LegoTwo_BL\\Interfaces\\ILegoTwoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:39:00.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:39:00.466Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ILegoTwoFileReader.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoFileReader.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoFileReader.cs",
               "RelativeDocumentMoniker": "LegoTwo_BL\\Interfaces\\ILegoTwoFileReader.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoFileReader.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Interfaces\\ILegoTwoFileReader.cs",
               "RelativeToolTip": "LegoTwo_BL\\Interfaces\\ILegoTwoFileReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:38:16.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:38:16.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "LegoTwoFileReaderFactory.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwoFileReaderFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_Util\\LegoTwoFileReaderFactory.cs",
               "RelativeDocumentMoniker": "LegoTwo_Util\\LegoTwoFileReaderFactory.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwoFileReaderFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_Util\\LegoTwoFileReaderFactory.cs",
               "RelativeToolTip": "LegoTwo_Util\\LegoTwoFileReaderFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,50 +165,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LegoTwoRepositoryFactory.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwoRepositoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_Util\\LegoTwoRepositoryFactory.cs",
               "RelativeDocumentMoniker": "LegoTwo_Util\\LegoTwoRepositoryFactory.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_Util\\LegoTwoRepositoryFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_Util\\LegoTwoRepositoryFactory.cs",
               "RelativeToolTip": "LegoTwo_Util\\LegoTwoRepositoryFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:37:26.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:37:26.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LegoTheme.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Model\\LegoTheme.cs",
+              "RelativeDocumentMoniker": "LegoTwo_BL\\Model\\LegoTheme.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Model\\LegoTheme.cs",
+              "RelativeToolTip": "LegoTwo_BL\\Model\\LegoTheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T19:35:08.835Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LegoTheme.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Model\\LegoTheme.cs",
-              "RelativeDocumentMoniker": "LegoTwo_BL\\Model\\LegoTheme.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Model\\LegoTheme.cs",
-              "RelativeToolTip": "LegoTwo_BL\\Model\\LegoTheme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:35:08.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "LegoSet.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Model\\LegoSet.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Model\\LegoSet.cs",
               "RelativeDocumentMoniker": "LegoTwo_BL\\Model\\LegoSet.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_BL\\Model\\LegoSet.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_BL\\Model\\LegoSet.cs",
               "RelativeToolTip": "LegoTwo_BL\\Model\\LegoSet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:35:05.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:35:05.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LegoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
               "RelativeDocumentMoniker": "LegoTwo_DL\\LegoRepository.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_DL\\LegoRepository.cs",
               "RelativeToolTip": "LegoTwo_DL\\LegoRepository.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAUwEMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -221,29 +214,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FileReader.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\FileReader.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_DL\\FileReader.cs",
               "RelativeDocumentMoniker": "LegoTwo_DL\\FileReader.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_DL\\FileReader.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_DL\\FileReader.cs",
               "RelativeToolTip": "LegoTwo_DL\\FileReader.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T19:34:54.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_UI\\Program.cs",
               "RelativeDocumentMoniker": "LegoTwo_UI\\Program.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\LegoTwo\\LegoTwo_UI\\Program.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\LegoTwo\\LegoTwo_UI\\Program.cs",
               "RelativeToolTip": "LegoTwo_UI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:32:17.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:32:17.939Z"
             }
           ]
         }

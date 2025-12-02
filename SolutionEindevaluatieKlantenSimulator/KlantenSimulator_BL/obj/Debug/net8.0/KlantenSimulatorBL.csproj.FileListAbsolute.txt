@@ -1,0 +1,12 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\bin\Debug\net8.0\KlantenSimulatorBL.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\bin\Debug\net8.0\KlantenSimulatorBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\bin\Debug\net8.0\KlantenSimulatorBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\KlantenSimulatorBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\KlantenSimulatorBL.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\KlantenSimulatorBL.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\KlantenSimulatorBL.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\KlantenSimulatorBL.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\KlantenSimulatorBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\refint\KlantenSimulatorBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\KlantenSimulatorBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulator_BL\obj\Debug\net8.0\ref\KlantenSimulatorBL.dll

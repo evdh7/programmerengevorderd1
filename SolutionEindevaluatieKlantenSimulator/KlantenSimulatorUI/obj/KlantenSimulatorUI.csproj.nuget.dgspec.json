@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorDL_File\\KlantenSimulatorDL_File.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorDL_File\\KlantenSimulatorDL_File.csproj",
+        "projectName": "KlantenSimulatorDL_File",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorDL_File\\KlantenSimulatorDL_File.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorDL_File\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj",
+        "projectName": "KlantenSimulatorUI",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorUI\\KlantenSimulatorUI.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj"
+              },
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_Utils\\KlantenSimulatorUtils.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_Utils\\KlantenSimulatorUtils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj",
+        "projectName": "KlantenSimulatorBL",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_DL\\KlantenSimulatorDL_SQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_DL\\KlantenSimulatorDL_SQL.csproj",
+        "projectName": "KlantenSimulatorDL_SQL",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_DL\\KlantenSimulatorDL_SQL.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_Utils\\KlantenSimulatorUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_Utils\\KlantenSimulatorUtils.csproj",
+        "projectName": "KlantenSimulatorUtils",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_Utils\\KlantenSimulatorUtils.csproj",
+        "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorDL_File\\KlantenSimulatorDL_File.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorDL_File\\KlantenSimulatorDL_File.csproj"
+              },
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_BL\\KlantenSimulatorBL.csproj"
+              },
+              "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_DL\\KlantenSimulatorDL_SQL.csproj": {
+                "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulator_DL\\KlantenSimulatorDL_SQL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

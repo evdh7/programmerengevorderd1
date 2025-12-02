@@ -1,0 +1,16 @@
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.csproj.AssemblyReference.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.AssemblyInfoInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.AssemblyInfo.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.csproj.CoreCompileInputs.cache
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.sourcelink.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\bin\Debug\net8.0\KlantenSimulatorDL_File.deps.json
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\bin\Debug\net8.0\KlantenSimulatorDL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\bin\Debug\net8.0\KlantenSimulatorDL_File.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\bin\Debug\net8.0\KlantenSimulatorBL.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\bin\Debug\net8.0\KlantenSimulatorBL.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenS.13107B93.Up2Date
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\refint\KlantenSimulatorDL_File.dll
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\KlantenSimulatorDL_File.pdb
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorDL_File\obj\Debug\net8.0\ref\KlantenSimulatorDL_File.dll
