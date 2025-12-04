@@ -9,9 +9,9 @@ namespace KlantenSimulatorBL.Interfaces
 {
     public interface IFileRepository
     {
-            void InsertFirstName(FirstNameDTO entry);
-            void InsertLastName(LastNameDTO entry);
-            void InsertAddress(CountryDTO entry);
+            void InsertFirstName(List <FirstNameDTO> entry, int datasetId);
+            void InsertLastName(List <LastNameDTO> entry, int datasetId);
+            int InsertAddress(CountryDTO entry);
 
     }
 }

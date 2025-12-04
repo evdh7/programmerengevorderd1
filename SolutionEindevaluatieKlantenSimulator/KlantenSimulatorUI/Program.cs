@@ -39,13 +39,14 @@ namespace KlantenSimulatorUI
 
 
                 //string folder = config.GetSection("AppSettings")["Folder"];
-                //List <string> fileNames = new List<string>();
+                //List<string> fileNames = new List<string>();
                 //fileNames.Add(config.GetSection("AppSettings")["Addresses"]);
                 //fileNames.Add(config.GetSection("AppSettings")["LastNames"]);
                 //fileNames.Add(config.GetSection("AppSettings")["MaleNames"]);
                 //fileNames.Add(config.GetSection("AppSettings")["FemaleNames"]);
 
                 //string country = "belgie";
+
 
                 foreach (var fileName in fileNames) //kiezen welke reader we doorgeven voor welk bestand
                 {

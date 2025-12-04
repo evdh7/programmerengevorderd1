@@ -62,40 +62,36 @@ namespace KlantenSimulatorDL_File
 
         
 
-        public List<FirstNameDTO> ReadFirstNames(string folder, List<string> fileNames, string countryName)
+        public List<FirstNameDTO> ReadFirstNames(string folder, List<string> fileNames)
         {
             List<FirstNameDTO> firstNames = new List<FirstNameDTO>();
+            int[] indeces = { 2, 3 };
 
-            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[2])))
+            foreach (int index in indeces)
             {
-                Gender gender = Helper.GetGender(fileNames[2]);
-                string line;
-                while ((line = sr.ReadLine()) != null)
+                using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[index])))
                 {
-                    string[] ss = line.Split(';');
-                    string name = ss[1];
-                    int frequency = int.Parse(ss[2]);
+                    Gender gender = Helper.GetGender(fileNames[index]);
+                    string? line;
 
-                    firstNames.Add(new FirstNameDTO(name, gender, frequency));
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        string[] ss = line.Split(';');
+                        if (ss.Count() < 3) continue;
+
+                        string name = ss[1];
+                        int frequency = int.Parse(ss[2]);
+
+                        firstNames.Add(new FirstNameDTO(name, gender, frequency));
+                    }
+                    
                 }
+                
             }
-
-            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[3])))
-            {
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    string[] ss = line.Split(';');
-                    string name = ss[1];
-                    int frequency = int.Parse(ss[2]);
-
-                    firstNames.Add(new FirstNameDTO(name, frequency, country));
-                }
-                return firstNames;
-            }
+            return firstNames;
         }
 
-        public List<LastNameDTO> ReadLastNames(string folder, List<string> fileNames, string country)
+        public List<LastNameDTO> ReadLastNames(string folder, List<string> fileNames)
         {
             List<LastNameDTO> lastNames = new List<LastNameDTO>();
 
@@ -108,7 +104,7 @@ namespace KlantenSimulatorDL_File
                     string name = ss[1];
                     int frequency = int.Parse(ss[2]);
 
-                    lastNames.Add(new LastNameDTO(name, frequency, country));
+                    lastNames.Add(new LastNameDTO(name, frequency));
                 }
                 return lastNames;
             }

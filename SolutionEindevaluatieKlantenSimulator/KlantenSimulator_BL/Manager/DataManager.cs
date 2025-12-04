@@ -21,11 +21,11 @@ namespace KlantenSimulatorBL.Manager
             var country = fileReader.ReadAddresses(folder, fileNames, countryName);
 
             // Stap 2: upload naar database
-            repo.InsertAddress(country);
+            int datasetId = repo.InsertAddress(country);
 
-            repo.InsertFirstName(firstNames);
+            //repo.InsertFirstName(firstNames, datasetId);
 
-            repo.InsertLastName(lastNames);
+            //repo.InsertLastName(lastNames, datasetId);
 
         }
 

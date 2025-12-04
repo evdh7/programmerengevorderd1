@@ -10,8 +10,8 @@ namespace KlantenSimulatorBL.Interfaces
     public interface IFileReader
     {
 
-        List<FirstNameDTO>ReadFirstNames(string folder, List<string> fileNames, string country);
-        List<LastNameDTO>ReadLastNames(string folder, List<string> fileNames, string country);
+        List<FirstNameDTO>ReadFirstNames(string folder, List<string> fileNames);
+        List<LastNameDTO>ReadLastNames(string folder, List<string> fileNames);
         CountryDTO ReadAddresses(string folder, List<string> fileNames, string country);
     }
 }

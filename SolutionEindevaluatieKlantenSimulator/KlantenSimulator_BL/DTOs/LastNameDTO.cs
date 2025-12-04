@@ -8,15 +8,13 @@ namespace KlantenSimulatorBL.DTOs
 {
     public class LastNameDTO
     {
-        public LastNameDTO(string lastName, int? frequency, string country)
+        public LastNameDTO(string lastName, int? frequency)
         {
             LastName = lastName;
             Frequency = frequency;
-            Country = country;
         }
 
         public string LastName { get; set; }
         public int? Frequency { get; set; }  // optional
-        public string Country { get; set; }
     }
 }
