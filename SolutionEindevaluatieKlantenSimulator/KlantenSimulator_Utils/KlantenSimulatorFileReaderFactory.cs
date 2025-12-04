@@ -6,7 +6,7 @@ namespace KlantenSimulatorUtils
 {
     public static class KlantenSimulatorFileReaderFactory
     {
-        public static IFileReader GetCvsFileReader()
+        public static IFileReader GetFileReader(string fileName)
         {
             return new CvsFileReader();
         }

@@ -1,40 +1,74 @@
 ﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
-using System.Globalization;
-using System.Reflection;
+using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
 
 namespace KlantenSimulatorDL_File
 {
     public class CvsFileReader : IFileReader
     {
-        public List<AddressDTO> ReadAddresses(string folder, List<string> fileNames, string country)
+        public CountryDTO ReadAddresses(string folder, List<string> fileNames, string countryName)
         {
-            List<AddressDTO> addresses = new List<AddressDTO>();
+
+            var country = new CountryDTO(countryName);
 
             using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[0])))
             {
                 string line;
+                bool firstLine = true;
+
 
                 while ((line = sr.ReadLine()) != null)
                 {
+                    if (firstLine) //we skippen de eerste lijn
+                    {
+                        firstLine = false;
+                        continue;
+                    }
+
                     string[] ss = line.Split(';');
-                    string city = ss[0];
-                    string street = ss[1];
 
-                    addresses.Add(new AddressDTO(country, city, street));
+                    if (!ss[2].Contains("residential"))
+                    {
+                        continue;
+                    }
+
+                    string cityName = ss[0];
+                    string streetName = ss[1];
+
+                    var city = country.Cities.FirstOrDefault(c => c.Name == cityName);
+
+                    if (city == null)
+                    {
+                        city = new CityDTO(cityName);
+                        country.Cities.Add(city);
+                    }
+
+                    var existingStreet = city.Addresses.FirstOrDefault(a => a == streetName);
+                    if (existingStreet == null)
+                    {
+                        city.Addresses.Add(streetName);
+                    }
+
+                   
                 }
-                return addresses;
-            }
 
+                return country;
+
+            }
 
         }
 
-        public List<FirstNameDTO> ReadFirstNames(string folder, List<string> fileNames, string country)
+
+        
+
+        public List<FirstNameDTO> ReadFirstNames(string folder, List<string> fileNames, string countryName)
         {
             List<FirstNameDTO> firstNames = new List<FirstNameDTO>();
 
             using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[2])))
             {
+                Gender gender = Helper.GetGender(fileNames[2]);
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
@@ -42,7 +76,7 @@ namespace KlantenSimulatorDL_File
                     string name = ss[1];
                     int frequency = int.Parse(ss[2]);
 
-                    firstNames.Add(new FirstNameDTO(name, gender, frequency, country));
+                    firstNames.Add(new FirstNameDTO(name, gender, frequency));
                 }
             }
 
@@ -55,7 +89,7 @@ namespace KlantenSimulatorDL_File
                     string name = ss[1];
                     int frequency = int.Parse(ss[2]);
 
-                    firstNames.Add(new FirstNameDTO(name, gender, frequency, country));
+                    firstNames.Add(new FirstNameDTO(name, frequency, country));
                 }
                 return firstNames;
             }
@@ -70,7 +104,6 @@ namespace KlantenSimulatorDL_File
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    string gender = fileNames[0].ToLower().Contains("male") ? "M" : "F";
                     string[] ss = line.Split(';');
                     string name = ss[1];
                     int frequency = int.Parse(ss[2]);

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4zZv0D8zeCc=",
+  "dgSpecHash": "wNlGEeDR7o4=",
   "success": true,
   "projectFilePath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionEindevaluatieKlantenSimulator\\KlantenSimulatorDL_File\\KlantenSimulatorDL_File.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\emmy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\emmy\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\emmy\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\emmy\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -12,6 +12,6 @@ namespace KlantenSimulatorBL.Interfaces
 
         List<FirstNameDTO>ReadFirstNames(string folder, List<string> fileNames, string country);
         List<LastNameDTO>ReadLastNames(string folder, List<string> fileNames, string country);
-        List<AddressDTO>ReadAddresses(string folder, List<string> fileNames, string country);
+        CountryDTO ReadAddresses(string folder, List<string> fileNames, string country);
     }
 }

@@ -13,25 +13,23 @@ namespace KlantenSimulatorBL.Manager
             this.repo = repo;
         }
 
-        public void UploadToDatabase(string folder, List<string> fileNames, string country)
+        public void UploadToDatabase(string folder, List<string> fileNames, string countryName)
         {
             // Stap 1: lees data uit bestanden
-            var firstNames = fileReader.ReadFirstNames(folder, fileNames, country);
-            var lastNames = fileReader.ReadLastNames(folder, fileNames, country);
-            var addresses = fileReader.ReadAddresses(folder, fileNames, country);
+            var firstNames = fileReader.ReadFirstNames(folder, fileNames, countryName);
+            var lastNames = fileReader.ReadLastNames(folder, fileNames, countryName);
+            var country = fileReader.ReadAddresses(folder, fileNames, countryName);
 
             // Stap 2: upload naar database
-            foreach (var fn in firstNames)
-                repo.InsertFirstName(fn);
+            repo.InsertAddress(country);
 
-            foreach (var ln in lastNames)
-                repo.InsertLastName(ln);
+            repo.InsertFirstName(firstNames);
 
-            //foreach (var addr in addresses)
-            //    repo.InsertAddress(addr);
+            repo.InsertLastName(lastNames);
+
         }
 
     }
 }
 
-//TO DO rewrite with folder and sections for each country and add gender
+//TO DO rewrite with folder and sections for each countryName and add gender

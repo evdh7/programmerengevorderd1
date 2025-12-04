@@ -15,13 +15,21 @@ using System.Windows.Shapes;
 namespace KlantenSimulatorUI_WPF
 {
     /// <summary>
-    /// Interaction logic for CountryCityWindow.xaml
+    /// Interaction logic for CityWindow.xaml
     /// </summary>
-    public partial class CountryCityWindow : Window
+    public partial class CityWindow : Window
     {
-        public CountryCityWindow()
+        public List<City> SelectedCitiesResult { get; private set; }
+        public CityWindow()
         {
             InitializeComponent();
+            SelectedCitiesResult = new List<CityViewModel>();
+        }
+
+        private void ButtonClick_Confirm(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = true;
+
         }
     }
 }

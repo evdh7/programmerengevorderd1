@@ -9,24 +9,12 @@ namespace KlantenSimulatorBL.Model
 {
     public class Address
     {
-        public Address(string country, string city, string zipcode, string streetname, int number)
+        public Address(string street)
         {
-            Country = country;
-            City = city;
-            Zipcode = zipcode;
-            Streetname = streetname;
-            Number = number;
+            Street = street;
         }
 
-        public string Country {  get; set; }
-        public string City { get; set; }
-        public string Zipcode { get; set; }
-        public string Streetname { get; set; }
-        public int Number { get; set; }
-
-        public override string ToString()
-        {
-            return $"{Country}, {City}, {Zipcode}, {Streetname}, {Number}";
-        }
+        public string Street { get; set; }
+                
     }
 }

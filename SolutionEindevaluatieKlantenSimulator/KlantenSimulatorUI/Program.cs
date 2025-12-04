@@ -1,4 +1,5 @@
-﻿using KlantenSimulatorBL.Manager;
+﻿using KlantenSimulatorBL.Interfaces;
+using KlantenSimulatorBL.Manager;
 using KlantenSimulatorUtils;
 using Microsoft.Extensions.Configuration;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -9,6 +10,9 @@ namespace KlantenSimulatorUI
     {
         static void Main()
         {
+
+            //build config
+
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
@@ -25,9 +29,9 @@ namespace KlantenSimulatorUI
 
                 var fileNames = new List<string>();
                 AddIfExists(fileNames, countrySection["Addresses"]);
-                AddIfExists(fileNames, countrySection["LastNames"]);
                 AddIfExists(fileNames, countrySection["MaleNames"]);
                 AddIfExists(fileNames, countrySection["FemaleNames"]);
+                AddIfExists(fileNames, countrySection["LastNames"]);
                 AddIfExists(fileNames, countrySection["Names"]);
                 AddIfExists(fileNames, countrySection["LastNames20"]);
                 AddIfExists(fileNames, countrySection["Data"]);
@@ -43,9 +47,13 @@ namespace KlantenSimulatorUI
 
                 //string country = "belgie";
 
-                DataManager manager = new DataManager
-                    (KlantenSimulatorFileReaderFactory.GetCvsFileReader(), KlantenSimulatorSQLFactory.GetRepository(connectionString));
-                manager.UploadToDatabase(folder, fileNames, country);
+                foreach (var fileName in fileNames) //kiezen welke reader we doorgeven voor welk bestand
+                {
+                    IFileReader reader = KlantenSimulatorFileReaderFactory.GetFileReader(fileName); //we laten de klantensimulatorfilereaderfactory kiezen
+                    DataManager manager = new DataManager(reader, KlantenSimulatorSQLFactory.GetRepository(connectionString)); //die geven we door aan de datamanager
+                    manager.UploadToDatabase(folder, fileNames, country);
+                }
+
             }
         }
         private static void AddIfExists(List<string> files, string? value)

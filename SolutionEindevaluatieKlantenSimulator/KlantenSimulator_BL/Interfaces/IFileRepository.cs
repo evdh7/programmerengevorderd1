@@ -11,7 +11,7 @@ namespace KlantenSimulatorBL.Interfaces
     {
             void InsertFirstName(FirstNameDTO entry);
             void InsertLastName(LastNameDTO entry);
-            //void InsertAddress(AddressDTO entry);
-        
+            void InsertAddress(CountryDTO entry);
+
     }
 }

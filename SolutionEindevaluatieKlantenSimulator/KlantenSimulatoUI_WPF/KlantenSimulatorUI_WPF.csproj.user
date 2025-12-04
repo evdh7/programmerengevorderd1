@@ -2,7 +2,10 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="CountryCityWindow.xaml.cs">
+    <Compile Update="CityWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ParametersWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SimulationParametersWindow.xaml.cs">
