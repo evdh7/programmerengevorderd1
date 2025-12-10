@@ -5,16 +5,16 @@ using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
 
 namespace KlantenSimulatorDL_File
 {
-    public class CvsFileReader : IFileReader
+    public class CsvFileReader : IAddressReader, INameReader
     {
-        public CountryDTO ReadAddresses(string folder, List<string> fileNames, string countryName)
+        public CountryDTO ReadAddresses(string folder, string fileName, string countryName)
         {
 
             var country = new CountryDTO(countryName);
 
-            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[0])))
+            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileName)))
             {
-                string line;
+                string? line;
                 bool firstLine = true;
 
 
@@ -28,12 +28,23 @@ namespace KlantenSimulatorDL_File
 
                     string[] ss = line.Split(';');
 
-                    if (!ss[2].Contains("residential"))
-                    {
+                    if (ss[0].Contains("unknown"))
                         continue;
+
+                    if (!ss[2].Contains("residential"))
+                        continue;
+
+                    string searchString = "Kommune";
+                    string cityName;
+
+                    if (ss[0].EndsWith(searchString))
+                    {
+                        int startIndex = 0; //the string we wants starts at position 0
+                        int endIndex = ss[0].IndexOf(searchString);
+                        cityName = ss[0].Substring(startIndex, endIndex - 1); //we want everything right before the whitespace before the searchString
                     }
 
-                    string cityName = ss[0];
+                    cityName = ss[0];
                     string streetName = ss[1];
 
                     var city = country.Cities.FirstOrDefault(c => c.Name == cityName);
@@ -50,7 +61,7 @@ namespace KlantenSimulatorDL_File
                         city.Addresses.Add(streetName);
                     }
 
-                   
+
                 }
 
                 return country;
@@ -59,55 +70,32 @@ namespace KlantenSimulatorDL_File
 
         }
 
-
-        
-
-        public List<FirstNameDTO> ReadFirstNames(string folder, List<string> fileNames)
+        public Dictionary<NameType, List<NameDTO>> ReadNames(string folder, string fileName, NameType nameType, Gender gender)
         {
-            List<FirstNameDTO> firstNames = new List<FirstNameDTO>();
-            int[] indeces = { 2, 3 };
+            Dictionary<NameType, List<NameDTO>> result = new Dictionary<NameType, List<NameDTO>>();
 
-            foreach (int index in indeces)
+            List<NameDTO> names = new List<NameDTO>();
+
+            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileName)))
             {
-                using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[index])))
-                {
-                    Gender gender = Helper.GetGender(fileNames[index]);
-                    string? line;
 
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        string[] ss = line.Split(';');
-                        if (ss.Count() < 3) continue;
+                string? line;             
 
-                        string name = ss[1];
-                        int frequency = int.Parse(ss[2]);
-
-                        firstNames.Add(new FirstNameDTO(name, gender, frequency));
-                    }
-                    
-                }
-                
-            }
-            return firstNames;
-        }
-
-        public List<LastNameDTO> ReadLastNames(string folder, List<string> fileNames)
-        {
-            List<LastNameDTO> lastNames = new List<LastNameDTO>();
-
-            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[1])))
-            {
-                string line;
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] ss = line.Split(';');
+                    if (ss.Count() < 3) continue;
+
                     string name = ss[1];
                     int frequency = int.Parse(ss[2]);
 
-                    lastNames.Add(new LastNameDTO(name, frequency));
+                    names.Add(new NameDTO(name, gender, frequency));
+                    
                 }
-                return lastNames;
+                result.Add(nameType, names);
+
             }
+            return result;
         }
     }
 }

@@ -14,13 +14,7 @@ namespace KlantenSimulatorBL.DTOs
             Name = name;
         }
 
-        public CityDTO(string name, List<string> addresses)
-        {
-            Name = name;
-            Addresses = addresses;
-        }
-
         public string Name { get; set; }
-        public List<string> Addresses { get; set; } = new();
+        public List<string>? Addresses { get; set; } = new();
     }
 }

@@ -1,4 +1,5 @@
 ﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
 using Microsoft.Data.SqlClient;
 using System.Data;
@@ -82,6 +83,7 @@ namespace KlantenSimulatorDL_SQL
                                 cmdAddress.ExecuteNonQuery();
                             }
                         }
+
                         sqlTransaction.Commit();
 
                     }
@@ -94,86 +96,101 @@ namespace KlantenSimulatorDL_SQL
 
                 }
             }
-
         }
-
-        public void InsertFirstName(List<FirstNameDTO> data, int datasetId)
+        public void InsertName(Dictionary<NameType, List<NameDTO>> data, int datasetId)
         {
-            string SQLgender = "INSERT INTO gender (gender) OUTPUT INSERTED.ID VALUES(@gender)";
-            string SQLfirstName = "INSERT INTO first_name(name, frequency, gender_id, dataset_id) VALUES(@name, @frequency, @gender_id @dataset_id)";
+            string SQLgenderLookup = "SELECT id FROM gender WHERE gender = @gender";
+            string SQLfirstName = "INSERT INTO first_name(name, frequency, gender_id, dataset_id) VALUES(@name, @frequency, @gender_id, @dataset_id)";
+            string SQLlastName = "INSERT INTO last_name(name, frequency, gender_id, dataset_id) VALUES(@name, @frequency, @gender_id, @dataset_id)";
+
             using (SqlConnection conn = new SqlConnection(connectionString))
-            using (SqlCommand cmdFirstName = conn.CreateCommand())
             using (SqlCommand cmdGender = conn.CreateCommand())
+            using (SqlCommand cmdFirstName = conn.CreateCommand())
+            using (SqlCommand cmdLastName = conn.CreateCommand())
+
             {
                 conn.Open();
                 using (SqlTransaction sqlTransaction = conn.BeginTransaction())
                 {
+                    cmdGender.Transaction = sqlTransaction;
+                    cmdGender.CommandText = SQLgenderLookup;
                     cmdFirstName.Transaction = sqlTransaction;
                     cmdFirstName.CommandText = SQLfirstName;
-                    cmdGender.Transaction = sqlTransaction;
-                    cmdGender.CommandText = SQLgender;
+                    cmdLastName.Transaction = sqlTransaction;
+                    cmdLastName.CommandText = SQLlastName;
+
+                    cmdGender.Parameters.Add(new SqlParameter("@gender", SqlDbType.NVarChar));
 
                     cmdFirstName.Parameters.Add(new SqlParameter("@name", SqlDbType.NVarChar));
-                    cmdFirstName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Int));
-                    cmdFirstName.Parameters.Add(new SqlParameter("@gender_id", SqlDbType.Char));
-                    cmdFirstName.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.NVarChar));
-                    cmdGender.Parameters.Add(new SqlParameter("gender", SqlDbType.NVarChar));
+                    cmdFirstName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Float));
+                    cmdFirstName.Parameters.Add(new SqlParameter("@gender_id", SqlDbType.Int));
+                    cmdFirstName.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.Int));
+
+                    cmdLastName.Parameters.Add(new SqlParameter("@name", SqlDbType.NVarChar));
+                    cmdLastName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Float));
+                    cmdLastName.Parameters.Add(new SqlParameter("@gender_id", SqlDbType.Int));
+                    cmdLastName.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.Int));
                     try
                     {
-                        foreach (FirstNameDTO firstName in data)
+                        var allNames = data.SelectMany(a => a.Value.Select(name => (Type: a.Key, Name: name))); //flatten dictionary, create tuple that contains a type and a name
+
+                        var genderIds = new Dictionary<string, int>();
+
+                        foreach (var entry in allNames) //FIX THIS
                         {
-                            cmdGender.Parameters["gender"].Value = firstName.Gender;
-                            int genderId = (int)cmdGender.ExecuteScalar();
-                            cmdFirstName.Parameters["@name"].Value = firstName.Name;
-                            cmdFirstName.Parameters["@frequency"].Value = firstName.Frequency ?? (object)DBNull.Value;
-                            cmdFirstName.Parameters["@gender_id"].Value = genderId;
-                            cmdFirstName.Parameters["@dataset_id"].Value = datasetId;
-                            cmdFirstName.ExecuteNonQuery();
+                            try
+                            {
+
+
+                                string genderKey = entry.Name.Gender.ToString(); //de ids in gendertable zijn vast, die steken we in een string
+
+                                if (!genderIds.TryGetValue(genderKey, out int genderId)) //if key is not in dictionary
+                                {
+                                    cmdGender.Parameters["@gender"].Value = genderKey; //value of genderKey is the value of gender_id
+                                    genderId = (int)cmdGender.ExecuteScalar();
+                                    genderIds[genderKey] = genderId;
+                                }
+
+                                if (entry.Type == NameType.First)
+                                {
+                                    cmdFirstName.Parameters["@name"].Value = entry.Name.Name;
+                                    cmdFirstName.Parameters["@frequency"].Value = entry.Name.Frequency ?? (object)DBNull.Value;
+                                    cmdFirstName.Parameters["@gender_id"].Value = genderId;
+                                    cmdFirstName.Parameters["@dataset_id"].Value = datasetId;
+                                    cmdFirstName.ExecuteNonQuery();
+                                }
+                                else if (entry.Type == NameType.Last)
+                                {
+                                    cmdLastName.Parameters["@name"].Value = entry.Name.Name;
+                                    cmdLastName.Parameters["@frequency"].Value = entry.Name.Frequency ?? (object)DBNull.Value;
+                                    cmdLastName.Parameters["@gender_id"].Value = genderId;
+                                    cmdLastName.Parameters["@dataset_id"].Value = datasetId;
+                                    cmdLastName.ExecuteNonQuery();
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(
+                                    $"Error inserting name '{entry.Name.Name}' " +
+                                    $"(Gender: {entry.Name.Gender}, " +
+                                    $"Frequency: {entry.Name.Frequency?.ToString() ?? "NULL"}, " +
+                                    $"DatasetId: {datasetId}) " +
+                                    $"=> {ex.Message}"
+                                );
+                            }
                         }
                         sqlTransaction.Commit();
                     }
 
                     catch (Exception ex)
                     {
-                        Console.WriteLine("Error: " + ex.Message);
+                        Console.WriteLine($"Error: " + ex.Message);
+
                         sqlTransaction.Rollback();
                     }
-                }
-
-            }
-        }
-        public void InsertLastName(List<LastNameDTO> data, int datasetId)
-        {
-            string SQLlastName = "INSERT INTO last_name(name, frequency, dataset_id) VALUES(@name, @frequency, @dataset_id)";
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            using (SqlCommand cmdLastName = conn.CreateCommand())
-            {
-                conn.Open();
-                SqlTransaction sqlTransaction = conn.BeginTransaction();
-                cmdLastName.Transaction = sqlTransaction;
-                cmdLastName.CommandText = SQLlastName;
-
-                cmdLastName.Parameters.Add(new SqlParameter("@name", SqlDbType.NVarChar));
-                cmdLastName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Int));
-                cmdLastName.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.NVarChar));
-                try
-                {
-                    foreach (LastNameDTO lastName in data)
-                    {
-                        cmdLastName.Parameters["@name"].Value = lastName.LastName;
-                        cmdLastName.Parameters["@frequency"].Value = lastName.Frequency ?? (object)DBNull.Value;
-                        cmdLastName.Parameters["@dataset_id"].Value = datasetId;
-                        cmdLastName.ExecuteNonQuery();
-                    }
-                    sqlTransaction.Commit();
 
                 }
 
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Error: " + ex.Message);
-                    sqlTransaction.Rollback();
-                }
             }
         }
     }

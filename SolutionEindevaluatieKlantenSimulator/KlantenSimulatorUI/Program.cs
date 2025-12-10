@@ -1,67 +1,53 @@
 ﻿using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorBL.Manager;
+using KlantenSimulatorBL.Enums;
+using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
 using KlantenSimulatorUtils;
 using Microsoft.Extensions.Configuration;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.ComponentModel.Design;
+using System.Data;
 
-namespace KlantenSimulatorUI
-{
-    internal class Program
-    {
-        static void Main()
-        {
+//build config
 
-            //build config
-
-            var builder = new ConfigurationBuilder()
+var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
-            var config = builder.Build();
+var config = builder.Build();
 
-            string connectionString = config.GetConnectionString("SQLserver");
+string? connectionString = config.GetConnectionString("SQLserver");
 
-            var appSettings = config.GetSection("AppSettings");
-            foreach (var countrySection in appSettings.GetChildren())
-            {
-                string country = countrySection.Key;
-                string folder = countrySection["Folder"];
+var countries = config.GetSection("AppSettings").GetChildren();
 
-                var fileNames = new List<string>();
-                AddIfExists(fileNames, countrySection["Addresses"]);
-                AddIfExists(fileNames, countrySection["MaleNames"]);
-                AddIfExists(fileNames, countrySection["FemaleNames"]);
-                AddIfExists(fileNames, countrySection["LastNames"]);
-                AddIfExists(fileNames, countrySection["Names"]);
-                AddIfExists(fileNames, countrySection["LastNames20"]);
-                AddIfExists(fileNames, countrySection["Data"]);
-                AddIfExists(fileNames, countrySection["FirstNames"]);
+foreach (var countrySection in countries)
+{
+    string country = countrySection.Key;
+    string? folder = countrySection["Folder"];
+    int datasetId = 0;
 
+    foreach (var child in countrySection.GetChildren())
+    {
+        string sectionName = child.Key;   // "Addresses", "MaleNames", "FemaleNames"
+        string? fileName = child.Value;   // "belgium_streets2.csv"
 
-                //string folder = config.GetSection("AppSettings")["Folder"];
-                //List<string> fileNames = new List<string>();
-                //fileNames.Add(config.GetSection("AppSettings")["Addresses"]);
-                //fileNames.Add(config.GetSection("AppSettings")["LastNames"]);
-                //fileNames.Add(config.GetSection("AppSettings")["MaleNames"]);
-                //fileNames.Add(config.GetSection("AppSettings")["FemaleNames"]);
+        if (string.IsNullOrWhiteSpace(fileName))
+            continue;
 
-                //string country = "belgie";
+        var repo = KlantenSimulatorSQLFactory.GetRepository(connectionString);
+        var manager = new DataManager(repo);
 
-
-                foreach (var fileName in fileNames) //kiezen welke reader we doorgeven voor welk bestand
-                {
-                    IFileReader reader = KlantenSimulatorFileReaderFactory.GetFileReader(fileName); //we laten de klantensimulatorfilereaderfactory kiezen
-                    DataManager manager = new DataManager(reader, KlantenSimulatorSQLFactory.GetRepository(connectionString)); //die geven we door aan de datamanager
-                    manager.UploadToDatabase(folder, fileNames, country);
-                }
-
-            }
-        }
-        private static void AddIfExists(List<string> files, string? value)
+        if (sectionName.ToLower().Contains("addresses"))
         {
-            if (!string.IsNullOrWhiteSpace(value))
-                files.Add(value);
+            IAddressReader addressReader = KlantenSimulatorFileReaderFactory.GetAddressReader(folder, fileName, country);//we laten de klantensimulatorfilereaderfactory kiezen
+            datasetId = manager.UploadAddresses(addressReader, folder, fileName, country);
+        }
+
+        else if (sectionName.ToLower().Contains("name"))
+        {
+            NameType nameType = Helper.GetNameType(sectionName);
+            Gender genderType = Helper.GetGender(sectionName);
+            INameReader nameReader = KlantenSimulatorFileReaderFactory.GetNameReader(folder, fileName, country, nameType);
+            manager.UploadNames(nameReader, folder, fileName, datasetId, nameType, genderType); 
         }
     }
 }
-

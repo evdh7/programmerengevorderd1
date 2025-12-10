@@ -1,65 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\",
+  "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A1C2B52-1E9B-4D35-B97A-D86765B6DB3D}|JobInterviewUtils\\JobInterviewUtils.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewutils\\jobinterviewrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A1C2B52-1E9B-4D35-B97A-D86765B6DB3D}|JobInterviewUtils\\JobInterviewUtils.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewutils\\jobinterviewrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A1C2B52-1E9B-4D35-B97A-D86765B6DB3D}|JobInterviewUtils\\JobInterviewUtils.csproj|solutionrelative:jobinterviewutils\\jobinterviewrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737EA532-2D75-437C-8733-B63F25FDC4AD}|JobInterviewDL\\JobInterviewDL.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewdl\\jobinterviewrepositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{737EA532-2D75-437C-8733-B63F25FDC4AD}|JobInterviewDL\\JobInterviewDL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewdl\\jobinterviewrepositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{737EA532-2D75-437C-8733-B63F25FDC4AD}|JobInterviewDL\\JobInterviewDL.csproj|solutionrelative:jobinterviewdl\\jobinterviewrepositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\interviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\interviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\interviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\hremployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\hremployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\hremployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewbl\\model\\expert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewbl\\model\\expert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|solutionrelative:jobinterviewbl\\model\\expert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewbl\\managers\\jobinterviewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewbl\\managers\\jobinterviewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|solutionrelative:jobinterviewbl\\managers\\jobinterviewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\interviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\interviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\interviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\hremployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\hremployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\hremployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\expertswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\expertswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\expertswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\expertswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\expertswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\expertswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\jobinterviewui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\jobinterviewui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\jobinterviewui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewui\\model\\hremployeeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewui\\model\\hremployeeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7801FDC-567C-41A7-A3D6-3B0530FA508E}|JobInterviewUI\\JobInterviewUI.csproj|solutionrelative:jobinterviewui\\model\\hremployeeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|c:\\users\\emmy\\source\\repos\\solutionjobinterview2025\\jobinterviewbl\\model\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionjobinterview2025\\jobinterviewbl\\model\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F5BAFCA-C698-4808-BB30-C66E0844D03F}|JobInterviewBL\\JobInterviewBL.csproj|solutionrelative:jobinterviewbl\\model\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,8 +70,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobInterviewRepositoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
+              "RelativeDocumentMoniker": "JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
+              "RelativeToolTip": "JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:57:43.388Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
@@ -80,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "JobInterviewManager.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\Managers\\JobInterviewManager.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\Managers\\JobInterviewManager.cs",
               "RelativeDocumentMoniker": "JobInterviewBL\\Managers\\JobInterviewManager.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\Managers\\JobInterviewManager.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\Managers\\JobInterviewManager.cs",
               "RelativeToolTip": "JobInterviewBL\\Managers\\JobInterviewManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,24 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JobInterviewRepositoryFactory.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
-              "RelativeDocumentMoniker": "JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
-              "RelativeToolTip": "JobInterviewUtils\\JobInterviewRepositoryFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T10:57:43.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "HREmployeeWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml",
               "RelativeDocumentMoniker": "JobInterviewUI\\HREmployeeWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml",
               "RelativeToolTip": "JobInterviewUI\\HREmployeeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-12T10:57:02.802Z"
@@ -116,9 +116,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ExpertsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml.cs",
               "RelativeDocumentMoniker": "JobInterviewUI\\ExpertsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml.cs",
               "RelativeToolTip": "JobInterviewUI\\ExpertsWindow.xaml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwDMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -128,9 +128,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ExpertsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml",
               "RelativeDocumentMoniker": "JobInterviewUI\\ExpertsWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\ExpertsWindow.xaml",
               "RelativeToolTip": "JobInterviewUI\\ExpertsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-12T10:45:33.563Z"
@@ -139,22 +139,21 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "InterviewWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml.cs",
               "RelativeDocumentMoniker": "JobInterviewUI\\InterviewWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml.cs",
               "RelativeToolTip": "JobInterviewUI\\InterviewWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T09:34:20.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T09:34:20.856Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "InterviewWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml",
               "RelativeDocumentMoniker": "JobInterviewUI\\InterviewWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\InterviewWindow.xaml",
               "RelativeToolTip": "JobInterviewUI\\InterviewWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-12T09:33:28.143Z"
@@ -163,9 +162,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "JobInterviewUI.csproj",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
               "RelativeDocumentMoniker": "JobInterviewUI\\JobInterviewUI.csproj",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
               "RelativeToolTip": "JobInterviewUI\\JobInterviewUI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -175,9 +174,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "HREmployeeUI.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\Model\\HREmployeeUI.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\Model\\HREmployeeUI.cs",
               "RelativeDocumentMoniker": "JobInterviewUI\\Model\\HREmployeeUI.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\Model\\HREmployeeUI.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\Model\\HREmployeeUI.cs",
               "RelativeToolTip": "JobInterviewUI\\Model\\HREmployeeUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,35 +186,33 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "HREmployeeWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml.cs",
               "RelativeDocumentMoniker": "JobInterviewUI\\HREmployeeWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\HREmployeeWindow.xaml.cs",
               "RelativeToolTip": "JobInterviewUI\\HREmployeeWindow.xaml.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAADUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:20:33.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T09:20:33.102Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "JobInterviewRepositoryMemory.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewRepositoryMemory.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewRepositoryMemory.cs",
               "RelativeDocumentMoniker": "JobInterviewDL\\JobInterviewRepositoryMemory.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewRepositoryMemory.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewDL\\JobInterviewRepositoryMemory.cs",
               "RelativeToolTip": "JobInterviewDL\\JobInterviewRepositoryMemory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:19:21.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T09:19:21.207Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Expert.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Expert.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Expert.cs",
               "RelativeDocumentMoniker": "JobInterviewBL\\Model\\Expert.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Expert.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Expert.cs",
               "RelativeToolTip": "JobInterviewBL\\Model\\Expert.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,9 +222,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Interview.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Interview.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Interview.cs",
               "RelativeDocumentMoniker": "JobInterviewBL\\Model\\Interview.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Interview.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\Model\\Interview.cs",
               "RelativeToolTip": "JobInterviewBL\\Model\\Interview.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,26 +234,24 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "JobInterviewUI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml",
               "RelativeToolTip": "JobInterviewUI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-03T11:04:53.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T11:04:53.646Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "JobInterviewUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\MainWindow.xaml.cs",
               "RelativeToolTip": "JobInterviewUI\\MainWindow.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:04:53.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T11:04:53.363Z"
             }
           ]
         }

@@ -5,16 +5,18 @@ using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
 
 namespace KlantenSimulatorDL_File
 {
-    public class TextNameByGenderFileReader : IFileReader
+    public class TextNameByGenderFileReader : INameReader
     {
-        public List<FirstNameDTO> ReadFirstNames(string folder, List<string> fileNames)
+        public Dictionary<NameType, List<NameDTO>> ReadNames(string folder, string fileName, NameType nameType, Gender gender)
         {
-            List<FirstNameDTO> firstNames = new List<FirstNameDTO>();
+            Dictionary<NameType, List<NameDTO>> result = new Dictionary<NameType, List<NameDTO>>();
 
-            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[2])))
+            List<NameDTO> names = new List<NameDTO>();
+
+            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileName)))
             {
                 string? line;
-                int skipLines = Helper.SkipLines(fileNames[2]);
+                int skipLines = Helper.SkipLines(folder, fileName);
 
                 for (int i = 0; i < skipLines && !sr.EndOfStream; i++)
                 {
@@ -25,37 +27,34 @@ namespace KlantenSimulatorDL_File
                 {
                     string[] ss = line.Split('\t');
                     int frequency = 0;
-                    Gender gender = Gender.Unknown;
 
                     string name = ss[0];
 
-                    if (int.TryParse(ss[1], out int valueF))
+                    if (fileName.ToLower().Contains("last"))
                     {
-                        frequency = int.Parse(ss[1]);
-                        gender = Gender.Female;
+                        frequency = int.Parse(ss[2]);
+                        names.Add(new NameDTO(name, gender, frequency));
                     }
 
-                    else if (!int.TryParse(ss[1], out int value) && int.TryParse(ss[2], out int valueM))
-                        frequency = int.Parse(ss[1]);
-                    gender = Gender.Male;
+                    else if (fileName.ToLower().Contains("first"))
+                    {
+                        if (int.TryParse(ss[1], out int valueF))
+                        {
+                            names.Add(new NameDTO(name, Gender.Female, frequency));
+                        }
 
-                    firstNames.Add(new FirstNameDTO(name, gender, frequency));
+                        if (int.TryParse(ss[2], out int valueM))
+                        {
+                            names.Add(new NameDTO(name, Gender.Male, frequency));
+                        }
+                    }
                 }
-            }
-            return firstNames;
+                    result.Add(nameType, names);
+
+                }
+                return result;
+            
         }
 
-    
-
-        public List<LastNameDTO> ReadLastNames(string folder, List<string> fileNames)
-        {
-            throw new NotImplementedException();
-        }
-
-        public CountryDTO ReadAddresses(string folder, List<string> fileNames, string country)
-        {
-            throw new NotImplementedException();
-        }
     }
-
 }

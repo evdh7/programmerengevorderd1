@@ -1,4 +1,5 @@
 ﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,7 @@ namespace KlantenSimulatorBL.Interfaces
 {
     public interface IFileRepository
     {
-            void InsertFirstName(List <FirstNameDTO> entry, int datasetId);
-            void InsertLastName(List <LastNameDTO> entry, int datasetId);
+            void InsertName(Dictionary<NameType, List <NameDTO>> entry, int datasetId);
             int InsertAddress(CountryDTO entry);
 
     }

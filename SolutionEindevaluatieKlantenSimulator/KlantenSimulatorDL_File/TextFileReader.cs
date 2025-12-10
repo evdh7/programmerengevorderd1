@@ -2,61 +2,22 @@
 using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
+using System.Globalization;
 
 namespace KlantenSimulatorDL_File
 {
-    public class TextFileReader : IFileReader
+    public class TextFileReader : INameReader
     {
-        public List<FirstNameDTO> ReadFirstNames(string folder, List<string> fileNames)
+        public Dictionary<NameType, List<NameDTO>> ReadNames(string folder, string fileName, NameType nameType, Gender gender)
         {
-            List<FirstNameDTO> firstNames = new List<FirstNameDTO>();
-            var nameFiles = fileNames
-                .Where(f => f.ToLower().Contains("male") || f.ToLower().Contains("female"))
-                .ToList();
+            Dictionary<NameType, List<NameDTO>> result = new Dictionary<NameType, List<NameDTO>> ();
+            List<NameDTO> names = new List<NameDTO>();
 
-            foreach (var file in nameFiles)
+            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileName)))
             {
-                using (StreamReader sr = new StreamReader(Path.Combine(folder, file)))
-                {
-                    Gender gender = Helper.GetGender(file);
-                    string line;
-                    int skipLines = Helper.SkipLines(file);
 
-                    for (int i = 0; i < skipLines && !sr.EndOfStream; i++)
-                    {
-                        line = sr.ReadLine();
-                    }
-
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        string[] ss = line.Split('\t');
-                        string name = "";
-                        int frequency;
-
-                        if (int.TryParse(ss[0], out int value))
-                        {
-                            name = ss[1];
-                            frequency = int.Parse(ss[2]);
-                        }
-                        name = ss[0];
-                        frequency = int.Parse(ss[1]);
-
-                        firstNames.Add(new FirstNameDTO(name, gender, frequency));
-                    }
-                }
-            }
-            return firstNames;
-
-        }
-
-        public List<LastNameDTO> ReadLastNames(string folder, List<string> fileNames)
-        {
-            List<LastNameDTO> lastNames = new List<LastNameDTO>();
-
-            using (StreamReader sr = new StreamReader(Path.Combine(folder, fileNames[1])))
-            {
                 string line;
-                int skipLines = Helper.SkipLines(fileNames[1]);
+                int skipLines = Helper.SkipLines(folder, fileName);
 
                 for (int i = 0; i < skipLines && !sr.EndOfStream; i++)
                 {
@@ -67,25 +28,24 @@ namespace KlantenSimulatorDL_File
                 {
                     string[] ss = line.Split('\t');
                     string name = "";
-                    int frequency;
+                    double frequency;
 
                     if (int.TryParse(ss[0], out int value))
                     {
                         name = ss[1];
-                        frequency = int.Parse(ss[2]);
+                        frequency = double.TryParse(ss[2], System.Globalization.NumberStyles.Any, CultureInfo.InvariantCulture, out double x) ? x : 0;
                     }
-                    name = ss[0];
-                    frequency = int.Parse(ss[1]);
-
-                    lastNames.Add(new LastNameDTO(name, frequency));
+                    else
+                    {
+                        name = ss[0];
+                        frequency = double.TryParse(ss[1], System.Globalization.NumberStyles.Any, CultureInfo.InvariantCulture, out double y) ? y : 0;
+                    }
+                    names.Add(new NameDTO(name, gender, frequency));
                 }
-                return lastNames;
+                result.Add(nameType, names);
             }
-        }
 
-        CountryDTO IFileReader.ReadAddresses(string folder, List<string> fileNames, string country)
-        {
-            throw new NotImplementedException();
+            return result;
         }
     }
 }

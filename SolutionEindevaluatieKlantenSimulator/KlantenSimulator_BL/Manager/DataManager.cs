@@ -1,35 +1,33 @@
 ﻿using KlantenSimulatorBL.Interfaces;
+using KlantenSimulatorBL.Enums;
+using System.Data;
 
 namespace KlantenSimulatorBL.Manager
 {
     public class DataManager
     {
-        private IFileReader fileReader;
         private IFileRepository repo;
-
-        public DataManager(IFileReader fileReader, IFileRepository repo)
+        public DataManager(IFileRepository repo)
         {
-            this.fileReader = fileReader;
             this.repo = repo;
         }
 
-        public void UploadToDatabase(string folder, List<string> fileNames, string countryName)
+        public int UploadAddresses(IAddressReader addressReader, string folder, string fileName, string countryName)
         {
-            // Stap 1: lees data uit bestanden
-            var firstNames = fileReader.ReadFirstNames(folder, fileNames, countryName);
-            var lastNames = fileReader.ReadLastNames(folder, fileNames, countryName);
-            var country = fileReader.ReadAddresses(folder, fileNames, countryName);
-
-            // Stap 2: upload naar database
+            var country = addressReader.ReadAddresses(folder, fileName, countryName);
             int datasetId = repo.InsertAddress(country);
-
-            //repo.InsertFirstName(firstNames, datasetId);
-
-            //repo.InsertLastName(lastNames, datasetId);
-
+            return datasetId;
+        }
+        public void UploadNames(INameReader nameReader, string folder, string fileName, int datasetId, NameType nameType, Gender genderType)
+        {
+            var names = nameReader.ReadNames(folder, fileName, nameType, genderType);
+            repo.InsertName(names, datasetId);
         }
 
-    }
-}
+        
 
-//TO DO rewrite with folder and sections for each countryName and add gender
+    }
+
+    }
+
+
