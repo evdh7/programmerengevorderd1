@@ -1,4 +1,5 @@
-﻿using KlantenSimulatorBL.Enums;
+﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Exceptions;
 using System.Globalization;
 
@@ -8,25 +9,40 @@ namespace KlantenSimulatorDL_File.Helpers
     {
         public static class Helper
         {
-            static bool TryParseFrequency(string line, out int frequency)
+
+            public static int FindFrequencyColumn(string[] ss)
             {
-                line = line.Replace(" ", "").Replace("'", "");
-                if (line.Count(c => c == '.') >= 1 && !line.Contains(","))
+                int fColumn = 0;
+
+                bool success = IsThisAnInteger(ss[0]);
+
+                if (success == true) //Spain uses decimal numbers in their first column so fix that i guess
                 {
-                    line = line.Replace(".", "");
-                }
-                if (line.Contains(",") && !line.Contains("."))
-                {
-                    line = line.Replace(",", ".");
+                    fColumn = 2;
                 }
 
-                frequency = 0;
-                return double.TryParse(line, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out double value);
-
+                else
+                {
+                    fColumn++;
+                }
+                return fColumn;
             }
 
-                
-            
+            public static bool IsThisAnInteger(string number)
+            {
+                bool success;
+
+                string trimmed = number.Trim();
+                if (trimmed.Contains("."))
+                {
+                    trimmed = trimmed.Replace(".", "");
+                }
+
+                success = int.TryParse(trimmed, CultureInfo.InvariantCulture, out int result);
+
+                return success;
+            }
+
             public static NameType GetNameType(string sectionName)
             {
                 string lowerCase = sectionName.ToLower();
@@ -36,8 +52,7 @@ namespace KlantenSimulatorDL_File.Helpers
                 else if (lowerCase.Contains("last"))
                     return NameType.Last;
                 else
-                    throw new KlantenSimulatorException($"No type available for {sectionName}");
-
+                    return NameType.Unknown;
             }
             public static Gender GetGender(string sectionName)
             {
@@ -52,12 +67,13 @@ namespace KlantenSimulatorDL_File.Helpers
 
             }
 
-            public static int SkipLines(string folder, string file)
+            public static (int skipped, int frequency) SkipLines(string folder, string file)
             {
                 using (StreamReader sr = new StreamReader(Path.Combine(folder, file)))
                 {
                     string line;
                     int skipped = 0;
+                    int fColumn = 0; ;
 
                     while ((line = sr.ReadLine()) != null)
                     {
@@ -68,41 +84,34 @@ namespace KlantenSimulatorDL_File.Helpers
                         }
                         string[] ss = line.Split('\t');
 
-                        if (double.TryParse(ss[0], out double order))
+                        bool hasNumber = ss.Any(cell => int.TryParse(cell.Trim(), NumberStyles.Integer, CultureInfo.InvariantCulture, out _));
+
+                        if (!hasNumber)
                         {
-                            if (ss.Count() >= 2)
-                            {
-                                string frequency = ss[2].Trim();
-
-                                if (TryParseFrequency(frequency, out var freq))
-                                {
-                                    break;
-                                }
-                            }
-
                             skipped++;
+                            continue;
                         }
 
-                        else if (!double.TryParse(ss[0], out double value))
+                        fColumn = FindFrequencyColumn(ss);
+
+
+                        if (fColumn != 0)
                         {
-                            if (ss.Count() >= 2)
-                            {
-                                string frequency = ss[1].Trim();
-
-                                if (TryParseFrequency(frequency, out var freq))
-                                {
-                                    break;
-                                }
-                            }
-
-                            skipped++;
+                            break;
                         }
+                        skipped++;
                     }
-                    return skipped;
+
+                    return (skipped, fColumn);
+
 
                 }
             }
+            
+
         }
+
     }
 }
+
 

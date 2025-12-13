@@ -16,7 +16,7 @@ namespace KlantenSimulatorDL_File
             using (StreamReader sr = new StreamReader(Path.Combine(folder, fileName)))
             {
                 string? line;
-                int skipLines = Helper.SkipLines(folder, fileName);
+                (int skipLines, int freq) = Helper.SkipLines(folder, fileName);
 
                 for (int i = 0; i < skipLines && !sr.EndOfStream; i++)
                 {

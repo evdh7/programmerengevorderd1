@@ -34,17 +34,24 @@ namespace KlantenSimulatorDL_File
                     if (!ss[2].Contains("residential"))
                         continue;
 
-                    string searchString = "Kommune";
-                    string cityName;
+                    string searchStringDen = "kommune";
+                    string cityName = "";
+                    string searchStringSw = "kommun";
 
-                    if (ss[0].EndsWith(searchString))
+                    if (ss[0].ToLower().EndsWith(searchStringDen))
                     {
                         int startIndex = 0; //the string we wants starts at position 0
-                        int endIndex = ss[0].IndexOf(searchString);
+                        int endIndex = ss[0].IndexOf(searchStringDen);
                         cityName = ss[0].Substring(startIndex, endIndex - 1); //we want everything right before the whitespace before the searchString
                     }
 
-                    cityName = ss[0];
+                    if (ss[0].ToLower().EndsWith(searchStringSw))
+                    {
+                        int startIndex = 0; //the string we wants starts at position 0
+                        int endIndex = ss[0].IndexOf(searchStringSw);
+                        cityName = ss[0].Substring(startIndex, endIndex - 1); //we want everything right before the whitespace before the searchString
+                    }
+
                     string streetName = ss[1];
 
                     var city = country.Cities.FirstOrDefault(c => c.Name == cityName);
@@ -92,9 +99,12 @@ namespace KlantenSimulatorDL_File
                     names.Add(new NameDTO(name, gender, frequency));
                     
                 }
+                Console.WriteLine($"Status {nameType} {gender} {names.Count} names OK");
                 result.Add(nameType, names);
 
             }
+
+            Console.WriteLine(names.Count);
             return result;
         }
     }

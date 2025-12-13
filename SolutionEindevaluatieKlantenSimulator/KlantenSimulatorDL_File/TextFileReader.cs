@@ -3,6 +3,7 @@ using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
 using System.Globalization;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace KlantenSimulatorDL_File
 {
@@ -17,29 +18,40 @@ namespace KlantenSimulatorDL_File
             {
 
                 string line;
-                int skipLines = Helper.SkipLines(folder, fileName);
+                (int skipLines, int fColumn) = Helper.SkipLines(folder, fileName);
 
                 for (int i = 0; i < skipLines && !sr.EndOfStream; i++)
                 {
                     line = sr.ReadLine();
                 }
-
+                            
                 while ((line = sr.ReadLine()) != null)
                 {
-                    string[] ss = line.Split('\t');
-                    string name = "";
-                    double frequency;
+                    if (string.IsNullOrWhiteSpace(line))
+                        continue;
 
-                    if (int.TryParse(ss[0], out int value))
+                    string[] ss = line.Split('\t');
+
+                    if (ss.Length <= fColumn)
+                        continue;
+
+                    string trimmed = ss[fColumn].Trim();
+                    
+                    if (string.IsNullOrEmpty(trimmed))
+                        continue;
+
+                    if (trimmed.Contains("."))
                     {
-                        name = ss[1];
-                        frequency = double.TryParse(ss[2], System.Globalization.NumberStyles.Any, CultureInfo.InvariantCulture, out double x) ? x : 0;
+                        trimmed = trimmed.Replace(".", "");
                     }
-                    else
+                    
+                    if (!int.TryParse(trimmed, NumberStyles.Integer, CultureInfo.InvariantCulture, out int frequency))
                     {
-                        name = ss[0];
-                        frequency = double.TryParse(ss[1], System.Globalization.NumberStyles.Any, CultureInfo.InvariantCulture, out double y) ? y : 0;
+                        continue;
                     }
+
+                    string name = ss[fColumn - 1];
+
                     names.Add(new NameDTO(name, gender, frequency));
                 }
                 result.Add(nameType, names);

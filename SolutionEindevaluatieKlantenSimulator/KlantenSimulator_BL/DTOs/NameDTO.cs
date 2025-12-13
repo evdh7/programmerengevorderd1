@@ -5,7 +5,7 @@ namespace KlantenSimulatorBL.DTOs
 
     public class NameDTO
     {
-        public NameDTO(string name, Gender gender, double? frequency)
+        public NameDTO(string name, Gender gender, int? frequency)
         {
             Name = name;
             Gender = gender;
@@ -21,7 +21,8 @@ namespace KlantenSimulatorBL.DTOs
 
         public string Name { get; set; }
         public Gender Gender { get; set; }
-        public double? Frequency { get; set; } // optional
+        public int? Frequency { get; set; } // optional
+
     }
 }
 

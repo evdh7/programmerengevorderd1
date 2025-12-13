@@ -40,6 +40,15 @@ foreach (var countrySection in countries)
         {
             IAddressReader addressReader = KlantenSimulatorFileReaderFactory.GetAddressReader(folder, fileName, country);//we laten de klantensimulatorfilereaderfactory kiezen
             datasetId = manager.UploadAddresses(addressReader, folder, fileName, country);
+
+            if (sectionName.ToLower().Contains("name"))
+            {
+                NameType nameType = Helper.GetNameType(sectionName);
+                Gender genderType = Helper.GetGender(sectionName);
+                INameReader nameReader = KlantenSimulatorFileReaderFactory.GetNameReader(folder, fileName, country, nameType);
+                manager.UploadNames(nameReader, folder, fileName, datasetId, nameType, genderType);
+            }
+
         }
 
         else if (sectionName.ToLower().Contains("name"))

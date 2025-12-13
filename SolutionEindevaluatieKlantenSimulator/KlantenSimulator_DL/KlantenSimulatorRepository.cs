@@ -122,12 +122,12 @@ namespace KlantenSimulatorDL_SQL
                     cmdGender.Parameters.Add(new SqlParameter("@gender", SqlDbType.NVarChar));
 
                     cmdFirstName.Parameters.Add(new SqlParameter("@name", SqlDbType.NVarChar));
-                    cmdFirstName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Float));
+                    cmdFirstName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Int));
                     cmdFirstName.Parameters.Add(new SqlParameter("@gender_id", SqlDbType.Int));
                     cmdFirstName.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.Int));
 
                     cmdLastName.Parameters.Add(new SqlParameter("@name", SqlDbType.NVarChar));
-                    cmdLastName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Float));
+                    cmdLastName.Parameters.Add(new SqlParameter("@frequency", SqlDbType.Int));
                     cmdLastName.Parameters.Add(new SqlParameter("@gender_id", SqlDbType.Int));
                     cmdLastName.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.Int));
                     try

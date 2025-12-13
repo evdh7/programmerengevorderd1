@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -21,22 +22,21 @@ namespace KlantenSimulatorDL_File
         {
             string jsonString = File.ReadAllText(Path.Combine(folder, fileName));
 
-
-
             var data = JsonSerializer.Deserialize<FileJsonDTO>(jsonString)!;
 
             CountryDTO country = new CountryDTO(countryName);
 
-            foreach (var cityName in data.Address.City_Names)
+            foreach (var cityName in data.Address.City_Name)
             {
                 CityDTO city = new CityDTO(cityName);
-                
+                country.Cities.Add(city);
             }
 
-            foreach (var streetName in data.Address.Streets)
+            foreach (var streetName in data.Address.Street)
             {
                 country.Addresses.Add(streetName);
             }
+
             return country;
         }
 
@@ -47,12 +47,13 @@ namespace KlantenSimulatorDL_File
             List<NameDTO> names = new List<NameDTO>();
 
             string jsonString = File.ReadAllText(Path.Combine(folder, fileName));
-            var data = JsonSerializer.Deserialize<FileJsonDTO>(jsonString)!;
-
+            Console.WriteLine(jsonString);
+            var data = JsonSerializer.Deserialize<FileJsonDTO>(jsonString);
+            nameType = NameType.First;
             foreach (var property in typeof(NameSection).GetProperties()) //we need the section names so we can decide whether the names are of type first or last
             {
                 var listOfNames = property.GetValue(data.Name) as List<string>; //we know the property thanks to the typeof(NameSection) but now we want the values behind the property of NameSection, a list of strings (names)
-                if (listOfNames != null)
+                if (listOfNames == null)
                 {
                     continue;
                 }
@@ -71,10 +72,17 @@ namespace KlantenSimulatorDL_File
                     names.Add(new NameDTO(name, gender));
                 }
 
-                result.Add(nameType, names);
+                if (!result.ContainsKey(nameType))
+                {
+                    result[nameType] = new List<NameDTO>();
+                }
+
+                result[nameType].AddRange(names);
             }
-                return result;
-            
+            result[nameType].AddRange(names);
+
+            return result;
+
         }
     }
 }

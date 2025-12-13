@@ -9,6 +9,7 @@ namespace KlantenSimulatorBL.Enums
     public enum NameType
     {
         First,
-        Last
+        Last,
+        Unknown
     }
 }
