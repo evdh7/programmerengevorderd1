@@ -646,11 +646,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
+      "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
       "projectName": "JobInterviewUI",
-      "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
+      "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\JobInterviewUI.csproj",
       "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUI\\obj\\",
+      "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -671,11 +671,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {
-              "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj"
+            "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj"
             },
-            "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj": {
-              "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj"
+            "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj": {
+              "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewUtils\\JobInterviewUtils.csproj"
             }
           }
         }

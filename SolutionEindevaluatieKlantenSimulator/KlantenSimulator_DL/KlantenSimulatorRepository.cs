@@ -70,32 +70,53 @@ namespace KlantenSimulatorDL_SQL
                         cmdDataset.Parameters["@date_imported"].Value = DateTime.Now;
                         datasetId = (int)cmdDataset.ExecuteScalar();
 
-                        foreach (CityDTO city in data.Cities)
+                        int unknownCityId = 0;
+
+                        if (data.Addresses != null)
                         {
-                            cmdCity.Parameters["@name"].Value = city.Name;
+                            cmdCity.Parameters["@name"].Value = "Unknown City";
                             cmdCity.Parameters["@country_id"].Value = countryId;
-                            cityId = (int)cmdCity.ExecuteScalar();
-                            foreach (string street in city.Addresses)
+                            unknownCityId = (int)cmdCity.ExecuteScalar();
+
+                            foreach (string street in data.Addresses)
                             {
-                                cmdAddress.Parameters["@city_id"].Value = cityId;
+                                cmdAddress.Parameters["@city_id"].Value = unknownCityId;
                                 cmdAddress.Parameters["@street"].Value = street;
                                 cmdAddress.Parameters["@dataset_id"].Value = datasetId;
                                 cmdAddress.ExecuteNonQuery();
                             }
                         }
 
+                        foreach (CityDTO city in data.Cities)
+                        {
+                            cmdCity.Parameters["@name"].Value = city.Name;
+                            cmdCity.Parameters["@country_id"].Value = countryId;
+                            cityId = (int)cmdCity.ExecuteScalar();
+
+                            if (city.Addresses.Count >= 1)
+                            {
+                                foreach (string street in city.Addresses)
+                                {
+                                    cmdAddress.Parameters["@city_id"].Value = cityId;
+                                    cmdAddress.Parameters["@street"].Value = street;
+                                    cmdAddress.Parameters["@dataset_id"].Value = datasetId;
+                                    cmdAddress.ExecuteNonQuery();
+                                }
+                            }
+                        }                    
                         sqlTransaction.Commit();
 
-                    }
+                }
                     catch (Exception ex)
                     {
-                        Console.WriteLine("Error: " + ex.Message);
-                        sqlTransaction.Rollback();
-                    }
-                    return datasetId;
-
+                    Console.WriteLine("Error: " + ex.Message);
+                    sqlTransaction.Rollback();
                 }
+                return datasetId;
+
             }
+        }
+
         }
         public void InsertName(Dictionary<NameType, List<NameDTO>> data, int datasetId)
         {

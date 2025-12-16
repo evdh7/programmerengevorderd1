@@ -107,6 +107,19 @@ namespace KlantenSimulatorDL_File.Helpers
 
                 }
             }
+
+            public static string ExtractCityName(string input, string searchString)
+            {
+                string cityName = "";
+                if (input.ToLower().EndsWith(searchString))
+                {
+                    int startIndex = 0; //the string we wants starts at position 0
+                    int endIndex = input.ToLower().IndexOf(searchString);
+                    return cityName = input.Substring(startIndex, endIndex).Trim(); //we want everything right before the whitespace before the searchString
+                }
+
+                return input;
+            }
             
 
         }

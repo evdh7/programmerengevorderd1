@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {}
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {
+    "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj",
+        "projectUniqueName": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj",
         "projectName": "JobInterviewBL",
-        "projectPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj",
+        "projectPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\JobInterviewBL.csproj",
         "packagesPath": "C:\\Users\\emmy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emmy\\source\\repos\\SolutionJobInterview2025\\JobInterviewBL\\obj\\",
+        "outputPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionJobInterview2025\\JobInterviewBL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

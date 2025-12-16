@@ -1,6 +1,7 @@
 ﻿using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorBL.Enums;
 using System.Data;
+using KlantenSimulatorBL.Model;
 
 namespace KlantenSimulatorBL.Manager
 {
@@ -24,7 +25,12 @@ namespace KlantenSimulatorBL.Manager
             repo.InsertName(names, datasetId);
         }
 
-        
+        public void AddCustomer(Customer customer)
+        {
+            repo.AddCustomer(customer);
+
+        }
+
 
     }
 

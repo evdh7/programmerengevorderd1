@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KlantenSimulatorDL_SQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc26b92e12314c01a6b0d061635bfc0a11698812")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a3a12ffe4868800221bcb130e3609ab3f2a30b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KlantenSimulatorDL_SQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KlantenSimulatorDL_SQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

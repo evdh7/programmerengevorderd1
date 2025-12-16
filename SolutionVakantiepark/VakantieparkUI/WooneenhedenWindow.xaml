@@ -1,0 +1,36 @@
+﻿<Window x:Class="VakantieparkUI.WooneenhedenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VakantieparkUI"
+        mc:Ignorable="d"
+        Title="WooneenhedenWindow" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Margin="5" Text="Adres"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Name="TextBoxAdres"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Margin="5" Text="Capaciteit"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Name="TextBoxCapaciteit"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Margin="5" Text="Status"/>
+        <ComboBox Grid.Row="2" Grid.Column="1" Margin="5" Name="ComboBox_Status"/>
+        <Button Grid.Row="3" Grid.Column= "0" Grid.ColumnSpan="2" Content="Voeg Toe" Margin="5" Click="ButtonVoegWooneenheidToe_Click"/>
+        <ListBox Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Name="ListBoxWooneenheden"/>
+        <Button Grid.Row="5" Grid.Column= "0" Grid.ColumnSpan="2" Content="Opslaan" Margin="5" Click="ButtonSaveWooneenheid_Click"/>
+
+    </Grid>
+</Window>

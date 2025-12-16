@@ -101,7 +101,7 @@ namespace JobInterviewUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JobInterviewUI;V1.0.0.0;component/interviewwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JobInterviewUI;component/interviewwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\InterviewWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -2,6 +2,7 @@
 using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
+using System.Net.Http.Headers;
 
 namespace KlantenSimulatorDL_File
 {
@@ -20,6 +21,9 @@ namespace KlantenSimulatorDL_File
 
                 while ((line = sr.ReadLine()) != null)
                 {
+
+                    var validHighwayTypes = new List<string> { "residential", "tertiary", "secondary", "service" };
+
                     if (firstLine) //we skippen de eerste lijn
                     {
                         firstLine = false;
@@ -27,30 +31,17 @@ namespace KlantenSimulatorDL_File
                     }
 
                     string[] ss = line.Split(';');
-
+                    //use frequencyfinder like the textfilereader
                     if (ss[0].Contains("unknown"))
                         continue;
 
-                    if (!ss[2].Contains("residential"))
+                    if (!validHighwayTypes.Any(type=> ss[2].Contains(type)))
                         continue;
 
-                    string searchStringDen = "kommune";
-                    string cityName = "";
-                    string searchStringSw = "kommun";
+                    string cityName = ss[0];
 
-                    if (ss[0].ToLower().EndsWith(searchStringDen))
-                    {
-                        int startIndex = 0; //the string we wants starts at position 0
-                        int endIndex = ss[0].IndexOf(searchStringDen);
-                        cityName = ss[0].Substring(startIndex, endIndex - 1); //we want everything right before the whitespace before the searchString
-                    }
-
-                    if (ss[0].ToLower().EndsWith(searchStringSw))
-                    {
-                        int startIndex = 0; //the string we wants starts at position 0
-                        int endIndex = ss[0].IndexOf(searchStringSw);
-                        cityName = ss[0].Substring(startIndex, endIndex - 1); //we want everything right before the whitespace before the searchString
-                    }
+                    cityName = Helper.ExtractCityName(cityName, "kommune");
+                    cityName = Helper.ExtractCityName(cityName, "kommun");
 
                     string streetName = ss[1];
 
@@ -63,6 +54,7 @@ namespace KlantenSimulatorDL_File
                     }
 
                     var existingStreet = city.Addresses.FirstOrDefault(a => a == streetName);
+
                     if (existingStreet == null)
                     {
                         city.Addresses.Add(streetName);

@@ -60,15 +60,11 @@ namespace KlantenSimulatorDL_File
 
                 string propertyName = property.Name.ToLower();
 
-                if (propertyName.Contains("first")) nameType = NameType.First;
-                if (propertyName.Contains("last")) nameType = NameType.Last;
+                nameType = Helper.GetNameType(propertyName);
+                gender = Helper.GetGender(propertyName);
 
                 foreach (var name in listOfNames)
                 {
-
-                    if (propertyName.Contains("male")) gender = Gender.Male;
-                    if (propertyName.Contains("female")) gender = Gender.Female;
-
                     names.Add(new NameDTO(name, gender));
                 }
 
