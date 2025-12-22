@@ -9,7 +9,6 @@ namespace KlantenSimulatorBL.Enums
     public enum Gender
     {
         Male,
-        Female,
-        Unknown
+        Female
     }
 }

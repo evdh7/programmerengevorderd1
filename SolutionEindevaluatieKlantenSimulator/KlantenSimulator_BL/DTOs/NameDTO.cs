@@ -1,27 +1,46 @@
 ﻿using KlantenSimulatorBL.Enums;
+using System.Collections;
+using static KlantenSimulatorBL.DTOs.NameDTO;
 
 namespace KlantenSimulatorBL.DTOs
 {
 
-    public class NameDTO
+    public class NameDTO : IEnumerable<NameEntry>
     {
-        public NameDTO(string name, Gender gender, int? frequency)
+        private readonly List<NameEntry> _names;
+
+        public NameDTO(List<NameEntry> names)
         {
-            Name = name;
-            Gender = gender;
-            Frequency = frequency;
+            _names = names;
         }
 
-        public NameDTO(string name, Gender gender)
+        public IEnumerator<NameEntry> GetEnumerator()
         {
-            Name = name;
-            Gender = gender;
-
+            return _names.GetEnumerator();
         }
 
-        public string Name { get; set; }
-        public Gender Gender { get; set; }
-        public int? Frequency { get; set; } // optional
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+        public class NameEntry
+        {
+            public NameEntry(string name, NameType firstOrLast, Gender? gender, int? frequency)
+            {
+                Name = name;
+                Gender = gender;
+                Frequency = frequency;
+                FirstOrLast = firstOrLast;
+
+            }
+
+            public string Name { get; set; }
+            public NameType FirstOrLast { get; set; }   
+            public Gender? Gender { get; set; }
+            public int? Frequency { get; set; }
+        }
+
 
     }
 }

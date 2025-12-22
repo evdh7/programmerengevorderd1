@@ -10,7 +10,7 @@ namespace KlantenSimulatorBL.Interfaces
 {
     public interface IFileRepository
     {
-            void InsertName(Dictionary<NameType, List <NameDTO>> entry, int datasetId);
+            void InsertName(List<NameDTO.NameEntry> names, int datasetId);
             int InsertAddress(CountryDTO entry);
 
     }

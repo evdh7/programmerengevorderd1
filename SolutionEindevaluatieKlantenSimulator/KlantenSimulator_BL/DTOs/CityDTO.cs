@@ -15,6 +15,6 @@ namespace KlantenSimulatorBL.DTOs
         }
 
         public string Name { get; set; }
-        public List<string>? Addresses { get; set; } = new();
+        public HashSet<string>? Addresses { get; set; } = new();
     }
 }

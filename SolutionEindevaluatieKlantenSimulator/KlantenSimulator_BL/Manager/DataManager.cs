@@ -19,17 +19,17 @@ namespace KlantenSimulatorBL.Manager
             int datasetId = repo.InsertAddress(country);
             return datasetId;
         }
-        public void UploadNames(INameReader nameReader, string folder, string fileName, int datasetId, NameType nameType, Gender genderType)
+        public void UploadNames(INameReader nameReader, string folder, (string, string)[]files, int datasetId, NameType type, Gender? gender)
         {
-            var names = nameReader.ReadNames(folder, fileName, nameType, genderType);
+            var names = nameReader.ReadNames(folder, files, type, gender);
             repo.InsertName(names, datasetId);
         }
 
-        public void AddCustomer(Customer customer)
-        {
-            repo.AddCustomer(customer);
+        //public void AddCustomer(Customer customer)
+        //{
+        //    repo.AddCustomer(customer);
 
-        }
+        //}
 
 
     }

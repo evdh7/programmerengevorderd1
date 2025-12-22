@@ -113,21 +113,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VakantieparkException.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "RelativeDocumentMoniker": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "RelativeToolTip": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T15:52:51.503Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -186,6 +173,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T07:40:19.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VakantieparkException.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "RelativeDocumentMoniker": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "RelativeToolTip": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T15:52:51.503Z",
               "EditorCaption": ""
             },
             {

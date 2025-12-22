@@ -10,6 +10,6 @@ namespace KlantenSimulatorBL.Enums
     {
         First,
         Last,
-        Unknown
+        FirstLast
     }
 }

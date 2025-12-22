@@ -1,11 +1,9 @@
-﻿using KlantenSimulatorBL.Interfaces;
+﻿using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Manager;
-using KlantenSimulatorBL.Enums;
-using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
 using KlantenSimulatorUtils;
 using Microsoft.Extensions.Configuration;
-using System.ComponentModel.Design;
 using System.Data;
+using System.Runtime.InteropServices;
 
 //build config
 
@@ -19,44 +17,33 @@ string? connectionString = config.GetConnectionString("SQLserver");
 
 var countries = config.GetSection("AppSettings").GetChildren();
 
+
 foreach (var countrySection in countries)
 {
-    string country = countrySection.Key;
+    var countryEnum = Enum.Parse<Countries>(countrySection.Key);
+    var countryReader = KlantenSimulatorCountryReaderFactory.GetCountryReader(countryEnum);
+
     string? folder = countrySection["Folder"];
+
+    var repo = KlantenSimulatorSQLFactory.GetRepository(connectionString);
+    var manager = new DataManager(repo);
     int datasetId = 0;
 
-    foreach (var child in countrySection.GetChildren())
+    //Addresses
+
+    var addressFile = countrySection["Addresses"];
+
+    datasetId = manager.UploadAddresses(countryReader, folder, addressFile, countrySection.Key); //datasetid is required to give the same int to UploadNames
+
+    var nameFiles = countrySection.GetChildren()
+                                     .Where(c => c.Key.Contains("Name"))
+                                     .Select(c => (Key: c.Key, Value: c.Value))
+                                     .ToArray();
+
+    if (nameFiles.Any())
     {
-        string sectionName = child.Key;   // "Addresses", "MaleNames", "FemaleNames"
-        string? fileName = child.Value;   // "belgium_streets2.csv"
-
-        if (string.IsNullOrWhiteSpace(fileName))
-            continue;
-
-        var repo = KlantenSimulatorSQLFactory.GetRepository(connectionString);
-        var manager = new DataManager(repo);
-
-        if (sectionName.ToLower().Contains("addresses"))
-        {
-            IAddressReader addressReader = KlantenSimulatorFileReaderFactory.GetAddressReader(folder, fileName, country);//we laten de klantensimulatorfilereaderfactory kiezen
-            datasetId = manager.UploadAddresses(addressReader, folder, fileName, country);
-
-            if (sectionName.ToLower().Contains("name"))
-            {
-                NameType nameType = Helper.GetNameType(sectionName);
-                Gender genderType = Helper.GetGender(sectionName);
-                INameReader nameReader = KlantenSimulatorFileReaderFactory.GetNameReader(folder, fileName, country, nameType);
-                manager.UploadNames(nameReader, folder, fileName, datasetId, nameType, genderType);
-            }
-
-        }
-
-        else if (sectionName.ToLower().Contains("name"))
-        {
-            NameType nameType = Helper.GetNameType(sectionName);
-            Gender genderType = Helper.GetGender(sectionName);
-            INameReader nameReader = KlantenSimulatorFileReaderFactory.GetNameReader(folder, fileName, country, nameType);
-            manager.UploadNames(nameReader, folder, fileName, datasetId, nameType, genderType); 
-        }
+        manager.UploadNames(countryReader, folder, nameFiles, datasetId, NameType.FirstLast, null); 
     }
 }
+
+

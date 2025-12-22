@@ -19,7 +19,8 @@ namespace KlantenSimulatorDL_SQL
         public int InsertAddress(CountryDTO data)
         {
             int datasetId = 0;
-            string SQLcountry = "INSERT INTO country(name) OUTPUT INSERTED.ID VALUES(@name)";
+            //string SQLcountry = "INSERT INTO country(name) OUTPUT INSERTED.ID VALUES(@name)";
+            string SQLcountry = "SELECT id FROM country WHERE name = @name";
             string SQLdataset = "INSERT INTO dataset(country_id, year, description, date_imported) OUTPUT INSERTED.ID VALUES(@country_id,@year,@description,@date_imported)";
             string SQLcity = "INSERT INTO city(name, country_id) OUTPUT INSERTED.ID VALUES(@name, @country_id)";
             string SQLaddress = "INSERT INTO address(city_id, street, dataset_id) VALUES(@city_id, @street, @dataset_id)";
@@ -33,6 +34,7 @@ namespace KlantenSimulatorDL_SQL
                 conn.Open();
                 using (SqlTransaction sqlTransaction = conn.BeginTransaction())
                 {
+                    int? countryId, cityId;
 
                     cmdCountry.Transaction = sqlTransaction;
                     cmdDataset.Transaction = sqlTransaction;
@@ -54,14 +56,24 @@ namespace KlantenSimulatorDL_SQL
                     cmdAddress.Parameters.Add(new SqlParameter("@street", SqlDbType.NVarChar));
                     cmdAddress.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.Int));
 
-                    int countryId, cityId;
+
                     string description;
 
                     try
                     {
-
                         cmdCountry.Parameters["@name"].Value = data.Name;
-                        countryId = (int)cmdCountry.ExecuteScalar();
+
+                        var result = cmdCountry.ExecuteScalar();
+
+                        if (result != null)
+                        {
+                            countryId = (int)result;
+                        }
+                        else
+                        {
+                            cmdCountry.CommandText = "INSERT INTO country(name) OUTPUT INSERTED.ID VALUES(@name)";
+                            countryId = (int)cmdCountry.ExecuteScalar();
+                        }
 
                         description = $"dataset for country {data.Name}, {DateTime.Now.Year}";
                         cmdDataset.Parameters["@country_id"].Value = countryId;
@@ -72,7 +84,7 @@ namespace KlantenSimulatorDL_SQL
 
                         int unknownCityId = 0;
 
-                        if (data.Addresses != null)
+                        if (data.Addresses?.Any() == true)
                         {
                             cmdCity.Parameters["@name"].Value = "Unknown City";
                             cmdCity.Parameters["@country_id"].Value = countryId;
@@ -103,22 +115,24 @@ namespace KlantenSimulatorDL_SQL
                                     cmdAddress.ExecuteNonQuery();
                                 }
                             }
-                        }                    
+                        }
                         sqlTransaction.Commit();
 
-                }
+                    }
                     catch (Exception ex)
                     {
-                    Console.WriteLine("Error: " + ex.Message);
-                    sqlTransaction.Rollback();
-                }
-                return datasetId;
+                        Console.WriteLine("Error: " + ex.Message);
+                        sqlTransaction.Rollback();
+                    }
+                    return datasetId;
 
+                }
             }
         }
 
-        }
-        public void InsertName(Dictionary<NameType, List<NameDTO>> data, int datasetId)
+
+
+        public void InsertName(List<NameDTO.NameEntry> data, int datasetId)
         {
             string SQLgenderLookup = "SELECT id FROM gender WHERE gender = @gender";
             string SQLfirstName = "INSERT INTO first_name(name, frequency, gender_id, dataset_id) VALUES(@name, @frequency, @gender_id, @dataset_id)";
@@ -153,48 +167,51 @@ namespace KlantenSimulatorDL_SQL
                     cmdLastName.Parameters.Add(new SqlParameter("@dataset_id", SqlDbType.Int));
                     try
                     {
-                        var allNames = data.SelectMany(a => a.Value.Select(name => (Type: a.Key, Name: name))); //flatten dictionary, create tuple that contains a type and a name
 
-                        var genderIds = new Dictionary<string, int>();
-
-                        foreach (var entry in allNames) //FIX THIS
+                        foreach (var entry in data)
                         {
                             try
                             {
+                                int? genderId = null;
+                                var genderIds = new Dictionary<string, int>();
 
 
-                                string genderKey = entry.Name.Gender.ToString(); //de ids in gendertable zijn vast, die steken we in een string
-
-                                if (!genderIds.TryGetValue(genderKey, out int genderId)) //if key is not in dictionary
+                                if (entry.Gender != null)
                                 {
-                                    cmdGender.Parameters["@gender"].Value = genderKey; //value of genderKey is the value of gender_id
-                                    genderId = (int)cmdGender.ExecuteScalar();
-                                    genderIds[genderKey] = genderId;
+                                    string genderKey = entry.Gender.ToString(); //de ids in gendertable zijn vast, die steken we in een string
+
+                                    if (!genderIds.TryGetValue(genderKey, out int id)) //if key is not in dictionary
+                                    {
+                                        cmdGender.Parameters["@gender"].Value = genderKey; //value of genderKey is the value of gender_id
+                                        genderId = (int)cmdGender.ExecuteScalar();
+                                        genderIds[genderKey] = id;
+                                    }
                                 }
 
-                                if (entry.Type == NameType.First)
+                                if (entry.FirstOrLast == NameType.First)
                                 {
-                                    cmdFirstName.Parameters["@name"].Value = entry.Name.Name;
-                                    cmdFirstName.Parameters["@frequency"].Value = entry.Name.Frequency ?? (object)DBNull.Value;
+                                    cmdFirstName.Parameters["@name"].Value = entry.Name;
+                                    cmdFirstName.Parameters["@frequency"].Value = entry.Frequency ?? (object)DBNull.Value;
                                     cmdFirstName.Parameters["@gender_id"].Value = genderId;
                                     cmdFirstName.Parameters["@dataset_id"].Value = datasetId;
                                     cmdFirstName.ExecuteNonQuery();
                                 }
-                                else if (entry.Type == NameType.Last)
+                                else if (entry.FirstOrLast == NameType.Last)
                                 {
-                                    cmdLastName.Parameters["@name"].Value = entry.Name.Name;
-                                    cmdLastName.Parameters["@frequency"].Value = entry.Name.Frequency ?? (object)DBNull.Value;
-                                    cmdLastName.Parameters["@gender_id"].Value = genderId;
+                                    cmdLastName.Parameters["@name"].Value = entry.Name;
+                                    cmdLastName.Parameters["@frequency"].Value = entry.Frequency ?? (object)DBNull.Value;
+                                    cmdLastName.Parameters["@gender_id"].Value = genderId ?? (object)DBNull.Value;
                                     cmdLastName.Parameters["@dataset_id"].Value = datasetId;
                                     cmdLastName.ExecuteNonQuery();
                                 }
                             }
+
                             catch (Exception ex)
                             {
                                 Console.WriteLine(
-                                    $"Error inserting name '{entry.Name.Name}' " +
-                                    $"(Gender: {entry.Name.Gender}, " +
-                                    $"Frequency: {entry.Name.Frequency?.ToString() ?? "NULL"}, " +
+                                    $"Error inserting name '{entry.Name}' " +
+                                    $"(Gender: {entry.Gender}, " +
+                                    $"Frequency: {entry.Frequency?.ToString() ?? "NULL"}, " +
                                     $"DatasetId: {datasetId}) " +
                                     $"=> {ex.Message}"
                                 );

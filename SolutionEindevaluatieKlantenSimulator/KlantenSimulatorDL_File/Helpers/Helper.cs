@@ -2,6 +2,7 @@
 using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Exceptions;
 using System.Globalization;
+using System.Text;
 
 namespace KlantenSimulatorDL_File.Helpers
 {
@@ -9,7 +10,7 @@ namespace KlantenSimulatorDL_File.Helpers
     {
         public static class Helper
         {
-
+          
             public static int FindFrequencyColumn(string[] ss)
             {
                 int fColumn = 0;
@@ -51,8 +52,8 @@ namespace KlantenSimulatorDL_File.Helpers
                     return NameType.First;
                 else if (lowerCase.Contains("last"))
                     return NameType.Last;
-                else
-                    return NameType.Unknown;
+                else 
+                    return NameType.FirstLast;
             }
             public static Gender GetGender(string sectionName)
             {
@@ -60,10 +61,9 @@ namespace KlantenSimulatorDL_File.Helpers
 
                 if (lowerCase.Contains("female"))
                     return Gender.Female;
-                if (lowerCase.Contains("male"))
+                else 
                     return Gender.Male;
 
-                return Gender.Unknown;
 
             }
 
