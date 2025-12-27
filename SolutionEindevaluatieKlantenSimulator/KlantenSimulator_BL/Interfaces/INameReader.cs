@@ -1,6 +1,6 @@
 ﻿using KlantenSimulatorBL.DTOs;
 using KlantenSimulatorBL.Enums;
-using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace KlantenSimulatorBL.Interfaces
 {
@@ -38,9 +38,15 @@ namespace KlantenSimulatorBL.Interfaces
 
     public interface INameReader
     {
-       List<NameDTO.NameEntry> ReadNames(string folder, (string,string)[] files, NameType type, Gender? gender);
+        List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] files, NameType type, Gender? gender);
 
     }
 
 
+    public interface INameReaderConfig
+    {
+        public uint GetNameColumn();
+        public uint GetFrequencyColumn();
+        public Encoding? GetEncoding();
+    }
 }

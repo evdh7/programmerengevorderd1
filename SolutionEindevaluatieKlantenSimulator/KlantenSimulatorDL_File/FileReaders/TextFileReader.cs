@@ -1,101 +1,64 @@
-﻿using KlantenSimulatorBL.DTOs;
-using KlantenSimulatorBL.Enums;
+﻿using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
-using System;
-using System.Data.Common;
 using System.Globalization;
 using System.Text;
 using static KlantenSimulatorBL.DTOs.NameDTO;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace KlantenSimulatorDL_File.FileReaders
 {
     public class TextFileReader : INameReader
     {
+        private INameReaderConfig _config;
+        
+        public TextFileReader(INameReaderConfig config)
+        {
+            _config = config;
+        }
+
         public List<NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender)
         {
             List<NameEntry> allNames = new();
 
+
             foreach (var file in fileNames)
 
-                using (StreamReader sr = new StreamReader(Path.Combine(folder, file.Item2), Encoding.GetEncoding(1252))) //autodetect this
+            {
+                using (StreamReader sr = OpenReader(folder, file.Item2))
                 {
-                    (int frequencyColumn, string firstValidLine) = SkipLines(sr);
+                    string[] firstValidLine = Helper.SkipLines(sr);
 
-                    if (firstValidLine!=null) 
+
+                    if (firstValidLine != null)
                     {
-                        ParseLine(firstValidLine, frequencyColumn, gender, allNames, nameType);
+                        Helper.ParseLine(firstValidLine, gender, allNames, nameType, _config);
                     }
 
                     string? line;
                     while ((line = sr.ReadLine()) != null)
                     {
-                        ParseLine(line, frequencyColumn, gender, allNames, nameType);
+                        string[] ss = line.Split('\t');
+                        Helper.ParseLine(ss, gender, allNames, nameType, _config);
                     }
                 }
+            }
 
             return allNames;
 
         }
 
-        private (int frequencyColumn, string? firstValidLine) SkipLines(StreamReader sr)
+        public StreamReader OpenReader(string folder, string file)
         {
-            string? line;
-            int frequencyColumn = 0;
+            Encoding? forcedEncoding = _config.GetEncoding();
 
-            while ((line = sr.ReadLine()) != null)
+            if (forcedEncoding != null)
             {
-                if (string.IsNullOrWhiteSpace(line))
-                {
-                    continue;
-                }
-                string[] ss = line.Split('\t');
-
-                bool hasNumber = ss.Any(cell => IsInteger(cell));
-
-                if (!hasNumber) continue;
-
-                frequencyColumn = FindFrequencyColumn(ss);
-
-                return (frequencyColumn, line);
+                // Denmark: force Windows‑1252
+                return new StreamReader(Path.Combine(folder, file), forcedEncoding, detectEncodingFromByteOrderMarks: false);
             }
 
-            return (0,null);    
+            // Everyone else: BOM detection ON
+            return new StreamReader(Path.Combine(folder, file), detectEncodingFromByteOrderMarks: true);
         }
-        private void ParseLine(string line, int fColumn, Gender? gender, List<NameEntry> names, NameType nameType)
-        {
-            if (string.IsNullOrWhiteSpace(line))
-                return;
-
-            string[] ss = line.Split('\t');
-            if (ss.Length <= fColumn)
-                return;
-
-            string trimmed = ss[fColumn].Trim().Replace(".", "");
-
-            if (!int.TryParse(trimmed, NumberStyles.Integer, CultureInfo.InvariantCulture, out int frequency))
-                return;
-
-            string name = ss[fColumn - 1];
-            byte[] bytes = Encoding.Default.GetBytes(name);
-            name = Encoding.UTF8.GetString(bytes);
-
-            names.Add(new NameEntry(name, nameType, gender, frequency));
-        }
-        private int FindFrequencyColumn(string[] ss)
-        {
-            if (IsInteger(ss[0]))
-                return 2;
-
-            return 1;
-        }
-        private bool IsInteger(string input)
-        {
-            string trimmed = input.Trim().Replace(".", "");
-
-            return int.TryParse(trimmed, CultureInfo.InvariantCulture, out int result);
-        }
-
     }
 }

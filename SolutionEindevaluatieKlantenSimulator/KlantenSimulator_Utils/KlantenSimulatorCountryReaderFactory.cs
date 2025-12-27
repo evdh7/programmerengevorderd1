@@ -20,11 +20,11 @@ namespace KlantenSimulatorUtils
                 Countries.Belgium => new BelgiumCountryReader(),
                 Countries.Denmark => new DenmarkCountryReader(),
                 Countries.Finland => new FinlandCountryReader(),
-                //countries.Poland => new PolandCountryReader(),
-                //Countries.Spain => new SpainCountryReader(),
+                //Countries.Poland => new PolandCountryReader(),
+                Countries.Spain => new SpainCountryReader(),
                 //Countries.CzechRepublic => new CzechCountryReader(),
-                //Countries.Sweden => new SwedenCountryReader(),
-                //Countries.Switserland => new SwitzerlandCountryReader(),
+                Countries.Sweden => new SwedenCountryReader(),
+                Countries.Switserland => new SwitserlandCountryReader(),
                 _ => throw new InvalidOperationException("Unknown country")
             };
 

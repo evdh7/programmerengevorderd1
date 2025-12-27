@@ -22,6 +22,7 @@ namespace KlantenSimulatorDL_File.FileReaders
             {
                 string? line;
                 bool firstLine = true;
+                Dictionary<string, CityDTO> cityLookup = new();
 
 
                 while ((line = sr.ReadLine()) != null)
@@ -49,9 +50,6 @@ namespace KlantenSimulatorDL_File.FileReaders
                     cityName = Helper.ExtractCityName(cityName, "kommun");
 
                     string streetName = ss[1];
-
-                    Dictionary<string, CityDTO> cityLookup = new();
-
 
                     if (!cityLookup.TryGetValue(cityName, out var city))
                     {
