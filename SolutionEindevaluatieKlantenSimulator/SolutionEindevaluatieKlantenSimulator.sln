@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlantenSimulatorDL_SQL", "K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlantenSimulatorUtils", "KlantenSimulator_Utils\KlantenSimulatorUtils.csproj", "{9F8F24E9-6E02-4BE2-BF58-A1ADC0671905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlantenSimulatorUI_WPF", "KlantenSimulatoUI_WPF\KlantenSimulatorUI_WPF.csproj", "{64D11A76-DF41-4C38-B23D-71157381782A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlantenSimulatorUI_WPF", "KlantenSimulatorUI_WPF\KlantenSimulatorUI_WPF.csproj", "{64D11A76-DF41-4C38-B23D-71157381782A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlantenSimulatorDL_File", "KlantenSimulatorDL_File\KlantenSimulatorDL_File.csproj", "{D529F336-EFE3-4997-8B40-E2CF2B0A542E}"
 EndProject

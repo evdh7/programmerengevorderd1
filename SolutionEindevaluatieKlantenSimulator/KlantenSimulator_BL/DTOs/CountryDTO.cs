@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace KlantenSimulatorBL.DTOs
 {
-    public class CountryDTO
+    public class CountryDTO(string name)
     {
-        public CountryDTO(string name)
-        {
-            Name = name;
-        }
-
-        public string Name { get; set; }
-        public List<CityDTO> Cities { get; set; } = new();
-        public HashSet<string>? Addresses { get; set; } = new();
+        public string Name { get; set; } = name;
+        public List<CityDTO> Cities { get; set; } = [];
+        public HashSet<string>? Addresses { get; set; } = [];
 
     }
 }

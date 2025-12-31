@@ -5,13 +5,9 @@ using KlantenSimulatorBL.Model;
 
 namespace KlantenSimulatorBL.Manager
 {
-    public class DataManager
+    public class DataManager(IFileRepository repo)
     {
-        private IFileRepository repo;
-        public DataManager(IFileRepository repo)
-        {
-            this.repo = repo;
-        }
+        private readonly IFileRepository repo = repo;
 
         public int UploadAddresses(IAddressReader addressReader, string folder, string fileName, string countryName)
         {
@@ -19,17 +15,13 @@ namespace KlantenSimulatorBL.Manager
             int datasetId = repo.InsertAddress(country);
             return datasetId;
         }
-        public void UploadNames(INameReader nameReader, string folder, (string, string)[]files, int datasetId, NameType type, Gender? gender)
+        public void UploadNames(INameReader nameReader, string folder, (string Key, string? Value)[]files, int datasetId, NameType type, Gender? gender)
         {
             var names = nameReader.ReadNames(folder, files, type, gender);
             repo.InsertName(names, datasetId);
         }
 
-        //public void AddCustomer(Customer customer)
-        //{
-        //    repo.AddCustomer(customer);
-
-        //}
+        
 
 
     }

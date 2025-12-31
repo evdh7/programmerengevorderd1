@@ -11,8 +11,8 @@ namespace KlantenSimulatorBL.Interfaces
 
     public class GenderedLastNames : INameDTOIterable
     {
-        public NameDTO femaleLastName;
-        public NameDTO maleLastName;
+        public NameDTO? femaleLastName;
+        public NameDTO? maleLastName;
 
         public IEnumerable<NameDTO.NameEntry> GetAll()
         {
@@ -22,7 +22,7 @@ namespace KlantenSimulatorBL.Interfaces
 
     public class UngenderedLastNames : INameDTOIterable
     {
-        public NameDTO lastNames;
+        public NameDTO? lastNames;
         public IEnumerable<NameDTO.NameEntry> GetAll()
         {
             return lastNames;
@@ -31,22 +31,15 @@ namespace KlantenSimulatorBL.Interfaces
 
     public class Names
     {
-        public NameDTO maleFirstNames;
-        public NameDTO femaleFirstNames;
-        public INameDTOIterable lastNames;
+        public NameDTO? maleFirstNames;
+        public NameDTO? femaleFirstNames;
+        public INameDTOIterable? lastNames;
     }
 
     public interface INameReader
     {
-        List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] files, NameType type, Gender? gender);
+        List<NameDTO.NameEntry> ReadNames(string folder, (string Key, string? Value)[] files, NameType type, Gender? gender);
 
     }
 
-
-    public interface INameReaderConfig
-    {
-        public uint GetNameColumn();
-        public uint GetFrequencyColumn();
-        public Encoding? GetEncoding();
-    }
 }

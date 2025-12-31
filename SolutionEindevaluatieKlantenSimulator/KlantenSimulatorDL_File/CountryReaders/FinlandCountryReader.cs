@@ -2,6 +2,7 @@
 using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorDL_File.FileReaders;
+using System.Text;
 using static KlantenSimulatorBL.DTOs.NameDTO;
 
 namespace KlantenSimulatorDL_File.CountryReaders
@@ -9,8 +10,15 @@ namespace KlantenSimulatorDL_File.CountryReaders
     public class FinlandCountryReader : ICountryReader
     {
 
-        private readonly CsvFileReader _csvFileReader = new CsvFileReader();
-        private readonly TextFileReader _textFileReader = new TextFileReader();
+        private readonly CsvFileReader _csvFileReader;
+        private readonly TextFileReader _textFileReader;
+  
+        public FinlandCountryReader()
+        {
+            _textFileReader = new TextFileReader(new ReaderLayout(0, 1, null, null));
+
+            _csvFileReader = new CsvFileReader(new ReaderLayout(0, 0, null, null));
+        }
         public CountryDTO ReadAddresses(string folder, string fileName, string country)
         {
             return _csvFileReader.ReadAddresses(folder, fileName, country);

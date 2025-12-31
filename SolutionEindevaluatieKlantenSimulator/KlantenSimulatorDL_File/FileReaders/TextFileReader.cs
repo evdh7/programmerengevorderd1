@@ -7,39 +7,32 @@ using static KlantenSimulatorBL.DTOs.NameDTO;
 
 namespace KlantenSimulatorDL_File.FileReaders
 {
-    public class TextFileReader : INameReader
+    public class TextFileReader(INameReaderConfig config) : INameReader
     {
-        private INameReaderConfig _config;
-        
-        public TextFileReader(INameReaderConfig config)
-        {
-            _config = config;
-        }
+        private readonly INameReaderConfig _config = config;
 
         public List<NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender)
         {
-            List<NameEntry> allNames = new();
+            List<NameEntry> allNames = [];
 
 
             foreach (var file in fileNames)
 
             {
-                using (StreamReader sr = OpenReader(folder, file.Item2))
+                using StreamReader sr = OpenReader(folder, file.Item2);
+                string[]? firstValidLine = Helper.SkipLines(sr);
+
+
+                if (firstValidLine != null)
                 {
-                    string[] firstValidLine = Helper.SkipLines(sr);
+                    Helper.ParseLine(firstValidLine, gender, allNames, nameType, _config);
+                }
 
-
-                    if (firstValidLine != null)
-                    {
-                        Helper.ParseLine(firstValidLine, gender, allNames, nameType, _config);
-                    }
-
-                    string? line;
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        string[] ss = line.Split('\t');
-                        Helper.ParseLine(ss, gender, allNames, nameType, _config);
-                    }
+                string? line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] ss = line.Split('\t');
+                    Helper.ParseLine(ss, gender, allNames, nameType, _config);
                 }
             }
 
@@ -53,6 +46,8 @@ namespace KlantenSimulatorDL_File.FileReaders
 
             if (forcedEncoding != null)
             {
+                var fullPath = Path.Combine(folder, file); Console.WriteLine("Opening: " + fullPath);
+
                 // Denmark: force Windows‑1252
                 return new StreamReader(Path.Combine(folder, file), forcedEncoding, detectEncodingFromByteOrderMarks: false);
             }

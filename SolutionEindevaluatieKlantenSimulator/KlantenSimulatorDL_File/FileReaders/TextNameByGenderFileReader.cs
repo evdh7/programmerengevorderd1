@@ -1,46 +1,49 @@
-﻿using KlantenSimulatorBL.Enums;
+﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
-using static KlantenSimulatorBL.DTOs.NameDTO;
 
 namespace KlantenSimulatorDL_File.FileReaders
 {
-    public class TextNameByGenderFileReader : INameReader
+    public class TextNameByGenderFileReader(INameReaderConfig config) : INameReader
     {
-        public List<NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender)
+        private readonly INameReaderConfig _config = config;
+
+        public List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender)
         {
-            List<NameEntry> allNames = new List<NameEntry>();
+            List<NameDTO.NameEntry> allNames = [];
 
             foreach (var file in fileNames)
             {
 
-                using (StreamReader sr = new StreamReader(Path.Combine(folder, file.Item2)))
+                using StreamReader sr = new(Path.Combine(folder, file.Item2));
+                string[]? firstValidLine = Helper.SkipLines(sr);
+
+
+                if (firstValidLine != null)
                 {
-                    (_, string[] firstValidLine) = Helper.SkipLines(sr);
-
-
-                    if (firstValidLine != null)
+                    var entries = FindNameFrequencyAndType(firstValidLine, nameType);
+                    foreach (var (nameFrequency, g) in entries)
                     {
-                        var entries = FindNameFrequencyAndType(firstValidLine, nameType);
-                        foreach (var (nameFrequency, g) in entries)
-                        {
-                            Helper.ParseLine(firstValidLine, nameFrequency, g, allNames, nameType);
-                        }
+                        _config.SetFrequencyColumn((uint)nameFrequency);
+
+                        Helper.ParseLine(firstValidLine, g, allNames, nameType, _config);
                     }
+                }
 
-                    string? line;
+                string? line;
 
-                    while ((line = sr.ReadLine()) != null)
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] ss = line.Split('\t');
+
+                    var entries = FindNameFrequencyAndType(ss, nameType);
+                    foreach (var (nameFrequency, g) in entries)
                     {
-                        string[] ss = line.Split('\t');
+                        _config.SetFrequencyColumn((uint)nameFrequency);
 
-                        var entries = FindNameFrequencyAndType(ss, nameType);
-                        foreach(var (nameFrequency, g) in entries) 
-                        {
-                            Helper.ParseLine(ss, nameFrequency, g, allNames, nameType);
-                        }
+                        Helper.ParseLine(ss, g, allNames, nameType, _config);
                     }
-
                 }
 
             }
@@ -49,18 +52,18 @@ namespace KlantenSimulatorDL_File.FileReaders
 
         }
 
-        private static List<(int frequency, Gender?)> FindNameFrequencyAndType(string[] ss, NameType type)
+        private static List<(uint frequency, Gender?)> FindNameFrequencyAndType(string[] ss, NameType type)
         {
-            var results = new List<(int, Gender?)>();
+            var results = new List<(uint, Gender?)>();
 
             if (type == NameType.Last)
             {
                 results.Add((2, null));
                 return results;
             }
-            if (int.TryParse(ss[1], out int valueF))
+            if (uint.TryParse(ss[1], out uint valueF))
                 results.Add((1, Gender.Female));
-            if (int.TryParse(ss[2], out int valueM))
+            if (uint.TryParse(ss[2], out uint valueM))
 
                 results.Add((2, Gender.Male));
             return results;

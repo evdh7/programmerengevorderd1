@@ -1,0 +1,36 @@
+﻿<Window x:Class="KlantenSimulatorUI_WPF.AddressParameters"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KlantenSimulatorUI_WPF"
+        mc:Ignorable="d"
+        Title="AddressParameters" Height="450" Width="800">
+    <Grid>
+        
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Margin="5" Text="Max housenumber"/>
+            <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Name="TextHouseNumber"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Margin="5" Text="Include letters in housenumbers?"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5" Orientation="Horizontal" Name="CheckBoxesYesOrNo">
+            <CheckBox x:Name="CheckBoxYes" Content="Yes" Checked="CheckBoxYes_Checked"/>
+            <CheckBox x:Name="CheckBoxNo" Content="No"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Margin="5" x:Name="Percentage" Text="How much(%)?" Visibility="Collapsed"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Name="PercentageNumber" Visibility="Collapsed"/>
+
+        <Button Grid.Row="3" Grid.Column= "0" Grid.ColumnSpan="2" Content="Confirm" Margin="5" Click="ButtonAddAddressParameters_Click"/>
+             
+    </Grid>
+</Window>

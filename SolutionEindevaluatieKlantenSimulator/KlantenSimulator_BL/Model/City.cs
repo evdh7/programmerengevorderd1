@@ -7,15 +7,13 @@ using System.Threading.Tasks;
 
 namespace KlantenSimulatorBL.Model
 {
-    public class City
+    public class City(string name)
     {
-        public City(string name, List<Address> addresses)
+        public string Name { get; set; } = name;
+        public List<Street> Addresses { get; set; } = [];
+        public override string ToString() 
         {
-            Name = name;
-            Addresses = addresses;
+            return Name; 
         }
-
-        public string Name { get; set; }
-        public List<Address> Addresses { get; set; } = new();
     }
 }

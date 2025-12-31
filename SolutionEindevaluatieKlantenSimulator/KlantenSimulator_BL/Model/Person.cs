@@ -6,22 +6,14 @@ using System.Threading.Tasks;
 
 namespace KlantenSimulatorBL.Model
 {
-    public class Person
+    public class Person(int id, string firstName, string lastName, DateTime dateOfBirth, Street addres)
     {
-        public Person(int id, string firstName, string lastName, DateTime dateOfBirth, Address addres)
-        {
-            Id = id;
-            FirstName = firstName;
-            LastName = lastName;
-            DateOfBirth = dateOfBirth;
-            Address = addres;
-        }
         //gender?
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public Address Address { get; set; }
+        public int Id { get; set; } = id;
+        public string FirstName { get; set; } = firstName;
+        public string LastName { get; set; } = lastName;
+        public DateTime DateOfBirth { get; set; } = dateOfBirth;
+        public Street Address { get; set; } = addres;
         public override string ToString()
         {
             return $"{Id}, {FirstName}, {LastName}, {DateOfBirth}, {Address}";

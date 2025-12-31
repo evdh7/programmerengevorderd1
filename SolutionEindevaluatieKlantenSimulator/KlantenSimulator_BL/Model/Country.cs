@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace KlantenSimulatorBL.Model
 {
-    public class Country
+    public class Country(string name, List<City> cities)
     {
-        public Country(string name, List<City> cities)
-        {
-            Name = name;
-            Cities = cities;
-        }
-
-        public string Name { get; set; }
-        public List<City> Cities { get; set; } = new();
+        public string Name { get; set; } = name;
+        public List<City> Cities { get; set; } = cities;
     }
 }

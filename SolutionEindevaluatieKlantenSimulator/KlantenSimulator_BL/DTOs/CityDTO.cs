@@ -7,14 +7,9 @@ using System.Xml.Linq;
 
 namespace KlantenSimulatorBL.DTOs
 {
-    public class CityDTO
+    public class CityDTO(string name)
     {
-        public CityDTO(string name)
-        {
-            Name = name;
-        }
-
-        public string Name { get; set; }
-        public HashSet<string>? Addresses { get; set; } = new();
+        public string Name { get; set; } = name;
+        public HashSet<string>? Addresses { get; set; } = [];
     }
 }

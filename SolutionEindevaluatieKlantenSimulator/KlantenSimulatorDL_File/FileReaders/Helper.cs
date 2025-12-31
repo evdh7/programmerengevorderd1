@@ -2,11 +2,9 @@
 using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Exceptions;
 using KlantenSimulatorBL.Interfaces;
-using KlantenSimulatorDL_File.FileReaders;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using static KlantenSimulatorBL.DTOs.NameDTO;
 
 namespace KlantenSimulatorDL_File.Helpers
 {
@@ -14,10 +12,9 @@ namespace KlantenSimulatorDL_File.Helpers
     {
         public class Helper
         {
-            public static string?[] SkipLines(StreamReader sr)
+            public static string?[]? SkipLines(StreamReader sr)
             {
                 string? line;
-                int frequencyColumn = 0;
 
                 while ((line = sr.ReadLine()) != null)
                 {
@@ -36,7 +33,7 @@ namespace KlantenSimulatorDL_File.Helpers
 
                 return null;
             }
-            public static void ParseLine(string[] ss, Gender? gender, List<NameEntry> names, NameType nameType, INameReaderConfig layout)
+            public static void ParseLine(string[] ss, Gender? gender, List<NameDTO.NameEntry> names, NameType nameType, INameReaderConfig layout)
             {
                 uint fColumn = layout.GetFrequencyColumn();
                 uint nColumn = layout.GetNameColumn();
@@ -54,14 +51,13 @@ namespace KlantenSimulatorDL_File.Helpers
 
                 string name = ss[nColumn];
 
-                names.Add(new NameEntry(name, nameType, gender, frequency));
+                names.Add(new NameDTO.NameEntry(name, nameType, gender, frequency));
             }
      
             private static bool IsInteger(string input)
             {
                 string trimmed = input.Trim().Replace(".", "");
-
-                return int.TryParse(trimmed, CultureInfo.InvariantCulture, out int result);
+                return int.TryParse(trimmed, CultureInfo.InvariantCulture, out _);
             }
 
             public static string ExtractCityName(string input, string searchString)

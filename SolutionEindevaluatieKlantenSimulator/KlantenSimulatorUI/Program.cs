@@ -4,6 +4,7 @@ using KlantenSimulatorUtils;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 using System.Runtime.InteropServices;
+using System.Text;
 
 //build config
 
@@ -17,6 +18,7 @@ string? connectionString = config.GetConnectionString("SQLserver");
 
 var countries = config.GetSection("AppSettings").GetChildren();
 
+Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
 foreach (var countrySection in countries)
 {
@@ -31,19 +33,19 @@ foreach (var countrySection in countries)
 
     //Addresses
 
-    var addressFile = countrySection["Addresses"];
+    string? addressFile = countrySection["Addresses"] ?? countrySection["AddressesAndNames"];
 
     datasetId = manager.UploadAddresses(countryReader, folder, addressFile, countrySection.Key); //datasetid is required to give the same int to UploadNames
 
     var nameFiles = countrySection.GetChildren()
                                      .Where(c => c.Key.Contains("Name"))
-                                     .Select(c => (Key: c.Key, Value: c.Value))
+                                     .Select(c => (c.Key, c.Value))
                                      .ToArray();
 
-    if (nameFiles.Any())
+    if (nameFiles.Length != 0)
     {
-        manager.UploadNames(countryReader, folder, nameFiles, datasetId, NameType.FirstLast, null); 
+        manager.UploadNames(countryReader, folder, nameFiles, datasetId, NameType.FirstLast, null);
     }
-}
+} 
 
 

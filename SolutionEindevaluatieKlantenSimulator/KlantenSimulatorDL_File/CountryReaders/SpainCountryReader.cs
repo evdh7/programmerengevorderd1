@@ -13,8 +13,8 @@ namespace KlantenSimulatorDL_File.CountryReaders
 
         public SpainCountryReader()
         {
-            _csvFileReader = new CsvFileReader();
-            _textFileReader = new TextFileReader(new ReaderLayout(1, 2, null));
+            _csvFileReader = new CsvFileReader(new ReaderLayout(0,0,null,null));
+            _textFileReader = new TextFileReader(new ReaderLayout(1, 2, null,null));
         }
         public CountryDTO ReadAddresses(string folder, string fileName, string country)
         {

@@ -13,12 +13,14 @@ namespace KlantenSimulatorDL_File.CountryReaders
 {
     public class DenmarkCountryReader : ICountryReader
     {
-        private readonly CsvFileReader _csvFileReader = new CsvFileReader();
+        private readonly CsvFileReader _csvFileReader;
         private readonly TextFileReader _textFileReader;
 
         public DenmarkCountryReader()
         {
-            _textFileReader = new TextFileReader(new ReaderLayout(0,1, Encoding.GetEncoding(1252)));
+            _textFileReader = new TextFileReader(new ReaderLayout(0,1, Encoding.GetEncoding(1252), null));
+
+            _csvFileReader = new CsvFileReader(new ReaderLayout(0,0, null, "kommune"));
         }
 
         public CountryDTO ReadAddresses(string folder, string fileName, string country)

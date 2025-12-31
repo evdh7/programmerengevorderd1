@@ -3,18 +3,13 @@ using System.Text;
 
 namespace KlantenSimulatorDL_File.FileReaders
 {
-    public class ReaderLayout : INameReaderConfig
+    public class ReaderLayout(uint nameColumn, uint frequencyColumn, Encoding? forcedEncoding, string? searchString) : INameReaderConfig
     {
-        public ReaderLayout(uint nameColumn, uint frequencyColumn, Encoding? forcedEncoding)
-        {
-            NameColumn = nameColumn;
-            FrequencyColumn = frequencyColumn;
-            ForcedEncoding = forcedEncoding;
-        }
+        private uint NameColumn { get; set; } = nameColumn;
+        private uint FrequencyColumn { get; set; } = frequencyColumn;
+        private Encoding? ForcedEncoding { get; set; } = forcedEncoding;
 
-        private uint NameColumn { get; set; }
-        private uint FrequencyColumn { get; set; }
-        public Encoding? ForcedEncoding { get; set; }
+        private string? SearchString { get; set; } = searchString;
 
         public Encoding? GetEncoding()
         {
@@ -25,10 +20,18 @@ namespace KlantenSimulatorDL_File.FileReaders
         {
             return FrequencyColumn;
         }
-
+        public void SetFrequencyColumn(uint column) 
+        { 
+            FrequencyColumn = column;
+        }
         public uint GetNameColumn()
         {
             return NameColumn;
+        }
+
+        public string GetSearchString() 
+        {
+            return SearchString;
         }
     }
 }

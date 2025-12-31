@@ -1,22 +1,15 @@
 ﻿using KlantenSimulatorBL.DTOs;
 using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Interfaces;
-using KlantenSimulatorDL_File.Helpers.KlantenSimulatorDL_File.Helpers;
-using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 using static KlantenSimulatorBL.DTOs.JsonDTO;
 
 namespace KlantenSimulatorDL_File.FileReaders
 {
-    public class JsonFileReader : IAddressReader//INameReader
+    public class JsonFileReader(INameReaderConfig config) : ICountryReader
     {
+        private readonly INameReaderConfig _config = config;
+        private FileJsonDTO? _jsonData;
 
         public CountryDTO ReadAddresses(string folder, string fileName, string countryName)
         {
@@ -24,11 +17,11 @@ namespace KlantenSimulatorDL_File.FileReaders
 
             var data = JsonSerializer.Deserialize<FileJsonDTO>(jsonString)!;
 
-            CountryDTO country = new CountryDTO(countryName);
+            CountryDTO country = new(countryName);
 
             foreach (var cityName in data.Address.City_Name)
             {
-                CityDTO city = new CityDTO(cityName);
+                CityDTO city = new(cityName);
                 country.Cities.Add(city);
             }
 
@@ -37,46 +30,78 @@ namespace KlantenSimulatorDL_File.FileReaders
                 country.Addresses.Add(streetName);
             }
 
+            _jsonData = data;
+
             return country;
         }
 
-        //public List<NameDTO.NameEntry> ReadNames(string folder, string fileName, NameType nameType, Gender gender)
-        //{
-        //    List<NameDTO.NameEntry> names = new();
+        public List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender)
+        {
+            List<NameDTO.NameEntry> names = [];
 
-        //    string jsonString = File.ReadAllText(Path.Combine(folder, fileName));
-        //    Console.WriteLine(jsonString);
-        //    var data = JsonSerializer.Deserialize<FileJsonDTO>(jsonString);
-        //    nameType = NameType.First;
-        //    foreach (var property in typeof(NameSection).GetProperties()) //we need the section names so we can decide whether the names are of type first or last
-        //    {
-        //        var listOfNames = property.GetValue(data.Name) as List<string>; //we know the property thanks to the typeof(NameSection) but now we want the values behind the property of NameSection, a list of strings (names)
-        //        if (listOfNames == null)
-        //        {
-        //            continue;
-        //        }
+            var data = _jsonData;
 
-        //        string propertyName = property.Name.ToLower();
+            if (_jsonData == null)
+            {
+                foreach (var file in fileNames)
+                {
+                    string jsonString = File.ReadAllText(Path.Combine(folder, file.Item2));
+                    data = JsonSerializer.Deserialize<FileJsonDTO>(jsonString);
+                }
+            }
 
-        //        nameType = Helper.GetNameType(propertyName);
-        //        gender = Helper.GetGender(propertyName);
+            foreach (var property in typeof(NameSection).GetProperties()) //we need the section names so we can decide whether the names are of type first or last
+            {
+                //we know the property thanks to the typeof(NameSection) but now we want the values behind the property of NameSection, a list of strings (names)
 
-        //        foreach (var name in listOfNames)
-        //        {
-        //            names.Add(new NameDTO(name));
-        //        }
+                if (property.GetValue(data.Name) is not List<string> listOfNames || listOfNames.Count == 0)
+                {
+                    continue;
+                }
 
-        //        if (!result.ContainsKey(nameType))
-        //        {
-        //            result[nameType] = new List<NameDTO>();
-        //        }
+                string propertyName = property.Name.ToLower();
 
-        //        result[nameType].AddRange(names);
-        //    }
-        //    result[nameType].AddRange(names);
+                (nameType, gender) = GetNameTypeAndGender(propertyName);
 
-        //    return result;
+                foreach (var name in listOfNames)
+                {
+                    names.Add(new NameDTO.NameEntry(name, nameType, gender, 1));
+                }
+            }
 
-        //}
+            return names;
+
+        }
+
+        private static (NameType, Gender?) GetNameTypeAndGender(string propertyName)
+        {
+            NameType nameType;
+            Gender? gender;
+
+            if (propertyName.StartsWith("first") || propertyName.EndsWith("first_name"))
+            {
+                nameType = NameType.First;
+            }
+            else
+            {
+                nameType = NameType.Last;
+            }
+
+            if (propertyName.EndsWith("male") || propertyName.StartsWith("male"))
+            {
+                gender = Gender.Male;
+            }
+            else if (propertyName.EndsWith("female") || propertyName.StartsWith("female"))
+            {
+                gender = Gender.Female;
+            }
+            else
+            {
+                gender = null;
+            }
+
+            return (nameType, gender);
+        }
+
     }
 }

@@ -13,8 +13,14 @@ namespace KlantenSimulatorDL_File.CountryReaders
 {
     public class SwitserlandCountryReader : ICountryReader
     {
-        private readonly CsvFileReader _csvFileReader = new();
-        private readonly TextNameByGenderFileReader _textNameByGenderFileReader = new();
+        private readonly CsvFileReader _csvFileReader;
+        private readonly TextNameByGenderFileReader _textNameByGenderFileReader;
+
+        public SwitserlandCountryReader()
+        {
+            _csvFileReader = new CsvFileReader(new ReaderLayout(0, 0, null, null));
+            _textNameByGenderFileReader = new TextNameByGenderFileReader(new ReaderLayout(0, 0, null, null));
+        }
         public CountryDTO ReadAddresses(string folder, string fileName, string country)
         {
             return _csvFileReader.ReadAddresses(folder, fileName, country);

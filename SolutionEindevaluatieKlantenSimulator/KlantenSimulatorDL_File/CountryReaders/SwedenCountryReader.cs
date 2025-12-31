@@ -18,8 +18,8 @@ namespace KlantenSimulatorDL_File.CountryReaders
 
         public SwedenCountryReader()
         {
-            _csvFileReader = new CsvFileReader();
-            _textFileReader = new TextFileReader(new ReaderLayout(0, 1, null));
+            _csvFileReader = new CsvFileReader(new ReaderLayout(0, 0, null, "kommun"));
+            _textFileReader = new TextFileReader(new ReaderLayout(0, 1, null, ""));
         }
         public CountryDTO ReadAddresses(string folder, string fileName, string country)
         {
