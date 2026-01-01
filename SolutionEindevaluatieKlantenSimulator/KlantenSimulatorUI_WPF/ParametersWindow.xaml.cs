@@ -17,7 +17,7 @@ namespace KlantenSimulatorUI_WPF
         private List<City> _selectedCities;
         private string _countryName;
         private readonly Client _client;
-        private uint _amountOfCustomers;
+        private int _amountOfCustomers;
         private uint _maxAge;
         private uint _minAge;
         private AddressParameterModel _addressParameters;
@@ -78,13 +78,13 @@ namespace KlantenSimulatorUI_WPF
             {
                 _addressParameters = new AddressParameterModel
                 {
-                    MaxHouseNumber = w.MaxHouseNumber,
+                    MaxHousenumber = w.MaxHousenumber,
                     PercentageLetters = w.PercentageLetters
                 };
 
                 AddressInput.ItemsSource = new List<string>
                 {
-                    $"Max house number: {w.MaxHouseNumber}",
+                    $"Max house number: {w.MaxHousenumber}",
                     $"Percentage letters: {w.PercentageLetters}%"
                 };
             }
@@ -104,7 +104,7 @@ namespace KlantenSimulatorUI_WPF
                 SelectedDataset = _selectedDataset,
                 SelectedCities = _selectedCities,
                 AmountOfCustomers = _amountOfCustomers,
-                MaxHouseNumber = _addressParameters.MaxHouseNumber,
+                MaxHousenumber = _addressParameters.MaxHousenumber,
                 PercentageLetters = _addressParameters.PercentageLetters,
                 MaxAge = _maxAge,
                 MinAge = _minAge
@@ -138,7 +138,7 @@ namespace KlantenSimulatorUI_WPF
         {
             try
             {
-                _amountOfCustomers = uint.Parse(TextBoxAmount.Text);
+                _amountOfCustomers = int.Parse(TextBoxAmount.Text);
                 _maxAge = uint.Parse(TextBoxMaxAge.Text);
                 _minAge = uint.Parse(TextBoxMinAge.Text);
             }
@@ -170,9 +170,19 @@ namespace KlantenSimulatorUI_WPF
 
             try
             {
-                _service.StartSimulation(parameters);
+                List<Address> streets = new();
+
+                streets = _service.StartSimulation(parameters);
 
                 MessageBox.Show("Simulation started successfully.");
+
+                SimulationDataWindow w = new(streets);
+                bool? result = w.ShowDialog();
+
+                if (result == true)
+                {
+                    //_selectedDataset = w._selectedDataset;
+                }
             }
             catch (Exception ex)
             {

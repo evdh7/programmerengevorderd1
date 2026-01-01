@@ -12,9 +12,9 @@ namespace KlantenSimulatorBL.Model
         public string Country { get; set; }
         public Dataset SelectedDataset { get; set; }
         public List<City> SelectedCities {get; set ;}
-        public uint AmountOfCustomers { get; set; }
-        public uint MaxHouseNumber { get; set; }
-        public uint PercentageLetters { get; set; }
+        public int AmountOfCustomers { get; set; }
+        public int MaxHousenumber { get; set; }
+        public int PercentageLetters { get; set; }
         public uint MaxAge { get; set; }
         public uint MinAge { get; set; }
         

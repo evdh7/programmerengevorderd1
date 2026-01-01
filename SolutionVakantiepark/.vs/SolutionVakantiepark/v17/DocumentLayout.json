@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56E3D914-581E-4C29-8B79-D786166EEF0F}|VakantieparkUtils\\VakantieparkUtils.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkutils\\vakantieparkrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E3D914-581E-4C29-8B79-D786166EEF0F}|VakantieparkUtils\\VakantieparkUtils.csproj|solutionrelative:vakantieparkutils\\vakantieparkrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\faciliteitenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\faciliteitenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\nieuwefaciliteit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\nieuwefaciliteit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\nieuwefaciliteit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\nieuwefaciliteit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\faciliteitenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\faciliteitenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\maakvakantieparkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\maakvakantieparkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\maakvakantieparkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\maakvakantieparkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\wooneenhedenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\wooneenhedenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\wooneenhedenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\wooneenhedenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D1617F-D035-44D1-8EC9-50DEA6EC0D12}|VakantieparkDL\\VakantieparkDL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkdl\\vakantieparkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D1617F-D035-44D1-8EC9-50DEA6EC0D12}|VakantieparkDL\\VakantieparkDL.csproj|solutionrelative:vakantieparkdl\\vakantieparkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkbl\\services\\vakantieparkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|solutionrelative:vakantieparkbl\\services\\vakantieparkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E3D914-581E-4C29-8B79-D786166EEF0F}|VakantieparkUtils\\VakantieparkUtils.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkutils\\vakantieparkrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E3D914-581E-4C29-8B79-D786166EEF0F}|VakantieparkUtils\\VakantieparkUtils.csproj|solutionrelative:vakantieparkutils\\vakantieparkrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkbl\\model\\vakantiepark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,68 +75,24 @@
       "RelativeMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|solutionrelative:vakantieparkbl\\exceptions\\vakantieparkexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\faciliteitenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\faciliteitenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\nieuwefaciliteit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\nieuwefaciliteit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\maakvakantieparkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\maakvakantieparkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\wooneenhedenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\wooneenhedenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\maakvakantieparkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\maakvakantieparkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkbl\\vakantieparkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|solutionrelative:vakantieparkbl\\vakantieparkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88D1617F-D035-44D1-8EC9-50DEA6EC0D12}|VakantieparkDL\\VakantieparkDL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkdl\\vakantieparkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88D1617F-D035-44D1-8EC9-50DEA6EC0D12}|VakantieparkDL\\VakantieparkDL.csproj|solutionrelative:vakantieparkdl\\vakantieparkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkbl\\model\\wooneenheid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8BC57D5-C371-4C72-BACF-81F72485396F}|VakantieparkBL\\VakantieparkBL.csproj|solutionrelative:vakantieparkbl\\model\\wooneenheid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\vakantieparkui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\vakantieparkui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\faciliteitenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\faciliteitenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56E3D914-581E-4C29-8B79-D786166EEF0F}|VakantieparkUtils\\VakantieparkUtils.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkutils\\vakantieparkutils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{56E3D914-581E-4C29-8B79-D786166EEF0F}|VakantieparkUtils\\VakantieparkUtils.csproj|solutionrelative:vakantieparkutils\\vakantieparkutils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\wooneenhedenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\wooneenhedenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|c:\\users\\emmy\\source\\programmerengevorderd1\\solutionvakantiepark\\vakantieparkui\\nieuwefaciliteit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{13EE3DAA-6D96-4C7C-91E0-54CD884E4E19}|VakantieparkUI\\VakantieparkUI.csproj|solutionrelative:vakantieparkui\\nieuwefaciliteit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emmy\\AppData\\Local\\Temp\\.vsdbgsrc\\aad6be2495d0a786b94b3514a5b6903407fe2d6a75ad7e505df6a9d895927867\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -113,148 +113,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "VakantieparkUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml",
+              "RelativeToolTip": "VakantieparkUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T07:53:54.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaakVakantieparkWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml",
+              "RelativeDocumentMoniker": "VakantieparkUI\\MaakVakantieparkWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml",
+              "RelativeToolTip": "VakantieparkUI\\MaakVakantieparkWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T08:10:13.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FaciliteitenWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VakantieparkUI\\FaciliteitenWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml.cs",
+              "RelativeToolTip": "VakantieparkUI\\FaciliteitenWindow.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowGUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:12:22.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NieuweFaciliteit.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\NieuweFaciliteit.xaml",
+              "RelativeDocumentMoniker": "VakantieparkUI\\NieuweFaciliteit.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\NieuweFaciliteit.xaml",
+              "RelativeToolTip": "VakantieparkUI\\NieuweFaciliteit.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T13:00:38.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VakantieparkUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "VakantieparkUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T07:56:42.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FaciliteitenWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml",
+              "RelativeDocumentMoniker": "VakantieparkUI\\FaciliteitenWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml",
+              "RelativeToolTip": "VakantieparkUI\\FaciliteitenWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T11:09:16.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MaakVakantieparkWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
+              "RelativeToolTip": "VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:15:49.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NieuweFaciliteit.xaml.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\NieuweFaciliteit.xaml.cs",
               "RelativeDocumentMoniker": "VakantieparkUI\\NieuweFaciliteit.xaml.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\NieuweFaciliteit.xaml.cs",
               "RelativeToolTip": "VakantieparkUI\\NieuweFaciliteit.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwCMAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCMAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:01:34.169Z"
+              "WhenOpened": "2025-12-15T13:01:34.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "WooneenhedenWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml",
+              "RelativeDocumentMoniker": "VakantieparkUI\\WooneenhedenWindow.xaml",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml",
+              "RelativeToolTip": "VakantieparkUI\\WooneenhedenWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T11:10:06.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WooneenhedenWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VakantieparkUI\\WooneenhedenWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml.cs",
+              "RelativeToolTip": "VakantieparkUI\\WooneenhedenWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:19:59.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VakantieparkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkDL\\VakantieparkRepository.cs",
+              "RelativeDocumentMoniker": "VakantieparkDL\\VakantieparkRepository.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkDL\\VakantieparkRepository.cs",
+              "RelativeToolTip": "VakantieparkDL\\VakantieparkRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T07:40:28.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "VakantieparkService.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Services\\VakantieparkService.cs",
               "RelativeDocumentMoniker": "VakantieparkBL\\Services\\VakantieparkService.cs",
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Services\\VakantieparkService.cs",
               "RelativeToolTip": "VakantieparkBL\\Services\\VakantieparkService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T07:40:19.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VakantieparkException.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "RelativeDocumentMoniker": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "RelativeToolTip": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T15:52:51.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FaciliteitenWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml.cs",
-              "RelativeDocumentMoniker": "VakantieparkUI\\FaciliteitenWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml.cs",
-              "RelativeToolTip": "VakantieparkUI\\FaciliteitenWindow.xaml.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAowF8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:12:22.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VakantieparkDTO.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\VakantieparkDTO.cs",
-              "RelativeDocumentMoniker": "VakantieparkBL\\VakantieparkDTO.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\VakantieparkDTO.cs",
-              "RelativeToolTip": "VakantieparkBL\\VakantieparkDTO.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:37:10.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vakantiepark.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Vakantiepark.cs",
-              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\Vakantiepark.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Vakantiepark.cs",
-              "RelativeToolTip": "VakantieparkBL\\Model\\Vakantiepark.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAjwCkAAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:16:51.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MaakVakantieparkWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
-              "RelativeDocumentMoniker": "VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
-              "RelativeToolTip": "VakantieparkUI\\MaakVakantieparkWindow.xaml.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAYwEcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:15:49.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VakantieparkRepository.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkDL\\VakantieparkRepository.cs",
-              "RelativeDocumentMoniker": "VakantieparkDL\\VakantieparkRepository.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkDL\\VakantieparkRepository.cs",
-              "RelativeToolTip": "VakantieparkDL\\VakantieparkRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T07:40:28.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HuisStatus.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\HuisStatus.cs",
-              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\HuisStatus.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\HuisStatus.cs",
-              "RelativeToolTip": "VakantieparkBL\\Model\\HuisStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:44:58.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Contactpersoon.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Contactpersoon.cs",
-              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\Contactpersoon.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Contactpersoon.cs",
-              "RelativeToolTip": "VakantieparkBL\\Model\\Contactpersoon.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAhwBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:48:53.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Faciliteit.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Faciliteit.cs",
-              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\Faciliteit.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Faciliteit.cs",
-              "RelativeToolTip": "VakantieparkBL\\Model\\Faciliteit.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:44:45.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "VakantieparkRepositoryFactory.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUtils\\VakantieparkRepositoryFactory.cs",
               "RelativeDocumentMoniker": "VakantieparkUtils\\VakantieparkRepositoryFactory.cs",
@@ -267,42 +281,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WooneenhedenWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml.cs",
-              "RelativeDocumentMoniker": "VakantieparkUI\\WooneenhedenWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml.cs",
-              "RelativeToolTip": "VakantieparkUI\\WooneenhedenWindow.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Vakantiepark.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Vakantiepark.cs",
+              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\Vakantiepark.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Vakantiepark.cs",
+              "RelativeToolTip": "VakantieparkBL\\Model\\Vakantiepark.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAjwCkAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:19:59.595Z"
+              "WhenOpened": "2025-12-15T08:16:51.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MaakVakantieparkWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml",
-              "RelativeDocumentMoniker": "VakantieparkUI\\MaakVakantieparkWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MaakVakantieparkWindow.xaml",
-              "RelativeToolTip": "VakantieparkUI\\MaakVakantieparkWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-15T08:10:13.138Z"
+              "DocumentIndex": 18,
+              "Title": "VakantieparkDTO.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\VakantieparkDTO.cs",
+              "RelativeDocumentMoniker": "VakantieparkBL\\VakantieparkDTO.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\VakantieparkDTO.cs",
+              "RelativeToolTip": "VakantieparkBL\\VakantieparkDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:37:10.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "VakantieparkUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "VakantieparkUI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "VakantieparkException.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "RelativeDocumentMoniker": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "RelativeToolTip": "VakantieparkBL\\Exceptions\\VakantieparkException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T07:56:42.899Z"
+              "WhenOpened": "2025-12-15T15:52:51.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HuisStatus.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\HuisStatus.cs",
+              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\HuisStatus.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\HuisStatus.cs",
+              "RelativeToolTip": "VakantieparkBL\\Model\\HuisStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:44:58.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Contactpersoon.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Contactpersoon.cs",
+              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\Contactpersoon.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Contactpersoon.cs",
+              "RelativeToolTip": "VakantieparkBL\\Model\\Contactpersoon.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAhwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:48:53.651Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Faciliteit.cs",
+              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Faciliteit.cs",
+              "RelativeDocumentMoniker": "VakantieparkBL\\Model\\Faciliteit.cs",
+              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Faciliteit.cs",
+              "RelativeToolTip": "VakantieparkBL\\Model\\Faciliteit.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:44:45.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Wooneenheid.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkBL\\Model\\Wooneenheid.cs",
               "RelativeDocumentMoniker": "VakantieparkBL\\Model\\Wooneenheid.cs",
@@ -314,18 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "VakantieparkUI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\MainWindow.xaml",
-              "RelativeToolTip": "VakantieparkUI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-15T07:53:54.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "VakantieparkUI.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\VakantieparkUI.csproj",
               "RelativeDocumentMoniker": "VakantieparkUI\\VakantieparkUI.csproj",
@@ -337,18 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FaciliteitenWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml",
-              "RelativeDocumentMoniker": "VakantieparkUI\\FaciliteitenWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\FaciliteitenWindow.xaml",
-              "RelativeToolTip": "VakantieparkUI\\FaciliteitenWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-15T11:09:16.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "VakantieparkUtils.csproj",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUtils\\VakantieparkUtils.csproj",
               "RelativeDocumentMoniker": "VakantieparkUtils\\VakantieparkUtils.csproj",
@@ -360,18 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WooneenhedenWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml",
-              "RelativeDocumentMoniker": "VakantieparkUI\\WooneenhedenWindow.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\WooneenhedenWindow.xaml",
-              "RelativeToolTip": "VakantieparkUI\\WooneenhedenWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-15T11:10:06.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "VakantieparkUI\\AssemblyInfo.cs",
@@ -380,17 +398,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T07:50:14.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "NieuweFaciliteit.xaml",
-              "DocumentMoniker": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\NieuweFaciliteit.xaml",
-              "RelativeDocumentMoniker": "VakantieparkUI\\NieuweFaciliteit.xaml",
-              "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\NieuweFaciliteit.xaml",
-              "RelativeToolTip": "VakantieparkUI\\NieuweFaciliteit.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-15T13:00:38.524Z"
             },
             {
               "$type": "Document",
@@ -426,7 +433,8 @@
               "ToolTip": "C:\\Users\\emmy\\source\\programmerengevorderd1\\SolutionVakantiepark\\VakantieparkUI\\App.xaml",
               "RelativeToolTip": "VakantieparkUI\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-15T07:50:08.605Z"
+              "WhenOpened": "2025-12-15T07:50:08.605Z",
+              "EditorCaption": ""
             }
           ]
         }

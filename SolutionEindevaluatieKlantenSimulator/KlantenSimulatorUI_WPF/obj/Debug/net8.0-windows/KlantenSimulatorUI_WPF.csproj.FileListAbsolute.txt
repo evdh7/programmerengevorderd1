@@ -195,3 +195,5 @@ C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulato
 C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorUI_WPF\obj\Debug\net8.0-windows\SelectedCitiesWindow.baml
 C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorUI_WPF\obj\Debug\net8.0-windows\DatasetWindow.g.cs
 C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorUI_WPF\obj\Debug\net8.0-windows\DatasetWindow.baml
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorUI_WPF\obj\Debug\net8.0-windows\SimulationDataWindow.g.cs
+C:\Users\emmy\source\programmerengevorderd1\SolutionEindevaluatieKlantenSimulator\KlantenSimulatorUI_WPF\obj\Debug\net8.0-windows\SimulationDataWindow.baml

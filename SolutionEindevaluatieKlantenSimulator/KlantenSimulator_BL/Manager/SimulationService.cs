@@ -28,9 +28,9 @@ namespace KlantenSimulatorBL.Manager
         }
 
 
-        public void StartSimulation(SimulationParameters parameters)
+        public List <Address> StartSimulation(SimulationParameters parameters)
         {
-            repo.StartSimulation(parameters);
+            return repo.StartSimulation(parameters);
         }
 
 

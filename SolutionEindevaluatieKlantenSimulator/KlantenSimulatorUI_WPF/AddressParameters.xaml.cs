@@ -19,8 +19,8 @@ namespace KlantenSimulatorUI_WPF
     /// </summary>
     public partial class AddressParameters : Window
     {
-        public uint MaxHouseNumber { get; private set; }
-        public uint PercentageLetters { get; private set; }
+        public int MaxHousenumber { get; private set; }
+        public int PercentageLetters { get; private set; }
 
         public AddressParameters()
         {
@@ -29,12 +29,12 @@ namespace KlantenSimulatorUI_WPF
 
         private void ButtonAddAddressParameters_Click(object sender, RoutedEventArgs e)
         {
-            if(uint.TryParse(TextHouseNumber.Text, out uint maxHouseNumber))
+            if(int.TryParse(TextHouseNumber.Text, out int maxHousenumber))
             {
-                MaxHouseNumber = maxHouseNumber;
+                MaxHousenumber = maxHousenumber;
 
             }
-            if (uint.TryParse(PercentageNumber.Text, out uint percentage))
+            if (int.TryParse(PercentageNumber.Text, out int percentage))
             {
                 PercentageLetters = percentage;
             }

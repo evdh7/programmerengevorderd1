@@ -8,7 +8,7 @@ namespace KlantenSimulatorUI_WPF.Model
 {
     public class AddressParameterModel
     {
-        public uint MaxHouseNumber { get; set; }
-        public uint PercentageLetters { get; set; }
+        public int MaxHousenumber { get; set; }
+        public int PercentageLetters { get; set; }
     }
 }

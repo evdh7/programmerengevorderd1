@@ -17,6 +17,9 @@
     <Compile Update="SelectedCitiesWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SimulationDataWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SimulationParametersWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -9,8 +9,9 @@ namespace KlantenSimulatorBL.Model
 {
     public class City(string name)
     {
+        public int CityId {  get; set; }
         public string Name { get; set; } = name;
-        public List<Street> Addresses { get; set; } = [];
+        public List<Address> Addresses { get; set; } = [];
         public override string ToString() 
         {
             return Name; 

@@ -2,6 +2,7 @@
 using KlantenSimulatorBL.Enums;
 using KlantenSimulatorBL.Exceptions;
 using KlantenSimulatorBL.Interfaces;
+using KlantenSimulatorBL.Manager;
 using KlantenSimulatorBL.Model;
 using Microsoft.Data.SqlClient;
 using System.Data;
@@ -430,30 +431,31 @@ namespace KlantenSimulatorDL_SQL
             return datasets;
         }
 
-        public void StartSimulation(SimulationParameters parameters)
+        public List<Address> StartSimulation(SimulationParameters parameters)
         {
-            var streets = GetStreetsForSimulation(parameters);
-            Console.WriteLine($"Loaded {streets.Count} streets for simulation.");
+            var (streetNames, cities) = GetStreetDataForSimulation(parameters);
+
+            var simulator = new AddressSimulator(
+                streetNames,
+                cities,
+                parameters.MaxHousenumber,
+                parameters.PercentageLetters
+            );
+
+            return simulator.GetAddresses(parameters.AmountOfCustomers);
         }
 
-        public List<Street> GetStreetsForSimulation(SimulationParameters parameters)
+        public (List<string> streetNames, List<(int cityId, string cityName)> cities) GetStreetDataForSimulation(SimulationParameters parameters)
         {
-            List<Street> streets = new();
+            List<string> streetNames = new();
+            List<(int cityId, string cityName)> cities = new();
 
             using SqlConnection connection = new(connectionString);
             using SqlCommand command = connection.CreateCommand();
 
             string cityParams = string.Join(",", parameters.SelectedCities.Select((c, i) => $"@city{i}"));
 
-            command.CommandText = $@"
-        SELECT street.street_raw, street.city_id
-        FROM street
-        INNER JOIN city ON street.city_id = city.id
-        INNER JOIN country ON city.country_id = country.id
-        WHERE country.name = @countryName
-          AND city.name IN ({cityParams})
-    ";
-
+            command.CommandText = $@"SELECT street.street_raw, street.city_id, city.name FROM street INNER JOIN city ON street.city_id = city.id INNER JOIN country ON city.country_id = country.id WHERE country.name = @countryName AND city.name IN ({cityParams})";
             command.Parameters.AddWithValue("@countryName", parameters.Country);
 
             for (int i = 0; i < parameters.SelectedCities.Count; i++)
@@ -466,13 +468,12 @@ namespace KlantenSimulatorDL_SQL
 
             while (reader.Read())
             {
-                streets.Add(new Street(
-                    reader.GetString(0),
-                    reader.GetInt32(1)
-                ));
+                streetNames.Add(reader.GetString(0));
+                cities.Add((reader.GetInt32(1), reader.GetString(2)));
+
             }
 
-            return streets;
+            return (streetNames, cities);
         }
 
         public int GetCountryId(string countryName)
@@ -486,7 +487,6 @@ namespace KlantenSimulatorDL_SQL
             connection.Open();
             return (int)command.ExecuteScalar();
         }
-
 
     }
 }

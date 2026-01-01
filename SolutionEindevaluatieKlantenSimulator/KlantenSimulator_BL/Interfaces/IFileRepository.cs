@@ -11,6 +11,6 @@ namespace KlantenSimulatorBL.Interfaces
         List<string> GetCountries();
         List<City> GetCities(string countryName);
         IEnumerable<Dataset> GetDataSet(string countryName);
-        void StartSimulation(SimulationParameters parameters);
+        List <Address> StartSimulation(SimulationParameters parameters);
     }
 }
