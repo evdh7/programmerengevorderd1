@@ -15,13 +15,13 @@ namespace KlantenSimulatorBL.Manager
             int datasetId = repo.InsertAddress(country);
             return datasetId;
         }
-        public void UploadNames(INameReader nameReader, string folder, (string Key, string? Value)[]files, int datasetId, NameType type, Gender? gender)
+        public void UploadNames(INameReader nameReader, string folder, (string Key, string Value)[]files, int datasetId, NameType type, Gender? gender)
         {
             var names = nameReader.ReadNames(folder, files, type, gender);
             repo.InsertName(names, datasetId);
         }
+       
 
-        
 
 
     }

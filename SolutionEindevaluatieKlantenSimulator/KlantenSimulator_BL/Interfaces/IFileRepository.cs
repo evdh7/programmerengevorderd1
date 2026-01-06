@@ -8,9 +8,10 @@ namespace KlantenSimulatorBL.Interfaces
     {
         void InsertName(List<NameEntry> names, int datasetId);
         int InsertAddress(CountryDTO entry);
-        List<string> GetCountries();
-        List<City> GetCities(string countryName);
+        Dictionary<int, string> GetCountries();
+        List<CityDTO> GetCities(string countryName);
         IEnumerable<Dataset> GetDataSet(string countryName);
-        List <Address> StartSimulation(SimulationParameters parameters);
+        List<Person> StartSimulation(SimulationParameters parameters);
+
     }
 }

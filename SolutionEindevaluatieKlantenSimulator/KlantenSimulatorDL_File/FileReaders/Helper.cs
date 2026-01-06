@@ -12,9 +12,10 @@ namespace KlantenSimulatorDL_File.Helpers
     {
         public class Helper
         {
-            public static string?[]? SkipLines(StreamReader sr)
+            public static string[] SkipLines(StreamReader sr) //find the first valid line
             {
                 string? line;
+                string[] ss = [];
 
                 while ((line = sr.ReadLine()) != null)
                 {
@@ -22,22 +23,19 @@ namespace KlantenSimulatorDL_File.Helpers
                     {
                         continue;
                     }
-                    string[] ss = line.Split('\t');
+                    ss = line.Split('\t');
 
                     bool hasNumber = ss.Any(cell => IsInteger(cell));
 
                     if (!hasNumber) continue;
-
                     return ss;
                 }
 
-                return null;
-            }
-            public static void ParseLine(string[] ss, Gender? gender, List<NameDTO.NameEntry> names, NameType nameType, INameReaderConfig layout)
-            {
-                uint fColumn = layout.GetFrequencyColumn();
-                uint nColumn = layout.GetNameColumn();
+                return ss;
 
+            }
+            public static void ParseLine(string[] ss, Gender? gender, List<NameDTO.NameEntry> names, NameType nameType, uint fColumn, uint nColumn)
+            {
                 if (string.IsNullOrWhiteSpace(ss[0]))
                     return;
 

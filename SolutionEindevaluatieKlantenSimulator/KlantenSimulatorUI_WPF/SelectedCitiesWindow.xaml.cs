@@ -1,4 +1,5 @@
-﻿using KlantenSimulatorBL.Model;
+﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace KlantenSimulatorUI_WPF
     /// </summary>
     public partial class SelectedCitiesWindow : Window
     {
-        public SelectedCitiesWindow(IEnumerable<City> cities)
+        public SelectedCitiesWindow(IEnumerable<CityDTO> cities)
         {
             InitializeComponent();
             ListBox_SelectedCitiesWindow.ItemsSource = cities; 

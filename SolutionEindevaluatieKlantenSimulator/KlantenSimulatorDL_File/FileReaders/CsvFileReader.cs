@@ -64,42 +64,11 @@ namespace KlantenSimulatorDL_File.FileReaders
 
         }
 
-        //public Dictionary<NameType, List<NameDTO>> ReadNames(string folder, string fileName, NameType nameType, Gender gender)
-        //{
-        //    Dictionary<NameType, List<NameDTO>> result = new Dictionary<NameType, List<NameDTO>>();
-
-        //    List<NameDTO> names = new List<NameDTO>();
-
-        //    using (StreamReader sr = new StreamReader(Path.Combine(folder, fileName)))
-        //    {
-
-        //        string? line;             
-
-        //        while ((line = sr.ReadLine()) != null)
-        //        {
-        //            string[] ss = line.Split(';');
-        //            if (ss.Count() < 3) continue;
-
-        //            string name = ss[1];
-        //            int frequency = int.Parse(ss[2]);
-
-        //            names.Add(new NameDTO(name, gender, frequency));
-
-        //        }
-        //        Console.WriteLine($"Status {nameType} {gender} {names.Count} names OK");
-        //        result.Add(nameType, names);
-
-        //    }
-
-        //    Console.WriteLine(names.Count);
-        //    return result;
-        //}
-
-        public List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType type, Gender? gender)
+        public List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] files, NameType type, Gender? gender)
         {
             List<NameDTO.NameEntry> names = [];
 
-            foreach (var file in fileNames)
+            foreach (var file in files)
             {
 
                 using StreamReader sr = new(Path.Combine(folder, file.Item2));

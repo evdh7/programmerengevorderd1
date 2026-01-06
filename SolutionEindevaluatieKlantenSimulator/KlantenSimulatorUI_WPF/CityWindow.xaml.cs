@@ -1,4 +1,5 @@
-﻿using KlantenSimulatorBL.Manager;
+﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Manager;
 using KlantenSimulatorBL.Model;
 using System;
 using System.Collections.Generic;
@@ -25,14 +26,14 @@ namespace KlantenSimulatorUI_WPF
     {
         private readonly SimulationService _service;
 
-        private readonly ObservableCollection<City> _allCities;
-        private readonly ObservableCollection<City> _selectedCities;
-        public ObservableCollection<City> SelectedCities => _selectedCities;
+        private readonly ObservableCollection<CityDTO> _allCities;
+        private readonly ObservableCollection<CityDTO> _selectedCities;
+        public ObservableCollection<CityDTO> SelectedCities => _selectedCities;
         public CityWindow(SimulationService service, string countryName)
         {
             InitializeComponent();
             _service = service;
-            _allCities = new ObservableCollection<City>(_service.GetCities(countryName));
+            _allCities = new ObservableCollection<CityDTO>(_service.GetCities(countryName));
             _selectedCities = [];
             ListBoxAllCities.ItemsSource = _allCities;
             ListBoxSelectedCities.ItemsSource = _selectedCities;
@@ -40,7 +41,7 @@ namespace KlantenSimulatorUI_WPF
 
         private void ButtonAddAll_Click(object sender, RoutedEventArgs e)
         {
-            foreach (City city in _allCities)
+            foreach (CityDTO city in _allCities)
             {
                 _selectedCities.Add(city);
             }
@@ -50,14 +51,14 @@ namespace KlantenSimulatorUI_WPF
 
         private void ButtonAddSelected_Click(object sender, RoutedEventArgs e)
         {
-            List<City> data = new();
+            List<CityDTO> data = new();
 
-            foreach (City city in ListBoxAllCities.SelectedItems)
+            foreach (CityDTO city in ListBoxAllCities.SelectedItems)
             {
                 data.Add(city);
             }
 
-            foreach (City city in data)
+            foreach (CityDTO city in data)
             {
                 _selectedCities.Add(city);
                 _allCities.Remove(city);
@@ -67,14 +68,14 @@ namespace KlantenSimulatorUI_WPF
 
         private void ButtonRemoveSelected_Click(object sender, RoutedEventArgs e)
         {
-            List<City> data = new();
+            List<CityDTO> data = new();
 
-            foreach (City city in ListBoxSelectedCities.SelectedItems)
+            foreach (CityDTO city in ListBoxSelectedCities.SelectedItems)
             {
                 data.Add(city);
             }
 
-            foreach (City city in data)
+            foreach (CityDTO city in data)
             {
                 _allCities.Add(city);
                 _selectedCities.Remove(city);
@@ -83,7 +84,7 @@ namespace KlantenSimulatorUI_WPF
 
         private void ButtonRemoveAll_Click(object sender, RoutedEventArgs e)
         {
-            foreach (City city in _selectedCities)
+            foreach (CityDTO city in _selectedCities)
             {
                 _allCities.Add(city);
             }

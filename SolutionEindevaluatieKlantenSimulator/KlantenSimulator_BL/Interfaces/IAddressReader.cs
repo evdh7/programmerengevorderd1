@@ -12,6 +12,6 @@ namespace KlantenSimulatorBL.Interfaces
     public interface IAddressReader
     {
         CountryDTO ReadAddresses(string folder, string fileName, string country);
-        List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender);
+        //List<NameDTO.NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender);
     }
 }

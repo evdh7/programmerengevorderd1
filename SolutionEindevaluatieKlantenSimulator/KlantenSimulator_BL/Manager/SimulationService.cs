@@ -1,4 +1,5 @@
-﻿using KlantenSimulatorBL.Interfaces;
+﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Interfaces;
 using KlantenSimulatorBL.Model;
 
 namespace KlantenSimulatorBL.Manager
@@ -13,12 +14,12 @@ namespace KlantenSimulatorBL.Manager
 
         }
 
-        public List<City> GetCities(string countryName)
+        public List<CityDTO> GetCities(string countryName)
         {
             return repo.GetCities(countryName);
         }
 
-        public List<string> GetCountries()
+        public Dictionary<int,string> GetCountries()
         {
             return repo.GetCountries();
         }
@@ -26,9 +27,7 @@ namespace KlantenSimulatorBL.Manager
         {
             return repo.GetDataSet(countryName);
         }
-
-
-        public List <Address> StartSimulation(SimulationParameters parameters)
+        public List<Person> StartSimulation(SimulationParameters parameters)
         {
             return repo.StartSimulation(parameters);
         }

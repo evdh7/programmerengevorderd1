@@ -1,7 +1,6 @@
 ﻿using KlantenSimulatorBL.Manager;
 using KlantenSimulatorBL.Model;
 using KlantenSimulatorUI_WPF;
-using KlantenSimulatorUI_WPF.Mapper;
 using KlantenSimulatorUI_WPF.Model;
 using KlantenSimulatorUtils;
 using Microsoft.Extensions.Configuration;

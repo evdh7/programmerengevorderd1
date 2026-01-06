@@ -12,7 +12,36 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Button Grid.Row="0" Content="Save Data" Width="100" Margin="10" Click="SaveData_Click"/>
-        <DataGrid Grid.Row="1" x:Name="SimulationDataGrid"/>
+        <DataGrid x:Name="SimulationDataGrid"
+          Grid.Row="1"
+          AutoGenerateColumns="False"
+          CanUserAddRows="False"
+          IsReadOnly="True"
+          Margin="10">
+
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Simulation ID"
+                            Binding="{Binding SimulationId}" />
+
+                <DataGridTextColumn Header="First Name"
+                            Binding="{Binding FirstName}" />
+
+                <DataGridTextColumn Header="Last Name"
+                            Binding="{Binding LastName}" />
+
+                <DataGridTextColumn Header="Date of Birth"
+                            Binding="{Binding DateOfBirth, StringFormat=\{0:yyyy-MM-dd\}}" />
+
+                <DataGridTextColumn Header="Age"
+                            Binding="{Binding Age}" />
+
+                <DataGridTextColumn Header="Address"
+                            Binding="{Binding Address}" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+
 
     </Grid>
 </Window>

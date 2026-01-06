@@ -23,12 +23,12 @@ namespace KlantenSimulatorUI_WPF
     /// </summary>
     public partial class SimulationDataWindow : Window
     {
-        private readonly List<Address> _addresses;
-        public SimulationDataWindow(List<Address> addresses)
+        private readonly List<Person> _simulatedPersons;
+        public SimulationDataWindow(List<Person> simulatedPersons)
         {
             InitializeComponent();
-            _addresses = addresses;
-            SimulationDataGrid.ItemsSource = _addresses;
+            _simulatedPersons = simulatedPersons;
+            SimulationDataGrid.ItemsSource = _simulatedPersons;
             
         }
      
@@ -44,10 +44,10 @@ namespace KlantenSimulatorUI_WPF
         if (dialog.ShowDialog() == true)
         {
             string output;
-
+            // add txt and make zip remove the json javascriptencoder
             if (dialog.FilterIndex == 1) // JSON
             {
-                output = JsonSerializer.Serialize(_addresses, new JsonSerializerOptions
+                output = JsonSerializer.Serialize(_simulatedPersons, new JsonSerializerOptions
                 {
                     WriteIndented = true,
                     Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
@@ -55,7 +55,7 @@ namespace KlantenSimulatorUI_WPF
             }
             else // TXT
             {
-                output = string.Join(Environment.NewLine, _addresses.Select(s => s.ToString()));
+                output = string.Join(Environment.NewLine, _simulatedPersons.Select(s => s.ToString()));
             }
 
             File.WriteAllText(dialog.FileName, output);

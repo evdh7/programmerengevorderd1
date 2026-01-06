@@ -38,8 +38,10 @@ namespace KlantenSimulatorBL.Interfaces
 
     public interface INameReader
     {
-        List<NameDTO.NameEntry> ReadNames(string folder, (string Key, string? Value)[] files, NameType type, Gender? gender);
+        List<NameDTO.NameEntry> ReadNames(string folder, (string Key, string Value)[] files, NameType type, Gender? gender);
 
     }
+
+
 
 }

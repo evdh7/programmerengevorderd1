@@ -6,17 +6,26 @@ using System.Threading.Tasks;
 
 namespace KlantenSimulatorBL.Model
 {
-    public class Person(int id, string firstName, string lastName, DateTime dateOfBirth, Address addres)
+    public class Person(int simulationId, string firstName, string lastName, DateTime dateOfBirth, Address address)
     {
-        //gender?
-        public int Id { get; set; } = id;
+        public int SimulationId { get; set; } = simulationId;
         public string FirstName { get; set; } = firstName;
         public string LastName { get; set; } = lastName;
         public DateTime DateOfBirth { get; set; } = dateOfBirth;
-        public Address Address { get; set; } = addres;
+        public Address Address { get; set; } = address;
+        public int Age
+        {
+            get
+            {
+                var today = DateTime.Today;
+                int age = today.Year - DateOfBirth.Year;
+                if (DateOfBirth.Date > today.AddYears(-age)) age--;
+                return age;
+            }
+        }
         public override string ToString()
         {
-            return $"{Id}, {FirstName}, {LastName}, {DateOfBirth}, {Address}";
+            return $"{SimulationId}, {FirstName}, {LastName}, {DateOfBirth}, {Address}";
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using KlantenSimulatorBL.DTOs;
 using KlantenSimulatorBL.Enums;
+using KlantenSimulatorBL.Exceptions;
 using KlantenSimulatorBL.Interfaces;
 using System.Text.Json;
 using static KlantenSimulatorBL.DTOs.JsonDTO;
@@ -53,24 +54,28 @@ namespace KlantenSimulatorDL_File.FileReaders
             foreach (var property in typeof(NameSection).GetProperties()) //we need the section names so we can decide whether the names are of type first or last
             {
                 //we know the property thanks to the typeof(NameSection) but now we want the values behind the property of NameSection, a list of strings (names)
-
-                if (property.GetValue(data.Name) is not List<string> listOfNames || listOfNames.Count == 0)
+                if (data is not null)
                 {
-                    continue;
+                    if (property.GetValue(data.Name) is not List<string> listOfNames || listOfNames.Count == 0)//if the value is not a list of names or the list doesn't have any values
+                    {
+                        continue;
+                    }
+
+                    string propertyName = property.Name.ToLower();
+
+                    (nameType, gender) = GetNameTypeAndGender(propertyName);
+
+                    foreach (var name in listOfNames)
+                    {
+                        names.Add(new NameDTO.NameEntry(name, nameType, gender, 1));
+                    }
+
                 }
 
-                string propertyName = property.Name.ToLower();
+                else throw new KlantenSimulatorException($"{data} is null");
 
-                (nameType, gender) = GetNameTypeAndGender(propertyName);
-
-                foreach (var name in listOfNames)
-                {
-                    names.Add(new NameDTO.NameEntry(name, nameType, gender, 1));
-                }
             }
-
             return names;
-
         }
 
         private static (NameType, Gender?) GetNameTypeAndGender(string propertyName)

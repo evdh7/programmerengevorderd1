@@ -1,4 +1,5 @@
-﻿using KlantenSimulatorBL.Manager;
+﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Manager;
 using KlantenSimulatorBL.Model;
 using KlantenSimulatorUI_WPF.Model;
 using System.Collections.ObjectModel;
@@ -12,22 +13,23 @@ namespace KlantenSimulatorUI_WPF
     public partial class ParametersWindow : Window
     {
         private readonly SimulationService _service;
+        private Dictionary<int, string> _countries = new();
         private Dataset _selectedDataset;
-        private readonly ObservableCollection<City> _allCities;
-        private List<City> _selectedCities;
+        private readonly ObservableCollection<CityDTO> _allCities;
+        private List<CityDTO> _selectedCities;
         private string _countryName;
         private readonly Client _client;
         private int _amountOfCustomers;
-        private uint _maxAge;
-        private uint _minAge;
+        private int _maxAge;
+        private int _minAge;
         private AddressParameterModel _addressParameters;
         public ParametersWindow(SimulationService service, Client client)
         {
             InitializeComponent();
             _service = service;
             _client = client;
-            ComboBox_Countries.ItemsSource = service.GetCountries();
-
+            _countries = service.GetCountries();
+            ComboBox_Countries.ItemsSource = _countries.Values;
         }
 
         private void SelectCities_Click(object sender, RoutedEventArgs e)
@@ -100,14 +102,15 @@ namespace KlantenSimulatorUI_WPF
             return new SimulationParameters
             {
                 Client = _client,
-                Country = (string)ComboBox_Countries.SelectedItem,
+                CountryName = (string)ComboBox_Countries.SelectedItem,
+                CountryId = _countries.First(kvp => kvp.Value == _countryName).Key,
                 SelectedDataset = _selectedDataset,
                 SelectedCities = _selectedCities,
                 AmountOfCustomers = _amountOfCustomers,
                 MaxHousenumber = _addressParameters.MaxHousenumber,
                 PercentageLetters = _addressParameters.PercentageLetters,
                 MaxAge = _maxAge,
-                MinAge = _minAge
+                MinAge = _minAge,
             };
         }
 
@@ -139,8 +142,8 @@ namespace KlantenSimulatorUI_WPF
             try
             {
                 _amountOfCustomers = int.Parse(TextBoxAmount.Text);
-                _maxAge = uint.Parse(TextBoxMaxAge.Text);
-                _minAge = uint.Parse(TextBoxMinAge.Text);
+                _maxAge = int.Parse(TextBoxMaxAge.Text);
+                _minAge = int.Parse(TextBoxMinAge.Text);
             }
 
             catch
@@ -170,13 +173,14 @@ namespace KlantenSimulatorUI_WPF
 
             try
             {
-                List<Address> streets = new();
 
-                streets = _service.StartSimulation(parameters);
+                List<Person> persons = new List<Person>();
+
+                persons = _service.StartSimulation(parameters);
 
                 MessageBox.Show("Simulation started successfully.");
 
-                SimulationDataWindow w = new(streets);
+                SimulationDataWindow w = new(persons);
                 bool? result = w.ShowDialog();
 
                 if (result == true)
@@ -188,7 +192,7 @@ namespace KlantenSimulatorUI_WPF
             {
                 MessageBox.Show($"Error starting simulation: {ex.Message}");
             }
-       
+
         }
     }
 }

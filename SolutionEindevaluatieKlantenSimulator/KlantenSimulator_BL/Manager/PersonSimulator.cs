@@ -1,53 +1,57 @@
-﻿using KlantenSimulatorBL.Model;
+﻿using KlantenSimulatorBL.Enums;
+using KlantenSimulatorBL.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static KlantenSimulatorBL.DTOs.NameDTO;
 
 namespace KlantenSimulatorBL.Manager
 {
     public class PersonSimulator
     {
         private Random r = new Random();
-        private List<string> firstNames = new();
-        private List<string> lastNames = new();
-        private List<Address> addresses = new();
-        private int minAge, maxAge;
+        private readonly List<NameEntry> firstNames = [];
+        private readonly List<NameEntry> lastNames = [];
+        private List<Address> addresses = [];
+        private readonly int minAge;
+        private readonly int maxAge;
 
-        public PersonSimulator(List<string> firstNames, List<string> lastNames, List<Address> addresses, int minAge, int maxAge)
+        public PersonSimulator(List<NameEntry> firstNames, List<NameEntry> lastNames, List<Address> addresses, int minAge, int maxAge)
         {
+
             this.firstNames = firstNames;
             this.lastNames = lastNames;
             this.addresses = addresses;
             this.minAge = minAge;
             this.maxAge = maxAge;
-           
         }
 
         public List<Person> MakePerson(int amount)
         {
-            HashSet<Person> data = new();
+            var people = new List<Person>();
             int personsMade = 0;
             int id = 0;
             while (personsMade < amount)
-            {
-                string firstName = this.firstNames[r.Next(firstNames.Count())];
-                string lastName = this.lastNames[r.Next(lastNames.Count())];
+            {                
+                id++;
+                NameEntry firstName = PickWeightedRandom(firstNames);
+                NameEntry lastName = PickWeightedRandom(lastNames);
+                Address address = addresses[r.Next(addresses.Count)];
 
-                Person persoon = new(id, firstName, lastName, MakeDateOfBirth(minAge, maxAge), addresses[r.Next(addresses.Count())]);
-                if (!data.Contains(persoon))
+                Person person = new(id, firstName.Name, lastName.Name, MakeDateOfBirth(minAge, maxAge), address);
+
+                if (!people.Contains(person))
                 {
                     personsMade++;
-                    data.Add(persoon);
+                    people.Add(person);
                 }
 
-                data.Add(persoon);
-
             }
-            return data.ToList();
-        }
-     
+            return people.ToList();
+        }       
+
         private DateTime MakeDateOfBirth(int minLeeftijd, int maxLeeftijd)
         {
             DateTime now = DateTime.Now;
@@ -56,6 +60,19 @@ namespace KlantenSimulatorBL.Manager
             TimeSpan span = min - max;
             double range = span.TotalSeconds;
             return max.AddSeconds(r.NextDouble() * range);
+        }
+        private NameEntry PickWeightedRandom(List<NameEntry> entries)
+        { 
+            int max = entries[^1].CumulativeWeight; // last row has max cumulative
+            int roll = r.Next(1, max + 1); // roll a number between 0 and the max cumulative
+
+            foreach (var e in entries)
+            {
+                if (roll <= e.CumulativeWeight)
+                    return e;
+            }
+
+            return entries[^1];
         }
 
     }

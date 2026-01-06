@@ -13,26 +13,28 @@ namespace KlantenSimulatorDL_File.FileReaders
 
         public List<NameEntry> ReadNames(string folder, (string, string)[] fileNames, NameType nameType, Gender? gender)
         {
-            List<NameEntry> allNames = [];
+            uint fColumn = _config.GetFrequencyColumn();
+            uint nColumn = _config.GetNameColumn();
 
+            List<NameEntry> allNames = [];
 
             foreach (var file in fileNames)
 
             {
                 using StreamReader sr = OpenReader(folder, file.Item2);
+                
                 string[]? firstValidLine = Helper.SkipLines(sr);
 
-
                 if (firstValidLine != null)
-                {
-                    Helper.ParseLine(firstValidLine, gender, allNames, nameType, _config);
+                { 
+                    Helper.ParseLine(firstValidLine, gender, allNames, nameType, fColumn, nColumn);
                 }
 
                 string? line;
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] ss = line.Split('\t');
-                    Helper.ParseLine(ss, gender, allNames, nameType, _config);
+                    Helper.ParseLine(ss, gender, allNames, nameType, fColumn, nColumn);
                 }
             }
 
@@ -40,14 +42,12 @@ namespace KlantenSimulatorDL_File.FileReaders
 
         }
 
-        public StreamReader OpenReader(string folder, string file)
+        public StreamReader OpenReader(string folder, string file) //here we can either force encoding or turn bom detection on 
         {
             Encoding? forcedEncoding = _config.GetEncoding();
 
             if (forcedEncoding != null)
             {
-                var fullPath = Path.Combine(folder, file); Console.WriteLine("Opening: " + fullPath);
-
                 // Denmark: force Windows‑1252
                 return new StreamReader(Path.Combine(folder, file), forcedEncoding, detectEncodingFromByteOrderMarks: false);
             }

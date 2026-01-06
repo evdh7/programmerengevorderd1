@@ -20,15 +20,17 @@ var countries = config.GetSection("AppSettings").GetChildren();
 
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
+var repo = KlantenSimulatorSQLFactory.GetRepository(connectionString);
+var manager = new DataManager(repo);
+
 foreach (var countrySection in countries)
 {
+    Console.WriteLine("Loading: " + countrySection.Key);
     var countryEnum = Enum.Parse<Countries>(countrySection.Key);
     var countryReader = KlantenSimulatorCountryReaderFactory.GetCountryReader(countryEnum);
 
     string? folder = countrySection["Folder"];
 
-    var repo = KlantenSimulatorSQLFactory.GetRepository(connectionString);
-    var manager = new DataManager(repo);
     int datasetId = 0;
 
     //Addresses
@@ -46,6 +48,9 @@ foreach (var countrySection in countries)
     {
         manager.UploadNames(countryReader, folder, nameFiles, datasetId, NameType.FirstLast, null);
     }
-} 
+}
+
+
+
 
 

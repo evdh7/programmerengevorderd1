@@ -1,4 +1,5 @@
-﻿using KlantenSimulatorBL.Model;
+﻿using KlantenSimulatorBL.DTOs;
+using KlantenSimulatorBL.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,34 +10,54 @@ namespace KlantenSimulatorBL.Manager
 {
     public class AddressSimulator
     {
-        private Random r = new Random();
-        //private List<string> straatnamen = new();
-        //private List<(int postcode, string gemeente)> postcodeGemeente = new();
-        //private int maxHuisnummer;
-        //private int percentLetter;
+        private readonly Random r = new();
 
-        public List<string> StreetNames { get; set; }
-        List<(int cityId, string cityName)> CityIdCityName { get; set; }
-        public int MaxHousenumber { get; set; }
-        public int? PercentLetter { get; set; }
+        public CountryDTO Country;
+        public List<CityDTO> Cities {  get; }
+        public List<string>? Streets { get; }
+        public bool HasStreetCityLink { get; }
+        public int MaxHousenumber { get; }
+        public int? PercentLetter { get; }
 
-        public AddressSimulator(List<string> streetnames, List<(int cityId, string gemeente)> cityIdCityName, int maxHousenumber, int? percentLetter)
+        public AddressSimulator(CountryDTO country, bool hasStreetCityLink, int maxHousenumber, int? percentLetter)
         {
-            StreetNames = streetnames;
-            CityIdCityName = cityIdCityName;
+            Country = country;
+            Cities = country.Cities;
+            HasStreetCityLink = hasStreetCityLink;
             MaxHousenumber = maxHousenumber;
             PercentLetter = percentLetter;
+
+            if (country.Addresses.Count>0) 
+            {
+                Streets = [.. country.Addresses];
+            }
         }
-        public List<Address> GetAddresses(int aantal)
+        public List<Address> GetAddresses(int amount)
         {
             List<Address> addresses = new();
-            int n = 0;
-            while (n < aantal)
+
+            for (int i = 0; i < amount; i++)
             {
-                int index = r.Next(CityIdCityName.Count());
-                addresses.Add(new Address(CityIdCityName[index].cityName, CityIdCityName[index].cityId, StreetNames[r.Next(StreetNames.Count())], GenerateHouseNumber()));
-                n++;
+                if (HasStreetCityLink)
+                {
+                    var city = Cities[r.Next(Cities.Count)];
+
+                    var street = city.Addresses.ElementAt(r.Next(city.Addresses.Count));
+
+                    addresses.Add(new Address(city.Name, city.Id, street, GenerateHouseNumber()));
+                }
+
+                else
+                {
+                    var city = Cities[r.Next(Cities.Count)];
+
+                    var street = Streets[r.Next(Streets.Count)];
+
+                    addresses.Add(new Address(city.Name, city.Id, street, GenerateHouseNumber()));
+                }
+
             }
+            
             return addresses;
         }
         private string GenerateHouseNumber()
